@@ -1,4 +1,4 @@
-# RemoteJudge 说明
+# RemoteJudge
 
 ## 简介
 

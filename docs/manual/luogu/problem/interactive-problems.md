@@ -10,7 +10,7 @@
 
 交互题可以不使用 SPJ 功能。不使用的情况下，交互库将直接读取测试点输入，并由默认比较器进行输出比较。和普通题目相比，除了链接交互库到用户程序外没有其他区别。
 
-交互题的 SPJ 与普通的 Special Judge 类似，使用 testlib 。具体请参考 [Testlib 文档](https://github.com/MikeMirzayanov/testlib) 以及 [Special Judge 使用说明](https://www.luogu.com.cn/blog/luogu/special-judge) 。
+交互题的 SPJ 与普通的 Special Judge 类似，使用 testlib 。具体请参考 [Testlib 文档](https://github.com/MikeMirzayanov/testlib) 以及 [Special Judge 使用说明](special-judge.md)。
 
 需要注意的是，该 SPJ 同时承担判题和与交互库交换数据两个功能。交换数据通过标准输入输出进行，既 SPJ 的 `stdout` 可在交互库的 `stdin` 中读出，交互库的 `stdout` 可在 SPJ 的 `stdin` 中读出。
 

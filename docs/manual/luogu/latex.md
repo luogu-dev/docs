@@ -1,4 +1,4 @@
-# 洛谷 LaTeX 说明
+# LaTeX
 
 :::tip
 

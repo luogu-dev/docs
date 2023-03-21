@@ -1,6 +1,5 @@
 ---
-sidebar_position: 4  
-id: tech-support
+sidebar_position: 4
 tags:
   - 网校 
 ---

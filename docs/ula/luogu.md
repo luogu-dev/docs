@@ -32,9 +32,9 @@ tags:
 
 2.4 如果用户使用洛谷的其他付费服务，则需要遵守对应服务的用户协议。
 
-2.4.1 《洛谷网校用户协议》<https://www.luogu.com.cn/blog/LuoguNetSchool/yugu-EULA2> ；
+2.4.1 [《洛谷网校用户协议》](/ula/class)；
 
-2.4.2 《洛谷高级团队服务章程》 <https://www.luogu.com.cn/blog/luogu/eula-premium-team>。
+2.4.2 [《洛谷高级团队服务章程》](/ula/premium-team)。
 
 ## 3 用户使用规则
 

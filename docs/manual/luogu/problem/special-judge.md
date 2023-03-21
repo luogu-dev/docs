@@ -1,6 +1,6 @@
-# Special Judge 使用说明
+# Special Judge
 
-当一个题目可以接受多种正确答案,即有多组解的时候,题目就必须被 Special Judge。
+当一个题目可以接受多种正确答案，即有多组解的时候，题目就必须被 Special Judge。
 
 Special Judge 程序使用输入数据和一些其他信息来判答你程序的输出，并将判答结果返回．
 
@@ -147,10 +147,9 @@ int main(int argc, char* argv[]) {
 
 使用编译器将该文件编译。在命令行中输入:
 
-```cpp
-./checker in.txt out.txt ans.txt(Linux)
-checker.exe in.txt out.txt ans.txt(Windows)
-
+```
+./checker in.txt out.txt ans.txt (Linux)
+checker.exe in.txt out.txt ans.txt (Windows)
 ```
 
 其中 in.txt out.txt ans.txt 分别是放在同一目录下的输入文件、选手输出、标准答案。
