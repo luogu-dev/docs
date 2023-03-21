@@ -1,9 +1,8 @@
 ---
-sidebar_label: 主题库题目规范
 sidebar_position: 2
 ---
 
-# 洛谷主题库题目规范
+# 主题库题目规范
 
 :::danger 注意
 
