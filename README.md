@@ -1,18 +1,23 @@
-# Luogu Help Center
+# 洛谷帮助中心
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+该网站使用 [Docusaurus 2](https://docusaurus.io/) 构建。
 
-### Development
+[![知识共享许可协议](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+帮助中心的文档采用 [CC BY-NC-ND 4.0 协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。
+
+### 开发、编辑
 
 ```
 $ pnpm install
 $ pnpm run start
-```  
+```
 
-对于 codeSpaces 请使用
+对于 CodeSpaces 请使用
 ```
 $ pnpm run start -h 0.0.0.0
 ```
-### References
+
+### 参考资料
 
 Markdown Features: https://docusaurus.io/docs/markdown-features
