@@ -24,7 +24,9 @@ $$ H_n = \sum_{i = 1}^{n} \frac{1}{i} $$
 
 显示为
 
-$$ H*n = \sum*{i = 1}^{n} \frac{1}{i} $$
+$$
+H*n = \sum*{i = 1}^{n} \frac{1}{i}
+$$
 
 再例如：
 
@@ -50,12 +52,12 @@ $$
 
 对于行内公式，使用 `\displaystyle` 的效果：
 
-|                      LaTeX 代码                       | $\hspace{1em}$ |                       显示效果                        |
-| :---------------------------------------------------: | :------------: | :---------------------------------------------------: |
-|                     `\frac{1}{x}`                     |                |                     $\frac{1}{x}$                     |
-|              `\displaystyle \frac{1}{x}`              |                |              $\displaystyle \frac{1}{x}$              |
-|        `\int_0^x f(t) \mathop{}\!\mathrm{d} t`        |                |        $\int_0^x f(t) \mathop{}\!\mathrm{d} t$        |
-| `\displaystyle \int_0^x f(t) \mathop{}\!\mathrm{d} t` |                | $\displaystyle \int_0^x f(t) \mathop{}\!\mathrm{d} t$ |
+|                      LaTeX 代码                       |                       显示效果                        |
+| :---------------------------------------------------: | :---------------------------------------------------: |
+|                     `\frac{1}{x}`                     |                     $\frac{1}{x}$                     |
+|              `\displaystyle \frac{1}{x}`              |              $\displaystyle \frac{1}{x}$              |
+|        `\int_0^x f(t) \mathop{}\!\mathrm{d} t`        |        $\int_0^x f(t) \mathop{}\!\mathrm{d} t$        |
+| `\displaystyle \int_0^x f(t) \mathop{}\!\mathrm{d} t` | $\displaystyle \int_0^x f(t) \mathop{}\!\mathrm{d} t$ |
 
 对于行间公式，使用 `\textstyle` 的效果：
 
@@ -65,7 +67,9 @@ $$ \textstyle \int \frac{\mathop{}\!\mathrm{d} x}{x} = \ln(x) + C $$
 
 显示为
 
-$$ \textstyle \int \frac{\mathop{}\!\mathrm{d} x}{x} = \ln(x) + C $$
+$$
+ \textstyle \int \frac{\mathop{}\!\mathrm{d} x}{x} = \ln(x) + C
+$$
 
 ### LaTeX 控制序列的概念（类似于函数）
 
@@ -85,7 +89,9 @@ $$ \textstyle \int \frac{\mathop{}\!\mathrm{d} x}{x} = \ln(x) + C $$
 
 显示为
 
-$$ \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} $$
+$$
+\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}
+$$
 
 而
 
@@ -113,23 +119,23 @@ $$
 
 二元关系符：
 
-| LaTeX 代码： | $\hspace{.4em}$ |    `x = y`    | $\hspace{.4em}$ |     `x > y`     | $\hspace{.4em}$ |  `x < y`   | $\hspace{.4em}$ |    `x \ge y`     | $\hspace{.4em}$ |  `x \le y`  |
-| -----------: | :-------------: | :-----------: | :-------------: | :-------------: | :-------------: | :--------: | :-------------: | :--------------: | :-------------: | :---------: |
-|   显示效果： |                 |    $x = y$    |                 |     $x > y$     |                 |  $x < y$   |                 |    $x \ge y$     |                 |  $x \le y$  |
-| LaTeX 代码： |                 |  `x \perp y`  |                 | `x \parallel y` |                 | `x \mid y` |                 | `x \nparallel y` |                 | `x \nmid y` |
-|   显示效果： |                 |  $x \perp y$  |                 | $x \parallel y$ |                 | $x \mid y$ |                 | $x \nparallel y$ |                 | $x \nmid y$ |
-| LaTeX 代码： |                 | `x \approx y` |                 |    `x \in y`    |                 | `x \ni y`  |                 |    `x \ne y`     |                 | `x \sim y`  |
-|   显示效果： |                 | $x \approx y$ |                 |    $x \in y$    |                 | $x \ni y$  |                 |    $x \ne y$     |                 | $x \sim y$  |
+| LaTeX 代码： |    `x = y`    |     `x > y`     |  `x < y`   |    `x \ge y`     |  `x \le y`  |
+| -----------: | :-----------: | :-------------: | :--------: | :--------------: | :---------: |
+|   显示效果： |    $x = y$    |     $x > y$     |  $x < y$   |    $x \ge y$     |  $x \le y$  |
+| LaTeX 代码： |  `x \perp y`  | `x \parallel y` | `x \mid y` | `x \nparallel y` | `x \nmid y` |
+|   显示效果： |  $x \perp y$  | $x \parallel y$ | $x \mid y$ | $x \nparallel y$ | $x \nmid y$ |
+| LaTeX 代码： | `x \approx y` |    `x \in y`    | `x \ni y`  |    `x \ne y`     | `x \sim y`  |
+|   显示效果： | $x \approx y$ |    $x \in y$    | $x \ni y$  |    $x \ne y$     | $x \sim y$  |
 
 二元运算符：
 
-| LaTeX 代码： | $\hspace{.4em}$ |   `x + y`   | $\hspace{.4em}$ |  `x - y`   | $\hspace{.4em}$ | `x \times y` | $\hspace{.4em}$ | `x \div y` | $\hspace{.4em}$ | `x \cdot y`  | $\hspace{.4em}$ |  `x \bmod y`  |
-| -----------: | :-------------: | :---------: | :-------------: | :--------: | :-------------: | :----------: | :-------------: | :--------: | :-------------: | :----------: | :-------------: | :-----------: |
-|   显示效果： |                 |   $x + y$   |                 |  $x - y$   |                 | $x \times y$ |                 | $x \div y$ |                 | $x \cdot y$  |                 |  $x \bmod y$  |
-| LaTeX 代码： |                 | `x \circ y` |                 |  `x * y`   |                 |  `x \ast y`  |                 |  `x / y`   |                 | `x \oplus y` |                 | `x \otimes y` |
-|   显示效果： |                 | $x \circ y$ |                 |  $x * y$   |                 |  $x \ast y$  |                 |  $x / y$   |                 | $x \oplus y$ |                 | $x \otimes y$ |
-| LaTeX 代码： |                 | `x \cup y`  |                 | `x \cap y` |                 | `x \land y`  |                 | `x \lor y` |                 |  `x \pm y`   |                 |  `x \mp  y`   |
-|   显示效果： |                 | $x \cup y$  |                 | $x \cap y$ |                 | $x \land y$  |                 | $x \lor y$ |                 |  $x \pm  y$  |                 |   $x \mp y$   |
+| LaTeX 代码： |   `x + y`   |  `x - y`   | `x \times y` | `x \div y` | `x \cdot y`  |  `x \bmod y`  |
+| -----------: | :---------: | :--------: | :----------: | :--------: | :----------: | :-----------: |
+|   显示效果： |   $x + y$   |  $x - y$   | $x \times y$ | $x \div y$ | $x \cdot y$  |  $x \bmod y$  |
+| LaTeX 代码： | `x \circ y` |  `x * y`   |  `x \ast y`  |  `x / y`   | `x \oplus y` | `x \otimes y` |
+|   显示效果： | $x \circ y$ |  $x * y$   |  $x \ast y$  |  $x / y$   | $x \oplus y$ | $x \otimes y$ |
+| LaTeX 代码： | `x \cup y`  | `x \cap y` | `x \land y`  | `x \lor y` |  `x \pm y`   |  `x \mp  y`   |
+|   显示效果： | $x \cup y$  | $x \cap y$ | $x \land y$  | $x \lor y$ |  $x \pm  y$  |   $x \mp y$   |
 
 ### 上标与下标
 
@@ -137,9 +143,9 @@ $$
 
 例：`x_1`、`x^2`、`x_1^2`、`x^2_1`、`x_{22}^{(n)}`、`{}^*\!x^*` 的显示效果分别为：
 
-| LaTeX 代码： | $\hspace{1em}$ | `x_1` | $\hspace{1em}$ | `x^2` | $\hspace{1em}$ | `x_1^2` | $\hspace{1em}$ | `x^2_1` | $\hspace{1em}$ | `x_{22}^{(n)}` | $\hspace{1em}$ | `{}^*\!x^*` |
-| -----------: | :------------: | :---: | :------------: | :---: | :------------: | :-----: | :------------: | :-----: | :------------: | :------------: | :------------: | :---------: |
-|   显示效果： |                | $x_1$ |                | $x^2$ |                | $x_1^2$ |                | $x^2_1$ |                | $x_{22}^{(n)}$ |                | ${}^*\!x^*$ |
+| LaTeX 代码： | `x_1` | `x^2` | `x_1^2` | `x^2_1` | `x_{22}^{(n)}` | `{}^*\!x^*` |
+| -----------: | :---: | :---: | :-----: | :-----: | :------------: | :---------: |
+|   显示效果： | $x_1$ | $x^2$ | $x_1^2$ | $x^2_1$ | $x_{22}^{(n)}$ | ${}^*\!x^*$ |
 
 ### 分式
 
@@ -147,53 +153,53 @@ $$
 
 要输入带有水平分数线的公式，可用命令：`\frac{分子}{分母}`。
 
-|         LaTeX 代码          | $\hspace{1em}$ |          显示效果           |
-| :-------------------------: | :------------: | :-------------------------: |
-|      `\frac{x + y}{2}`      |                |      $\frac{x + y}{2}$      |
-| `\frac{1}{1 + \frac{1}{2}}` |                | $\frac{1}{1 + \frac{1}{2}}$ |
+|         LaTeX 代码          |          显示效果           |
+| :-------------------------: | :-------------------------: |
+|      `\frac{x + y}{2}`      |      $\frac{x + y}{2}$      |
+| `\frac{1}{1 + \frac{1}{2}}` | $\frac{1}{1 + \frac{1}{2}}$ |
 
 ### 根式
 
 排版根式的命令是：开平方：`\sqrt{表达式}`；开 $n$ 次方：`\sqrt[n]{表达式}`。
 
-|           LaTeX 代码           | $\hspace{1em}$ |            显示效果            |
-| :----------------------------: | :------------: | :----------------------------: |
-|    `\sqrt{2} < \sqrt[3]{3}`    |                |    $\sqrt{2} < \sqrt[3]{3}$    |
-| `\sqrt{1 + \sqrt[p]{1 + a^2}}` |                | $\sqrt{1 + \sqrt[p]{1 + a^2}}$ |
+|           LaTeX 代码           |            显示效果            |
+| :----------------------------: | :----------------------------: |
+|    `\sqrt{2} < \sqrt[3]{3}`    |    $\sqrt{2} < \sqrt[3]{3}$    |
+| `\sqrt{1 + \sqrt[p]{1 + a^2}}` | $\sqrt{1 + \sqrt[p]{1 + a^2}}$ |
 
 ### 求和与积分
 
 排版求和符号与积分符号的命令分别为 `\sum` 和 `\int`，它们通常都有上下限，在排版上就是上标和下标。
 
-|                LaTeX 代码                 | $\hspace{1em}$ |                 显示效果                  |
-| :---------------------------------------: | :------------: | :---------------------------------------: |
-|      `\sum_{k = 1}^{n} \frac{1}{k}`       |                |      $\sum_{k = 1}^{n} \frac{1}{k}$       |
-|       `\sum_{k = 1}^n \frac{1}{k}`        |                |       $\sum_{k = 1}^n \frac{1}{k}$        |
-|            `\int_a^b f(x) d x`            |                |            $\int_a^b f(x) d x$            |
-| `\int_a^b f(x) \mathop{} \! \mathrm{d} x` |                | $\int_a^b f(x) \mathop{} \! \mathrm{d} x$ |
+|                LaTeX 代码                 |                 显示效果                  |
+| :---------------------------------------: | :---------------------------------------: |
+|      `\sum_{k = 1}^{n} \frac{1}{k}`       |      $\sum_{k = 1}^{n} \frac{1}{k}$       |
+|       `\sum_{k = 1}^n \frac{1}{k}`        |       $\sum_{k = 1}^n \frac{1}{k}$        |
+|            `\int_a^b f(x) d x`            |            $\int_a^b f(x) d x$            |
+| `\int_a^b f(x) \mathop{} \! \mathrm{d} x` | $\int_a^b f(x) \mathop{} \! \mathrm{d} x$ |
 
 ### 公式中的空格
 
 LaTeX 能够自动处理公式中的大多数字符之间的空格，但是有时候需要自己手动进行控制。除了常见的几个空格命令外，可以通过 `\hspace{长度}` 自定义空格长度。
 
-|         LaTeX 代码         | $\hspace{1em}$ | 显示效果                    |
-| :------------------------: | :------------: | :-------------------------- |
-|       `\Box \! \Box`       |                | $\Box \! \Box$              |
-|        `\Box \Box`         |                | $\Box \Box$                 |
-|       `\Box \, \Box`       |                | $\Box \, \Box$              |
-|       `\Box \: \Box`       |                | $\Box \: \Box$              |
-|       `\Box \; \Box`       |                | $\Box \; \Box$              |
-|       `\Box \  \Box`       |                | $\Box \  \Box$              |
-|     `\Box \quad \Box`      |                | $\Box \quad \Box$           |
-|     `\Box \qquad \Box`     |                | $\Box \qquad \Box$          |
-|  `\Box \hspace{1cm} \Box`  |                | $\Box \hspace{1cm} \Box$    |
-| `\Box \hspace{1.5cm} \Box` |                | $\Box \hspace{1.5cm} \Box$  |
-|  `\Box \hspace{2cm} \Box`  |                | $\Box \hspace{2cm} \Box$    |
-|        `\Box \Box`         |                | $\Box \Box$                 |
-| `\Box \hspace{-.1cm} \Box` |                | $\Box \hspace{-0.1cm} \Box$ |
-| `\Box \hspace{-.2cm} \Box` |                | $\Box \hspace{-0.2cm} \Box$ |
-| `\Box \hspace{-.3cm} \Box` |                | $\Box \hspace{-0.3cm} \Box$ |
-| `\Box \hspace{-.4cm} \Box` |                | $\Box \hspace{-0.4cm} \Box$ |
+|         LaTeX 代码         | 显示效果                    |
+| :------------------------: | :-------------------------- |
+|       `\Box \! \Box`       | $\Box \! \Box$              |
+|        `\Box \Box`         | $\Box \Box$                 |
+|       `\Box \, \Box`       | $\Box \, \Box$              |
+|       `\Box \: \Box`       | $\Box \: \Box$              |
+|       `\Box \; \Box`       | $\Box \; \Box$              |
+|       `\Box \  \Box`       | $\Box \  \Box$              |
+|     `\Box \quad \Box`      | $\Box \quad \Box$           |
+|     `\Box \qquad \Box`     | $\Box \qquad \Box$          |
+|  `\Box \hspace{1cm} \Box`  | $\Box \hspace{1cm} \Box$    |
+| `\Box \hspace{1.5cm} \Box` | $\Box \hspace{1.5cm} \Box$  |
+|  `\Box \hspace{2cm} \Box`  | $\Box \hspace{2cm} \Box$    |
+|        `\Box \Box`         | $\Box \Box$                 |
+| `\Box \hspace{-.1cm} \Box` | $\Box \hspace{-0.1cm} \Box$ |
+| `\Box \hspace{-.2cm} \Box` | $\Box \hspace{-0.2cm} \Box$ |
+| `\Box \hspace{-.3cm} \Box` | $\Box \hspace{-0.3cm} \Box$ |
+| `\Box \hspace{-.4cm} \Box` | $\Box \hspace{-0.4cm} \Box$ |
 
 ### 插入文本
 
@@ -205,7 +211,9 @@ LaTeX 能够自动处理公式中的大多数字符之间的空格，但是有�
 
 显示为
 
-$$ \text{对任意的 } x > 0 \text{，有 } f(x) > 0 \text{。} $$
+$$
+\text{对任意的 } x > 0 \text{，有 } f(x) > 0 \text{。}
+$$
 
 ### 多行的数学公式
 
@@ -239,12 +247,12 @@ $$
 
 在某些时候，KaTeX 允许这些层级叠加使用：
 
-|        | $\hspace{.1em}$ |           |                 直立中等                 | $\hspace{.1em}$ |                意大利中等                | $\hspace{.1em}$ |                 直立粗体                 | $\hspace{.1em}$ |                意大利粗体                |
-| :----: | :-------------: | :-------: | :--------------------------------------: | :-------------: | :--------------------------------------: | :-------------: | :--------------------------------------: | :-------------: | :--------------------------------------: |
-|        |                 |           |            `\textup{\textmd`             |                 |            `\textit{\textmd`             |                 |            `\textup{\textbf`             |                 |            `\textit{\textbf`             |
-|  罗马  |                 | `\textrm` | $\textup{\textmd{\textrm{Butterfly96}}}$ |                 | $\textit{\textmd{\textrm{Butterfly96}}}$ |                 | $\textup{\textbf{\textrm{Butterfly96}}}$ |                 | $\textit{\textbf{\textrm{Butterfly96}}}$ |
-| 无衬线 |                 | `\textsf` | $\textup{\textmd{\textsf{Butterfly96}}}$ |                 | $\textit{\textmd{\textsf{Butterfly96}}}$ |                 | $\textup{\textbf{\textsf{Butterfly96}}}$ |                 |                  不可用                  |
-| 打字机 |                 | `\texttt` | $\textup{\textmd{\texttt{Butterfly96}}}$ |                 | $\textit{\textmd{\texttt{Butterfly96}}}$ |                 |                  不可用                  |                 |                  不可用                  |
+|        |           |                 直立中等                 |                意大利中等                |                 直立粗体                 |                意大利粗体                |
+| :----: | :-------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+|        |           |            `\textup{\textmd`             |            `\textit{\textmd`             |            `\textup{\textbf`             |            `\textit{\textbf`             |
+|  罗马  | `\textrm` | $\textup{\textmd{\textrm{Butterfly96}}}$ | $\textit{\textmd{\textrm{Butterfly96}}}$ | $\textup{\textbf{\textrm{Butterfly96}}}$ | $\textit{\textbf{\textrm{Butterfly96}}}$ |
+| 无衬线 | `\textsf` | $\textup{\textmd{\textsf{Butterfly96}}}$ | $\textit{\textmd{\textsf{Butterfly96}}}$ | $\textup{\textbf{\textsf{Butterfly96}}}$ |                  不可用                  |
+| 打字机 | `\texttt` | $\textup{\textmd{\texttt{Butterfly96}}}$ | $\textit{\textmd{\texttt{Butterfly96}}}$ |                  不可用                  |                  不可用                  |
 
 在文本模式下（即 `\text` 内部），默认情况下，族使用罗马、形状使用直立、重量使用中等。
 
@@ -261,11 +269,11 @@ $$
 
 对于中文，我们有：
 
-|      | $\hspace{.1em}$ |           |                 直立中等                  | $\hspace{.1em}$ |                意大利中等                 | $\hspace{.1em}$ |                 直立粗体                  | $\hspace{.1em}$ |                意大利粗体                 |
-| :--: | :-------------: | :-------: | :---------------------------------------: | :-------------: | :---------------------------------------: | :-------------: | :---------------------------------------: | :-------------: | :---------------------------------------: |
-|      |                 |           |             `\textup{\textmd`             |                 |             `\textit{\textmd`             |                 |             `\textup{\textbf`             |                 |             `\textit{\textbf`             |
-| 默认 |                 |    无     |     $\textup{\textmd{你好，世界！}}$      |                 |     $\textit{\textmd{你好，世界！}}$      |                 |     $\textup{\textbf{你好，世界！}}$      |                 |     $\textit{\textbf{你好，世界！}}$      |
-| 罗马 |                 | `\textrm` | $\textup{\textmd{\textrm{你好，世界！}}}$ |                 | $\textit{\textmd{\textrm{你好，世界！}}}$ |                 | $\textup{\textbf{\textrm{你好，世界！}}}$ |                 | $\textit{\textbf{\textrm{你好，世界！}}}$ |
+|       |           |                 直立中等                  |                意大利中等                 |                 直立粗体                  |                意大利粗体                 |
+| :---: | :-------: | :---------------------------------------: | :---------------------------------------: | :---------------------------------------: | :---------------------------------------: |
+|       |           |             `\textup{\textmd`             |             `\textit{\textmd`             |             `\textup{\textbf`             |             `\textit{\textbf`             |
+| 默认  |    无     |     $\textup{\textmd{你好，世界！}}$      |     $\textit{\textmd{你好，世界！}}$      |     $\textup{\textbf{你好，世界！}}$      |     $\textit{\textbf{你好，世界！}}$      |
+| 罗马  | `\textrm` | $\textup{\textmd{\textrm{你好，世界！}}}$ | $\textit{\textmd{\textrm{你好，世界！}}}$ | $\textup{\textbf{\textrm{你好，世界！}}}$ | $\textit{\textbf{\textrm{你好，世界！}}}$ |
 
 对于中文，族设置为无衬线或打字机时，要么不可用，要么与设置为罗马时无区别。  
 可以看出，族默认时是宋体，族为罗马时是黑体。
