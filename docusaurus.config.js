@@ -63,7 +63,11 @@ const config = {
                 label: '用户协议'
             }, {
                 href: 'https://www.luogu.com.cn',
-                label: '洛谷',
+                label: '主站',
+                position: 'right'
+            }, {
+                href: 'https://class.luogu.com.cn',
+                label: '网校',
                 position: 'right'
             }]
         },
