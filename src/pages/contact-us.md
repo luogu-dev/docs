@@ -1,5 +1,7 @@
 ---
-sidebar_position: 99
+title: 联系我们
+description: my hello page description
+hide_table_of_contents: true
 ---
 
 # 联系我们
@@ -30,9 +32,9 @@ sidebar_position: 99
 我们也会协助企业院校举办线上算法竞赛，如有需求欢迎随时联系我们。
 
 上海洛谷网络科技有限公司  
-地址：上海徐汇区桂平路481号15幢楼6B3**（请勿在未预约的情况下擅自前往）**  
+地址：上海徐汇区桂平路481号15幢楼6B3**（请勿在未预约的情况下擅自前往）**
 
-## 邮箱 {#Email}
+## 邮箱 {#email}
 
 :::caution
 
@@ -43,9 +45,7 @@ sidebar_position: 99
 业务邮箱：k@luogu.org
 
 - 商业合作咨询
-
 - 人力资源
-
 - 洛谷网校/付费业务售后
 
 账号申诉、检讨发送邮箱：shensu283@luogu.com.cn

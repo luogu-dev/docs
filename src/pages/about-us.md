@@ -1,5 +1,7 @@
 ---
-sidebar_position: 100
+title: 关于洛谷
+description: my hello page description
+hide_table_of_contents: true
 ---
 
 # 关于洛谷

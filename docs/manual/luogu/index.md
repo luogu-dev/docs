@@ -63,4 +63,4 @@ sidebar_position: 1
 
 ## 联系我们
 
-如果需要寻求其他帮助，请[联系我们](contact-us)。
+如果需要寻求其他帮助，请[联系我们](/contact-us)。

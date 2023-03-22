@@ -18,7 +18,7 @@ const config = {
     presets: [
         ['@docusaurus/preset-classic', {
             blog: false,
-            pages: false,
+            pages: {},
             docs: {
                 sidebarPath: require.resolve('./sidebars.js'),
                 routeBasePath: '/',
@@ -65,11 +65,6 @@ const config = {
                 position: 'left',
                 label: '网校与付费指南'
             }, {
-                type: 'doc',
-                docId: 'ula/luogu',
-                position: 'left',
-                label: '用户协议'
-            }, {
                 href: 'https://www.luogu.com.cn',
                 label: '洛谷',
                 position: 'right'
@@ -77,7 +72,44 @@ const config = {
         },
         footer: {
             style: 'dark',
-            copyright: `Copyright © ${new Date().getFullYear()} 上海洛谷网络科技有限公司. Built with Docusaurus.`
+            copyright: `Copyright © ${new Date().getFullYear()} 上海洛谷网络科技有限公司. Built with Docusaurus.`,
+            links: [{
+                title: '洛谷',
+                items: [{
+                    label: '洛谷主站',
+                    href: 'https://www.luogu.com.cn',
+                }, {
+                    label: '洛谷网校',
+                    href: 'https://class.luogu.com.cn',
+                }, {
+                    label: '洛谷有题',
+                    href: 'https://open.luogu.com.cn',
+                }]
+            }, {
+                title: '用户协议',
+                items: [{
+                    label: '洛谷用户协议',
+                    to: '/ula/luogu',
+                }, {
+                    label: '洛谷网校用户协议',
+                    to: '/ula/class',
+                }, {
+                    label: '洛谷高级团队服务章程',
+                    to: '/ula/premium-team',
+                }]
+            }, {
+                title: '更多',
+                items: [{
+                    label: '关于我们',
+                    to: '/about-us',
+                }, {
+                    label: '联系我们',
+                    to: '/contact-us',
+                }, {
+                    label: 'GitHub 仓库',
+                    href: 'https://github.com/luogu-dev/docs',
+                }]
+            }]
         },
         prism: {
             theme: require('prism-react-renderer/themes/github'),
