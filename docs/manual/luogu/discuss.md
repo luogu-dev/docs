@@ -22,4 +22,4 @@
 
 :::
 
-在讨论区主页选择板块后，在页面下方可以发帖。在每一帖子页面下方可以进行回帖。帖子可以用 Markdown 进行美化和@其他用户。详见[帮助： Markdown](/manual/luogu/markdown)。
+在讨论区主页选择板块后，在页面下方可以发帖。在每一帖子页面下方可以进行回帖。帖子可以用 Markdown 进行美化和@其他用户。详见[帮助： Markdown](/rules/academic/markdown)。
