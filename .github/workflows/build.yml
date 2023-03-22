@@ -1,0 +1,63 @@
+name: build
+
+on:
+  - push
+  - pull_request
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+          - name: checkout
+            uses: actions/checkout@v3
+
+          - name: install node.js
+            uses: actions/setup-node@v3
+            with:
+                node-version: 18
+
+          - uses: pnpm/action-setup@v2
+            name: install pnpm
+            id: pnpm-install
+            with:
+                version: 7
+                run_install: false
+
+          - name: get pnpm store
+            id: pnpm-cache
+            shell: bash
+            run: |
+                echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+          - name: set up pnpm cache
+            uses: actions/cache@v3
+            with:
+                path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+                key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+                restore-keys: |
+                    ${{ runner.os }}-pnpm-store-
+
+          - name: install dependencies
+            run: pnpm install
+
+          - name: build
+            run: pnpm run build
+
+          - name: upload artifact
+            uses: actions/upload-artifact@v3
+            with:
+                name: help-site
+                path: build
+
+    deploy:
+        runs-on: ubuntu-latest
+        needs: build
+        if: github.ref == 'refs/heads/master'
+        steps:
+          - name: deploy site
+            shell: bash
+            run: |
+                ls || true
+                ls build || true
+                echo 'not implemented yet'
+                exit 0
