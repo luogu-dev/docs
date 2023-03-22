@@ -28,18 +28,19 @@ def main():
     ])
 
     oss_file_set = set([obj.key for obj in oss2.ObjectIterator(oss_bucket, prefix=prefix) if obj.key])
-    files_to_remove = oss_file_set - built_files
+    files_to_remove = oss_file_set - set([prefix + file for file in built_files])
 
     print(f'Files to remove: {files_to_remove}')
 
     for file in built_files:
-        if re.search(r'\.[0-9a-f]{8}\.(js|css)$', file) and prefix + file in oss_file_set:
+        oss_key = prefix + file
+        if re.search(r'([0-9a-f]{16,}|\.[0-9a-f]{8}\.(js|css)$)', file) and oss_key in oss_file_set:
             print(f'Skipping file {file} (hashed)')
             continue
 
         full_path = os.path.join(built_dir, *file.split('/'))
         print(f'Putting file {file}')
-        result = oss_bucket.put_object(prefix + file, open(full_path, 'rb').read())
+        result = oss_bucket.put_object(oss_key, open(full_path, 'rb').read())
         if result.status != 200:
             raise RuntimeError(result)
 
