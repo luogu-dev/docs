@@ -1,0 +1,69 @@
+name: deploy website
+
+on:
+    workflow_run:
+        workflows: [build]
+        types: [completed]
+        branches:
+          - 'master'
+
+concurrency:
+    group: ${{ github.workflow }}:${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    check:
+        runs-on: ubuntu-latest
+        environment: publish
+        if: github.ref == 'refs/heads/master' && github.event.workflow_run.conclusion == 'success'
+        outputs:
+            secrets: ${{ steps.checker.outputs.secrets }}
+        steps:
+          - name: check if secrets exist
+            id: checker
+            shell: bash
+            env:
+                ALIOSS_AK: ${{ secrets.ALIOSS_AK }}
+                ALIOSS_SK: ${{ secrets.ALIOSS_SK }}
+            run: |
+                function check() {
+                    if [[ -z "${!1}" ]]; then
+                        echo $1 NOT found
+                        exit 0
+                    fi
+                }
+                check ALIOSS_AK
+                check ALIOSS_SK
+                # all checked
+                echo "secrets=ok" >> $GITHUB_OUTPUT
+                echo secrets found 
+
+    deploy:
+        runs-on: ubuntu-latest
+        environment: publish
+        needs: [check]
+        if: needs.check.outputs.secrets == 'ok'
+        steps:
+          - name: checkout
+            uses: actions/checkout@v3
+
+          - name: setup python
+            uses: actions/setup-python@v4
+            with: { python-version: '3.10' }
+          - name: pip install
+            run: python3 -m pip install oss2
+
+          - name: download artifact
+            uses: dawidd6/action-download-artifact@v2
+            with:
+                run_id: ${{ github.event.workflow_run.id }}
+                name: help-site
+                path: build
+
+          - name: deploy site
+            env:
+                ALIOSS_AK: ${{ secrets.ALIOSS_AK }}
+                ALIOSS_SK: ${{ secrets.ALIOSS_SK }}
+                ALIOSS_BUCKET: ${{ vars.ALIOSS_BUCKET }}
+                ALIOSS_ENDPOINT: ${{ vars.ALIOSS_ENDPOINT }}
+            run: python3 .deploy.py -p / build
