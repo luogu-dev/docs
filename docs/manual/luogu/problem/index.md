@@ -4,7 +4,7 @@
 
 ## 个人题库与上传
 
-进入个人主页-题库-我创建的题目，点击新建题目，填写需要的内容（可以不都填）之后保存题面。可以使用 Markdown 美化详见[帮助： Markdown](https://www.luogu.com.cn/blog/luogu/how-to-use-markdown)。再上传数据包即可。
+进入个人主页-题库-我创建的题目，点击新建题目，填写需要的内容（可以不都填）之后保存题面。可以使用 Markdown 美化详见[帮助： Markdown](/manual/luogu/markdown.md)。再上传数据包即可。
 
 ## 上传压缩包的要求
 
@@ -16,26 +16,26 @@
 
 在上传题目数据时可以直接在网页中设置测试点的时间、内存限制等信息，但如果重复更新数据，每次都要重设很麻烦，就可以使用测试点配置文件。  
 
-详见：[题目测试点配置文件](https://www.luogu.com.cn/blog/luogu/problem-config)
+详见：[题目测试点配置文件](testcase-config.md)
 
 ## 自定义计分脚本
 
 有的时候出了一道题想要自定义比较复杂的计分策略，但是单靠 Subtask 的组合无法满足，这时候可以使用计分脚本。  
 
-详见：[自定义计分脚本](https://www.luogu.com.cn/blog/luogu/problem-scoring)
+详见：[自定义计分脚本](problem-scoring.md)
 
 ## Special Judge 使用说明
 
 当一个题目可以接受多种正确答案,即有多组解的时候,题目就必须被 Special Judge。
 Special Judge 程序使用输入数据和一些其他信息来判答你程序的输出，并将判答结果返回。  
 
-详见：[Special Judge 使用说明](/special-judge.md)
+详见：[Special Judge 使用说明](special-judge.md)
 
 ## 交互题功能说明
 
 交互题既用户提交的程序，通过出题人提供的交互库，与判题程序（SPJ）进行交互并获得输入、解答问题。  
 
-详见：[交互题功能说明](/interactive-problems)
+详见：[交互题功能说明](interactive-problems.md)
 
 ## 提交
 
