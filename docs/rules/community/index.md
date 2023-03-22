@@ -54,13 +54,13 @@ sidebar_position: 1
 
 用户需要遵守以下规章制度：
 
-- [洛谷用户协议](/ula/luogu)
+- [洛谷用户协议](../../ula/luogu.md)
 - [洛谷讨论区规则](https://www.luogu.com.cn/discuss/show/152590)
 - [题解规则](https://www.luogu.com.cn/discuss/show/174934)
-- [公开比赛规则](https://www.luogu.com.cn/discuss/show/174936)
+- [洛谷公开比赛规范及要求](../academic/contest-standard.md)
 - [公开题单规则](https://www.luogu.com.cn/discuss/show?postid=203644)
 - [团队管理规则](https://www.luogu.com.cn/discuss/show?postid=9574)
-- [洛谷主题库题目规范](https://www.luogu.com.cn/discuss/show/174811)
+- [洛谷主题库题目规范](../academic/problem-standard.md)
 
 ## 四、解除惩罚
 

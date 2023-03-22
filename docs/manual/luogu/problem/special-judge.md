@@ -160,9 +160,9 @@ checker.exe in.txt out.txt ans.txt (Windows)
 
 直接将 checker.cpp（必须这个名字）塞入测试数据的压缩包内然后上传就行了。
 
-:::caution
+:::caution 重要
 
-重要：必须加上“Special Judge”标签
+必须加上“Special Judge”标签。
 
 :::
 
