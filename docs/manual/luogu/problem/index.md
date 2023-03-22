@@ -22,7 +22,7 @@
 
 有的时候出了一道题想要自定义比较复杂的计分策略，但是单靠 Subtask 的组合无法满足，这时候可以使用计分脚本。  
 
-详见：[自定义计分脚本](problem-scoring.md)
+详见：[自定义计分脚本](scoring-script.md)
 
 ## Special Judge 使用说明
 
