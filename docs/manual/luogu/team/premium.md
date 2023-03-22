@@ -22,7 +22,7 @@
 
 ## 二、权益对比
 
-![](./image/premium-compare.png)
+![](_image/premium-compare.png)
 
 ## 三、订阅费用
 
@@ -36,11 +36,11 @@
 
 高级团队的管理员可复制公共题目，并且可以使用题目的测试数据进行评测。
 
-![](image/pt-copy.png)
+![](_image/pt-copy.png)
 
 复制来的题目可更改题面等信息，也可以重新上传自己制造的测试数据。
 
-![](image/pt-update.png)
+![](_image/pt-update.png)
 
 ### 2 更高级的团队作业功能
 
@@ -48,15 +48,15 @@
 
 团队管理员可在团队作业、比赛的排行榜导出成绩数据为电子表格。
 
-![](image/pt-homework.png)
+![](_image/pt-homework.png)
 
 ### 3 成员批量管理
 
 团队设置新增成员管理选项。可批量管理成员。
 
-![](image/pt-member1.png)  
+![](_image/pt-member1.png)  
 
-![](image/pt-member2.png)
+![](_image/pt-member2.png)
 
 :::tip 如何邀请新成员
 
@@ -64,7 +64,7 @@
 
 之后管理员就可以在【成员】标签页或【团队设置/成员管理】中看到新成员的加入申请，根据核实身份后通过即可。
 
-![](image/pt-member-review.png)
+![](_image/pt-member-review.png)
 
 :::
 
@@ -76,9 +76,9 @@
 
 这大大降低了团队内部的管理风险。
 
-![](image/pt-permission.png)
+![](_image/pt-permission.png)
 
-![](image/pt-permission2.png)
+![](_image/pt-permission2.png)
 
 ### 5 团队邀请赛
 
@@ -86,7 +86,7 @@
 
 也获取每个邀请码对应的洛谷 uid。
 
-![](image/pt-invitation.png)
+![](_image/pt-invitation.png)
 
 赛后可以运行反作弊系统，对所有提交的代码进行比对查重，以保证比赛的严肃性。  
 
@@ -103,18 +103,18 @@
 目前仅有团队的团队主方可开通高级权限功能。如果管理员希望开通团队，请提醒团队主开通。
 
 1. 进入团队设置页面，在团队类型后点击“试用高级团队”。
-   ![图片](image/pt-open-try.png)  
+   ![图片](_image/pt-open-try.png)  
 
 2. 跳转至开通页面，填写联系信息，若想直接开通可点击右上角切换为正式开通。
    请务必认真填写联系信息。
 
-   ![图片](image/pt-open-contact.png)  
+   ![图片](_image/pt-open-contact.png)  
 
 3. 阅读并同意《洛谷团队服务章程》后，点击开通按钮。
-   ![图片](image/pt-open-eula.png)  
+   ![图片](_image/pt-open-eula.png)  
 
 4. 跳转至支付页面，选择支付方式付款即可。
-   ![图片](image/pt-open-pay.png)  
+   ![图片](_image/pt-open-pay.png)  
 
 5. 完成付款，成功开通。  
 
@@ -139,7 +139,7 @@
 
 为简化流程、促进环保，我们已经启用电子发票。请团队主付款成功后进入【团队设置-订阅管理】找到对应的付款记录，点击【查看详情/开票】，进入页面后按照提示申请发票。
 
-![](image/pt-open-invoice.png)
+![](_image/pt-open-invoice.png)
 
 如果一定需要纸质发票的，请至客服中心（[https://class.luogu.com.cn/service](https://class.luogu.com.cn/service)）提交申请，这需要您承担运费。
 

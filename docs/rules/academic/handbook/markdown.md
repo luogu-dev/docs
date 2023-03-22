@@ -28,7 +28,7 @@ Markdown 的标题是在行首插入 1 到 6 个 `#`，`#` 和标题文字之间
 
 显示的效果如下：
 
-![标题与正文](../image/heading.png)
+![标题与正文](../_image/heading.png)
 
 :::caution
 
@@ -88,7 +88,7 @@ Markdown 建立代码块的方法：将 \`\`\` 置于这段代码的首行和末
 
 **例如：**
 
-![C++代码示例](../image/CppCode.png)
+![C++代码示例](../_image/CppCode.png)
 
 ```cpp
 #include<iostream>
