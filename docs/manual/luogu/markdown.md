@@ -224,7 +224,7 @@ Markdown 使用一种和链接很相似的语法来标记图片。在洛谷内�
 
 ![logo](https://cdn.class.luogu.com.cn/fe/logo-full.png?27925f707b34b1472e135b1a2dd848e5)
 
-特别地，洛谷 Markdown 提供插入 **bilibili 视频**链接的功能（见剪贴板 [/paste/l9faoe0v](/paste/l9faoe0v)）：
+特别地，洛谷 Markdown 提供插入 **bilibili 视频**链接的功能（见[剪贴板](https://www.luogu.com.cn/paste/l9faoe0v)）：
 
 语法为：`![](bilibili:av号)`（省略 `av` 前缀）或 `![](bilibili:av+av号)` 或 `![](bilibili:BV+BV号)` 等：
 
@@ -305,4 +305,4 @@ _   底线
 
 ## LaTeX 公式支持
 
-见 [LaTeX 说明](/latex)。
+见 [LaTeX 说明](latex.md)。

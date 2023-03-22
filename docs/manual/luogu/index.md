@@ -25,7 +25,7 @@ sidebar_position: 1
 ## 题目
 
 题目系统是洛谷 Online Judge 的核心，要开始写一道新的题目，一般就是从这里开始的。  
-详见[题目功能说明](problem/AboutProblem)帮助。
+详见[题目功能说明](problem/Problem)帮助。
 
 ## 评测
 
