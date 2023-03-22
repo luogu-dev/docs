@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ## 用户
 
-详见[洛谷账号功能说明](account/LuoGuAccount)帮助。
+详见[洛谷账号功能说明](./account/index.md)帮助。
 
 ## 题库
 
@@ -25,15 +25,15 @@ sidebar_position: 1
 ## 题目
 
 题目系统是洛谷 Online Judge 的核心，要开始写一道新的题目，一般就是从这里开始的。  
-详见[题目功能说明](problem/)帮助。
+详见[题目功能说明](./problem/)帮助。
 
 ## 评测
 
-详见[在线评测功能说明](problem/OnlineJudge)帮助。
+详见[在线评测功能说明](./problem/judging.md)帮助。
 
 ## 比赛
 
-详见[比赛功能说明](contest)帮助。
+详见[比赛功能说明](./contest.md)帮助。
 
 ## 题单
 
@@ -41,25 +41,25 @@ sidebar_position: 1
 
 为了方便不同水平的同学们都能在洛谷快速找到适合自己的训练方式，洛谷开放了自定义题单功能，并且推出了官方题单以及允许用户/团队公开自己整理的题单，具体规则参见[公开题单规则](https://www.luogu.com.cn/discuss/show?postid=203644)
 
-具体详见[题单功能说明](TrainingList)。
+具体详见[题单功能说明](./training.md)。
 
 ## 团队
 
-具体详见[团队功能说明](team)。
+具体详见[团队功能说明](./team)。
 
 ## 讨论
 
-具体详见[讨论区功能说明](discuss)。
+具体详见[讨论区功能说明](./discuss.md)。
 
 ## 设置
 
-具体详见[个人设置功能说明](account/setting)。
+具体详见[个人设置功能说明](./account/setting.md)。
 
 ## 图床
 
 图床用于上传本地图片。如果题目、讨论、签名需要插入图片时，请将图片先上传至图床，再使用 Markdown 代码引用图片的链接即可。
 
-具体规则请看 [图床规则](/rules/community/image-hosting)
+具体规则请看 [图床规则](../../rules/community/image-hosting.md)
 
 ## 联系我们
 

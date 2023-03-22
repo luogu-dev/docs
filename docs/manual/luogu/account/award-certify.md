@@ -66,9 +66,9 @@ UID（洛谷用户编号）：
 
 格式示例：
 
-![](http://ipic.luogu.com.cn/sny3z.png)   
+![邮件示例](./image/award-email-example.jpg)   
 
-![身份证水印](http://ipic.luogu.com.cn/uPic/FuEBsa.jpg)
+![身份证水印](./image/id-sign.jpg)
 
 ## 认证后有什么用
 

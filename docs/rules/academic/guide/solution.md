@@ -1,4 +1,8 @@
-# 如何用 Markdown&LaTeX 写一篇排版整齐的题解？
+---
+sidebar_label: 题解排版指引
+---
+
+# 如何用 Markdown 和 LaTeX 写一篇排版整齐的题解？
 
 本文将会对 Markdown 和 $\LaTeX$ 的语法进行深入解读，旨在教会阅读本文的读者正确使用 Markdown 和 $\LaTeX$ 书写博客或题解。
 

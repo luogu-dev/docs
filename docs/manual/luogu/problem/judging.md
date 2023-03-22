@@ -3,16 +3,7 @@ sidebar_position: 1
 ---
 # 在线评测
 
-洛谷评测系统搭建与 Linux 上，采用分布式集群保证评测效率，采用沙盒技术保证评测安全。目前，评测系统支持的提交语言可以参考[评测机语言环境信息]( https://www.luogu.com.cn/discuss/show/86673 )。
-
-部分语言的编译参数如下：
-
-```bash
-- C：gcc -DONLINE_JUDGE -Wall -fno-asm -std=c99 -lm
-- C++：g++ -DONLINE_JUDGE -Wall -fno-asm -std=c++98 
-- C++11：g++ -DONLINE_JUDGE -Wall -fno-asm -std=c++11
-- Pascal：ppcx64 -dONLINE_JUDGE 
-```
+洛谷评测系统搭建与 Linux 上，采用分布式集群保证评测效率，采用沙盒技术保证评测安全。目前，评测系统支持的提交语言可以参考[洛谷开放平台-评测能力-语言支持](https://docs.lgapi.cn/open/judge/langs)。
 
 有"O2 优化"标签的题目在评测时均会自动开启 O2 优化，题目上传者或者管理员可根据需要自行开启。
 
@@ -40,4 +31,4 @@ sidebar_position: 1
 
 ## Special Judge
 
-[帮助：Special Judge](/manual/luogu/problem/special-judge.md)
+[帮助：Special Judge](./special-judge.md)
