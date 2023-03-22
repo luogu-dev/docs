@@ -1,4 +1,4 @@
-# LaTeX
+# LaTeX 格式手册
 
 :::tip
 
