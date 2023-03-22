@@ -305,4 +305,4 @@ _   底线
 
 ## LaTeX 公式支持
 
-见 [LaTeX 说明](latex.md)。
+见 [LaTeX 说明](latex)。
