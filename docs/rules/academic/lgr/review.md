@@ -1,4 +1,8 @@
-# 月赛审核要求（细则）（出题组必读）
+---
+sidebar_label: 审核要求（细则）（出题组必读）
+---
+
+# 月赛审核要求（细则）
 
 :::danger 链接需修正
 
@@ -14,7 +18,7 @@
 
 在联系 kkksc03 并与对接的月赛审核员[$^{\textsf{[2]}}$](https://www.luogu.com.cn/discuss/186291)联系后，您需要准备：
 
-1. 首先明确是大月赛还是小月赛，或其他类别。大月赛分 Div.2 和 Div.1，每个 Div 都是 $4$ 题，两个 Div 之间共享 $2$ 题，也就是有 ABCDEF 难度递增的共 $6$ 题，Div.2 含有 ABCD，Div.1 含有 CDEF。小月赛相当于只有大月赛的 Div.2。其他类别指的是题目编排上非传统，例如相同模型的题目分两个题或是两个 Div 均有的彩蛋题等等，但仍然需要与小月赛或大月赛中的其中一者类似，这是为了方便出题费用发放（大月赛 ￥4300 元，小月赛 ￥2200 元）。[$^{\textsf{[5]}}$](yuesai-pay.md)
+1. 首先明确是大月赛还是小月赛，或其他类别。大月赛分 Div.2 和 Div.1，每个 Div 都是 $4$ 题，两个 Div 之间共享 $2$ 题，也就是有 ABCDEF 难度递增的共 $6$ 题，Div.2 含有 ABCD，Div.1 含有 CDEF。小月赛相当于只有大月赛的 Div.2。其他类别指的是题目编排上非传统，例如相同模型的题目分两个题或是两个 Div 均有的彩蛋题等等，但仍然需要与小月赛或大月赛中的其中一者类似，这是为了方便出题费用发放（大月赛 ￥4300 元，小月赛 ￥2200 元）。[$^{\textsf{[5]}}$](./payroll.md)
 2. 原则上洛谷不接受多个组织或个人在无交流的情况下共同组题，即我们推荐在同一个组织内准备好所有题目后提交月赛申请，或至少有合作关系并且出题相关人员之间可以正常沟通。  
    **需要特别注意的是：为了保证各题出题人间对各个题目进行充分交流，直接参与比赛工作的人员（包括验题人、造数据人等等，不含审核员和仅知道题目 idea 不参与比赛工作的人（但需做好保密工作））数量不得超过题目数的 $1.5$ 倍。**[$^{\textsf{[4]}}$](https://www.luogu.com.cn/discuss/174936)
 3. 联系月赛审核员后，就可以向审核员发送准备好的题目 idea 了，具体方式可以是洛谷个人私题或团队私题，或存储在其他任何地方均可（比如文本文件或是 PDF 格式，甚至其他 OJ 的私题，只要能让审核员看到就行，当然**首选推荐是洛谷团队私题**，原因见下）。在这个阶段并不需要有成文的题解或测试数据，但是当审核员要求提供题解时请配合。
@@ -33,7 +37,7 @@
 
 ## 题面和评测方式的额外要求：
 
-月赛题目的题面需要严格遵守[洛谷主题库题目规范](https://www.luogu.com.cn/discuss/174811)。
+月赛题目的题面需要严格遵守[洛谷主题库题目规范](../problem-standard.md)。
 
 由于是 IOI 赛制，在无特殊情况下时，必须使用子任务，所以必须说明『**本题采用捆绑测试**』。  
 （这是对于传统题和交互题而言的，**提交答案题不适用此规定**）
@@ -78,7 +82,7 @@
 
 ## 组题或比赛时的失误判定标准与出题费用标准：
 
-见[洛谷月赛工资发放细则](yuesai-pay.md)。
+见[洛谷月赛工资发放细则](./payroll.md)。
 
 ## 一般传统题数据格式要求：
 
@@ -204,9 +208,9 @@ int main(int, char *argv[]) {
 
 1. [【有偿】洛谷月赛征题令](https://www.luogu.com.cn/blog/kkksc03/luogu-call-for-contest-2)，`https://www.luogu.com.cn/blog/kkksc03/luogu-call-for-contest-2`。
 2. [题目管理志愿者轮换制度](https://www.luogu.com.cn/discuss/186291)，`https://www.luogu.com.cn/discuss/186291`。
-3. [洛谷主题库题目规范](https://www.luogu.com.cn/discuss/174811)，`https://www.luogu.com.cn/discuss/174811`。
-4. [公开比赛要求](https://www.luogu.com.cn/discuss/174936)，`https://www.luogu.com.cn/discuss/174936`。
-5. [洛谷月赛工资发放细则](yuesai-pay.md)，`https://www.luogu.com.cn/blog/luogu/yuesai-pay`。
+3. [洛谷主题库题目规范](../problem-standard.md)。
+4. [洛谷公开比赛规范及要求](../contest-standard.md)。
+5. [洛谷月赛工资发放细则](./payroll.md)。
 6. [MikeMirzayanov/testlib](https://github.com/MikeMirzayanov/testlib)，`https://github.com/MikeMirzayanov/testlib`。
 7. [Testlib 简介](https://oi-wiki.org/tools/testlib/)，`https://oi-wiki.org/tools/testlib/`。
 

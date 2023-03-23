@@ -14,26 +14,26 @@ sidebar_position: 1
 
 ## 用户
 
-详见[洛谷账号功能说明](account/LuoGuAccount)帮助。
+详见[洛谷账号功能说明](./account/index.md)帮助。
 
 ## 题库
 
 洛谷的核心功能在于其丰富的题库。洛谷有六千多道题目，题材和算法涉及广泛，可以根据不同的难度、算法标签和来源进行搜索。例如，如果想查找某年 NOIP 题目的话就可以进行筛选，同样也可以根据题目的标题，甚至通过题目描述的内容来搜索题目。
 
-![题目列表](image/problemslist.jpeg)
+![题目列表](_image/problemslist.jpeg)
 
 ## 题目
 
 题目系统是洛谷 Online Judge 的核心，要开始写一道新的题目，一般就是从这里开始的。  
-详见[题目功能说明](problem/)帮助。
+详见[题目功能说明](./problem/)帮助。
 
 ## 评测
 
-详见[在线评测功能说明](problem/OnlineJudge)帮助。
+详见[在线评测功能说明](./problem/judging.md)帮助。
 
 ## 比赛
 
-详见[比赛功能说明](contest)帮助。
+详见[比赛功能说明](./contest.md)帮助。
 
 ## 题单
 
@@ -41,25 +41,25 @@ sidebar_position: 1
 
 为了方便不同水平的同学们都能在洛谷快速找到适合自己的训练方式，洛谷开放了自定义题单功能，并且推出了官方题单以及允许用户/团队公开自己整理的题单，具体规则参见[公开题单规则](https://www.luogu.com.cn/discuss/show?postid=203644)
 
-具体详见[题单功能说明](TrainingList)。
+具体详见[题单功能说明](./training.md)。
 
 ## 团队
 
-具体详见[团队功能说明](team)。
+具体详见[团队功能说明](./team)。
 
 ## 讨论
 
-具体详见[讨论区功能说明](discuss)。
+具体详见[讨论区功能说明](./discuss.md)。
 
 ## 设置
 
-具体详见[个人设置功能说明](account/setting)。
+具体详见[个人设置功能说明](./account/setting.md)。
 
 ## 图床
 
 图床用于上传本地图片。如果题目、讨论、签名需要插入图片时，请将图片先上传至图床，再使用 Markdown 代码引用图片的链接即可。
 
-具体规则请看 [图床规则](/rules/community/image-hosting)
+具体规则请看 [图床规则](../../rules/community/image-hosting.md)
 
 ## 联系我们
 

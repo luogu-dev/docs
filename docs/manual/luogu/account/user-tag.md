@@ -4,15 +4,15 @@
 
 ## 管理员牌子
 
-![管理员](https://ipic.luogu.com.cn/76f1t.jpg)
+![管理员](_image/badge-admin.png)
 
 所有管理员均为紫色用户名，管理员的牌子默认字段为【管理员】，但管理员上任时都可以向 kkk 申请自定义称号。在管理员任上一直有效。
 
 ## 永久荣誉牌子
 
-![荣誉 1](https://ipic.luogu.com.cn/4b8ek.jpg)
+![荣誉 1](_image/badge-honored1.png)
 
-![荣誉 2](https://ipic.luogu.com.cn/vtjf5.jpg)
+![荣誉 2](_image/badge-honored2.png)
 
 - 管理员退任后将保留其称号
 - 报名省选计划且最终进入省队

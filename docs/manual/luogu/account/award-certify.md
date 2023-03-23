@@ -6,11 +6,11 @@
 
 用户如果希望进行奖项认证，必须首先获得 NOI 系列比赛的奖项。目前可以认证的奖项有：
 
-    - CSP-J/S 第二轮获奖（不包括第一轮获奖，以及其他个别省份单独组织的评级活动）
-    - NOIP 普及组一、二等奖（或等同、非初中组）
-    - NOIP 提高组一、二等奖（或等同、非初中组）
-    - NOI 奖牌，包括邀请赛（不包括初中组和小学组，不包括 online 线上赛）
-    - WC / APIO / CTSC
+  - CSP-J/S 第二轮获奖（不包括第一轮获奖，以及其他个别省份单独组织的评级活动）
+  - NOIP 普及组一、二等奖（或等同、非初中组）
+  - NOIP 提高组一、二等奖（或等同、非初中组）
+  - NOI 奖牌，包括邀请赛（不包括初中组和小学组，不包括 online 线上赛）
+  - WC / APIO / CTSC
 
 以上奖项以 **CCF 官方公布名单**（<https://www.noi.cn/hjmd/mdcx/>）为准,部分**线上比赛**洛谷仅认证奖项而不计算积分。  
 
@@ -66,9 +66,9 @@ UID（洛谷用户编号）：
 
 格式示例：
 
-![](http://ipic.luogu.com.cn/sny3z.png)   
+![邮件示例](_image/award-email-example.jpg)   
 
-![身份证水印](http://ipic.luogu.com.cn/uPic/FuEBsa.jpg)
+![身份证水印](_image/id-sign.jpg)
 
 ## 认证后有什么用
 
