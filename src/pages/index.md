@@ -13,6 +13,7 @@ hide_table_of_contents: true
 - [学术规范](/rules/academic)
 - [主站操作指南](/manual/luogu)
 - [网校与付费指南](/manual/class)
+- [洛谷更新日志](/ReleaseNotes)
 
 如果本文档无法解决您遇到的问题请[联系我们](/contact-us)。
 

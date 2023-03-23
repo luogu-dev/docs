@@ -84,6 +84,9 @@ const config = {
                 }, {
                     label: '洛谷有题',
                     href: 'https://open.luogu.com.cn',
+                }, {
+                    label: '洛谷更新日志',
+                    to: '/ReleaseNotes',
                 }]
             }, {
                 title: '用户协议',
