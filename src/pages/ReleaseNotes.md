@@ -5,13 +5,13 @@
 ### 3 月
 
 **帮助中心**  
-基于Docusaurus构建洛谷帮助中心(<https://help.luogu.com.cn/>)，涵盖洛谷主站、网校等产品的帮助文档以及洛谷社区以及学术规范文档。
+基于 Docusaurus 构建洛谷帮助中心(<https://help.luogu.com.cn>)，涵盖洛谷主站、网校等产品的帮助文档以及洛谷社区以及学术规范文档。
 
 **后端**  
 针对大量并发连接的场景进行了针对性优化，内部部分模块执行效率得到提高。
 
 **洛谷开放平台**  
-API v1 开始测试，具体详见<https://docs.lgapi.cn/open/>
+API v1 开始测试，具体详见<https://docs.lgapi.cn/open>  
 目前正在限量邀请测试中。
 
 ## 2022 年
