@@ -26,11 +26,7 @@ sidebar_position: 2
 
 有的时候出了一道题想要自定义比较复杂的计分策略，但是单靠 Subtask 的组合无法满足，这时候可以使用计分脚本。  
 
-<<<<<<< HEAD
-详见：[自定义计分脚本](scoring-script.md)
-=======
 详见：[自定义计分脚本](./scoring-script.md)
->>>>>>> d2c0b1c6a168017db3d277441ce697c915f0fd80
 
 ## Special Judge 使用说明
 
