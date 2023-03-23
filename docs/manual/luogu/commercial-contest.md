@@ -10,7 +10,7 @@ sidebar_position: 114514
 
 对于一般的学生出题人举办的公开赛，不适用于本文，请根据【公开比赛要求 - 洛谷】中的要求提交比赛和审核。  
 
-![](/Users/hh/Git/docs/docs/manual/luogu/_image/evonn95l-9560540.png)    
+![](_image/evonn95l-9560540.png)    
 
 ## 提供赛时平台
 
@@ -28,16 +28,16 @@ sidebar_position: 114514
 洛谷是国内最为知名的算法竞赛社区之一，拥有相当可观的流量。日PV数十万，DAU约1到2万，日评测量数万。洛谷提供如下的宣传方式，让更多的人知道比赛。
 
 - 洛谷首页大图宣传（需要自行提供图）  
-![](/Users/hh/Git/docs/docs/manual/luogu/_image/n1tx4ekb.png)  
+![](_image/n1tx4ekb.png)  
 
 - 首页帖子置顶  
-![](/Users/hh/Git/docs/docs/manual/luogu/_image/tmwn2xga.png)  
+![](_image/tmwn2xga.png)  
 
 - 洛谷部分页面右下方广告位  
-![](/Users/hh/Git/docs/docs/manual/luogu/_image/7b2083ld.png)
+![](_image/7b2083ld.png)
 
 - 洛谷科技微信公众号（约1万关注者）  
-![](/Users/hh/Git/docs/docs/manual/luogu/_image/pia9josj.png)  
+![](_image/pia9josj.png)  
 
 向注册用户发送短信（需要没有关闭推送的用户）
 以上宣传渠道仅用于宣传比赛本身。洛谷不对其他商业行为单独进行宣传。
@@ -60,7 +60,7 @@ sidebar_position: 114514
 
 洛谷于 2020 年 4 月成功协办 3 千人规模的“传智杯”线上比赛。洛谷为传智杯提供了报名认证、题目审查等服务，最终使得比赛顺利举办。  
 
-![](/Users/hh/Git/docs/docs/manual/luogu/_image/ha8etnr8.png)  
+![](_image/ha8etnr8.png)  
 
 比赛官网：<http://dasai.ityxb.com/>
 
