@@ -15,7 +15,11 @@ jobs:
     check:
         runs-on: ubuntu-latest
         environment: publish
-        if: github.ref == 'refs/heads/master' && github.event.workflow_run.conclusion == 'success'
+        if: |
+            true
+            && github.ref == 'refs/heads/master'
+            && && github.event.workflow_run.head_repository.full_name == github.event.repository.full_name
+            && github.event.workflow_run.conclusion == 'success'
         outputs:
             secrets: ${{ steps.checker.outputs.secrets }}
         steps:
