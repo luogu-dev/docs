@@ -9,6 +9,7 @@ hide_table_of_contents: true
 此网站为洛谷网（<https://www.luogu.com.cn>）、洛谷网校（<https://class.luogu.com.cn>）的帮助中心。
 
 本帮助中心分为以下几个板块：
+
 - [社区规则](/rules/community)
 - [学术规范](/rules/academic)
 - [主站操作指南](/manual/luogu)
