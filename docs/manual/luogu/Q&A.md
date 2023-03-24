@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # 常见问题集合
 
 ## 如何加入一个团队/邀请团队成员 {#group_member_invite}
