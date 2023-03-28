@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 # 常见问题集合
 
 :::tip
@@ -9,7 +10,7 @@ sidebar_position: 2
 
 :::
 
-## 有问题想反馈？ {#Feedback}
+## 有问题想反馈？ {#feedback}
 
 在反馈问题请先通过查阅文档以及搜索，在确认无人反馈过/没有得到答案的前提下在通过相应的渠道反馈问题。
 
@@ -18,7 +19,7 @@ sidebar_position: 2
 - 反馈入门与面试题库题目问题请至[该反馈贴](https://www.luogu.com.cn/discuss/show?postid=325040)。
 - 其他问题可私聊相关
 
-## 为什么有的题不能提交题解？ {#Solution_cannot_be_submitted}
+## 为什么有的题不能提交题解？ {#why-cannot-submit-solution}
 
 当这个题题解数量过多，管理员认为没有必要再有更多题解的时候，会自动关闭本题的题解提交入口，故会闪出“不能提交该题题解”。
 
@@ -26,37 +27,37 @@ sidebar_position: 2
 
 若低质量题解多次私信申请，会被视为骚扰管理的行为，可能会被予以禁用私信的处罚。私信管理的时候，请附带上题目编号和题解链接。
 
-## 如何完成题目？ {#SolveProblem}
+## 如何完成题目？ {#problem-submit}
 
-![图片](_image/i34b1.png)
+![图片](_image/submit-1.png)
 
 进入题目页面后，点击左上角 “提交答案”；
 
-![图片](_image/9lhmg.png)
+![图片](_image/submit-2.png)
 
 调出 “在线 IDE”；
 
-![图片](_image/753t3.png)
+![图片](_image/submit-3.png)
 
 对照着题目，在IDE（本地的编辑器亦可）中编写程序；
 
-![图片](_image/z8xdl.png)
+![图片](_image/submit-4.png)
 
 将完成的代码输入在文本框中，点击 “提交评测”。查看[帮助中心—题目](https://www.luogu.com.cn/blog/luogu/luogu-help)。
 
-## 如何创建题目？ {#CreateProblem}
+## 如何创建题目？ {#problem-create}
 
-![点击创建题目](_image/x4r2o.jpg)
+![点击创建题目](_image/create-problem.jpg)
 
 通过 “个人中心—题库”，创建比赛、题单同理。查看[帮助中心—题目](https://www.luogu.com.cn/blog/luogu/luogu-help)。
 
-## 如何创建团队？ {#CreateTeam}
+## 如何创建团队？ {#team-create}
 
-![点击创建团队](_image/7s2rf.jpg)
+![点击创建团队](_image/create-team.jpg)
 
 通过 “个人中心—我的”，创建团队，普通用户可以创建 3 个团队。查看[帮助中心—团队](https://www.luogu.com.cn/blog/luogu/luogu-help)。
 
-## 如何加入一个团队/邀请团队成员 {#group_member_invite}
+## 如何加入一个团队/邀请团队成员 {#team-member-invite}
 
 新成员：  
 
@@ -70,36 +71,27 @@ sidebar_position: 2
 
 如果发现团队出现违反洛谷规则的行为，提交公开比赛等，需要向洛谷举报并退出团队，否则可能负连带责任。
 
-## 如何开通博客？ {#CreateBlog}
+## 如何使用讨论区？ {#discuss}
 
-![图片](_image/c3eah.png)
-
-![图片](_image/8v1gi.png)
-
-通过 “头像—开通博客”，输入符合要求的博客个性地址，即可开通博客。  
-之后请在个人博客页面寻找对应按钮进入 “管理后台” 管理你的文章。
-
-## 如何使用讨论区？ {#UseDiscuss}
-
-![图片](_image/iv70n.png)
+![图片](_image/discuss.png)
 
 在左侧点击 “讨论” 进入讨论区域，选择相应的板块进行发帖，具体规则查看[帮助中心—讨论板块](https://www.luogu.com.cn/blog/luogu/luogu-help)。
 
-## 如何使用剪贴板？ {#UseCilpboard}
+## 如何使用剪贴板？ {#pastebin}
 
-![图片](_image/qxbyb.png)
+![图片](_image/pastebin-1.png)
 
-![图片](_image/qnf05.png)
+![图片](_image/pastebin-2.png)
 
 云剪贴板可以存放任何文本，保存后的文本，通过点击 “查看”，将文本的网页链接分享给其他人。
 
-## 如何使用图床？ {#UseImageHostingService}
+## 如何使用图床？ {#image-upload}
 
-![图片](_image/3mqan.png)
+![图片](_image/imageupload-1.png)
 
-![图片](_image/56uz2.png)
+![图片](_image/imageupload-2.png)
 
-![图片](_image/ugf3a.png)
+![图片](_image/imageupload-3.png)
 
 上传成功的图片右下脚有两个图标，点击 1 号图标表示复制了该图片的网页链接；点击 2 号链接表示复制后可以在 Markdown 里粘贴使用的链接。
 
