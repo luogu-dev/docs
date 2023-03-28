@@ -29,19 +29,19 @@ sidebar_position: 2
 
 ## 如何完成题目？ {#problem-submit}
 
-![图片](_image/submit-1.png)
+![图片](_image/submit-1.jpeg)
 
 进入题目页面后，点击左上角“提交答案”；
 
-![图片](_image/submit-2.png)
+![图片](_image/submit-2.jpeg)
 
 调出“在线 IDE”；
 
-![图片](_image/submit-3.png)
+![图片](_image/submit-3.jpeg)
 
 对照着题目，在IDE（本地的编辑器亦可）中编写程序；
 
-![图片](_image/submit-4.png)
+![图片](_image/submit-4.jpeg)
 
 将完成的代码输入在文本框中，点击“提交评测”。查看[帮助中心—题目](./problem/index.md)。
 
@@ -73,7 +73,7 @@ sidebar_position: 2
 
 ## 如何使用讨论区？ {#discuss}
 
-![图片](_image/discuss.png)
+![图片](_image/discuss.jpeg)
 
 在左侧点击“讨论”进入讨论区域，选择相应的板块进行发帖，具体规则查看[帮助中心—讨论](./discuss.md)。
 
@@ -87,11 +87,11 @@ sidebar_position: 2
 
 ## 如何使用图床？ {#image-upload}
 
-![图片](_image/imageupload-1.png)
+![图片](_image/imageupload-1.jpeg)
 
-![图片](_image/imageupload-2.png)
+![图片](_image/imageupload-2.jpeg)
 
-![图片](_image/imageupload-3.png)
+![图片](_image/imageupload-3.jpeg)
 
 上传成功的图片右下脚有两个图标，点击 1 号图标表示复制了该图片的网页链接；点击 2 号链接表示复制后可以在 Markdown 里粘贴使用的链接。
 
