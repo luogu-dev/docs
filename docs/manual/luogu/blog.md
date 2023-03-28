@@ -1,3 +1,7 @@
+---
+sidebar_position: 10
+---
+
 # 博客
 
 :::caution 洛谷博客即将关闭
