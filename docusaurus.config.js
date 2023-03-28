@@ -21,6 +21,14 @@ const config = {
             pages: {},
             docs: {
                 sidebarPath: require.resolve('./sidebars.js'),
+                async sidebarItemsGenerator(context) {
+                    const { item, defaultSidebarItemsGenerator } = context;
+                    const finalItems = await defaultSidebarItemsGenerator(context);
+                    if(item.dirName === 'manual/class') {
+                        finalItems.splice(1, 0, { type: 'ref', id: 'manual/luogu/team/premium' });
+                    }
+                    return finalItems;
+                },
                 routeBasePath: '/',
                 remarkPlugins: [require('remark-math')],
                 rehypePlugins: [require('rehype-katex')]
