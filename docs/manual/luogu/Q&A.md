@@ -8,6 +8,14 @@ sidebar_position: 2
 本页面集合了主站用户常见问题，您可点击右侧目录直接跳转到对应问题。
 
 :::
+## 有问题想反馈？ {#Need_to_Feedback}
+
+在反馈问题请先通过查阅文档以及搜索，在确认无人反馈过/没有得到答案的前提下在通过相应的渠道反馈问题。
+
+- 对于网站功能上的问题可通过[工单版](https://www.luogu.com.cn/discuss/lists?forumname=service)提交，提交工单前请先阅读[工单板块规则](https://www.luogu.com.cn/discuss/show?postid=9779)。
+- 反馈主题库题目问题请至[该反馈贴](https://www.luogu.com.cn/discuss/show?postid=566566)。
+- 反馈入门与面试题库题目问题请至[该反馈贴](https://www.luogu.com.cn/discuss/show?postid=325040)。
+- 其他问题可私聊相关
 
 ## 为什么有的题不能提交题解？ {#Solution_cannot_be_submitted}
 
