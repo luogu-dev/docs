@@ -63,7 +63,7 @@ const config = {
                 type: 'doc',
                 docId: 'manual/class/index',
                 position: 'left',
-                label: '网校与付费指南'
+                label: '网校与付费服务'
             }, {
                 href: 'https://www.luogu.com.cn',
                 label: '洛谷',
