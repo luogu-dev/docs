@@ -6,12 +6,15 @@
 
 :::
 
-## Q：如何注册洛谷网校账号？ {#Register_account}
+## Q：如何注册洛谷网校账号？ {#Register}
 
 A：洛谷网校使用**洛谷账号**，若未注册洛谷账号，请按照图中方式注册。
-![进入主站后，点击注册按钮](_image/a817dzop.png)
-![填写个人信息后注册](_image/wvu8b1hb.png)
-![登陆洛谷账号](_image/ju57e7bf.png)
+
+![进入主站后，点击注册按钮](_image/register-1.png)
+
+![填写个人信息后注册](_image/register-2.png)
+
+![登录洛谷账号](_image/register-3.png)
 
 ## Q: 怎么上课？/上课后怎么看回放？ {#HowToLearn}
 
