@@ -31,11 +31,11 @@ sidebar_position: 2
 
 ![图片](_image/submit-1.png)
 
-进入题目页面后，点击左上角 “提交答案”；
+进入题目页面后，点击左上角“提交答案”；
 
 ![图片](_image/submit-2.png)
 
-调出 “在线 IDE”；
+调出“在线 IDE”；
 
 ![图片](_image/submit-3.png)
 
@@ -43,19 +43,19 @@ sidebar_position: 2
 
 ![图片](_image/submit-4.png)
 
-将完成的代码输入在文本框中，点击 “提交评测”。查看[帮助中心—题目](https://www.luogu.com.cn/blog/luogu/luogu-help)。
+将完成的代码输入在文本框中，点击“提交评测”。查看[帮助中心—题目](./problem/index.md)。
 
 ## 如何创建题目？ {#problem-create}
 
 ![点击创建题目](_image/create-problem.jpg)
 
-通过 “个人中心—题库”，创建比赛、题单同理。查看[帮助中心—题目](https://www.luogu.com.cn/blog/luogu/luogu-help)。
+通过“个人中心—题库”，创建比赛、题单同理。查看[帮助中心—题目](./problem/index.md)。
 
 ## 如何创建团队？ {#team-create}
 
 ![点击创建团队](_image/create-team.jpg)
 
-通过 “个人中心—我的”，创建团队，普通用户可以创建 3 个团队。查看[帮助中心—团队](https://www.luogu.com.cn/blog/luogu/luogu-help)。
+通过“个人中心—我的”，创建团队，普通用户可以创建 3 个团队。查看[帮助中心—团队](./team/index.md)。
 
 ## 如何加入一个团队/邀请团队成员 {#team-member-invite}
 
@@ -75,7 +75,7 @@ sidebar_position: 2
 
 ![图片](_image/discuss.png)
 
-在左侧点击 “讨论” 进入讨论区域，选择相应的板块进行发帖，具体规则查看[帮助中心—讨论板块](https://www.luogu.com.cn/blog/luogu/luogu-help)。
+在左侧点击“讨论”进入讨论区域，选择相应的板块进行发帖，具体规则查看[帮助中心—讨论](./discuss.md)。
 
 ## 如何使用剪贴板？ {#pastebin}
 
@@ -83,7 +83,7 @@ sidebar_position: 2
 
 ![图片](_image/pastebin-2.png)
 
-云剪贴板可以存放任何文本，保存后的文本，通过点击 “查看”，将文本的网页链接分享给其他人。
+云剪贴板可以存放任何文本，保存后的文本，通过点击“查看”，将文本的网页链接分享给其他人。
 
 ## 如何使用图床？ {#image-upload}
 
