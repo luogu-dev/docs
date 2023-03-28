@@ -8,6 +8,7 @@ sidebar_position: 2
 本页面集合了主站用户常见问题，您可点击右侧目录直接跳转到对应问题。
 
 :::
+
 ## 有问题想反馈？ {#Need_to_Feedback}
 
 在反馈问题请先通过查阅文档以及搜索，在确认无人反馈过/没有得到答案的前提下在通过相应的渠道反馈问题。
@@ -45,13 +46,13 @@ sidebar_position: 2
 
 ## 如何创建题目？ {#CreateProblem}
 
-![](_image/x4r2o.jpg)
+![点击创建题目](_image/x4r2o.jpg)
 
 通过 “个人中心—题库”，创建比赛、题单同理。查看[帮助中心—题目](https://www.luogu.com.cn/blog/luogu/luogu-help)。
 
 ## 如何创建团队？ {#CreateTeam}
 
-![](_image/7s2rf.jpg)
+![点击创建团队](_image/7s2rf.jpg)
 
 通过 “个人中心—我的”，创建团队，普通用户可以创建 3 个团队。查看[帮助中心—团队](https://www.luogu.com.cn/blog/luogu/luogu-help)。
 
@@ -83,7 +84,6 @@ sidebar_position: 2
 ![图片](_image/iv70n.png)
 
 在左侧点击 “讨论” 进入讨论区域，选择相应的板块进行发帖，具体规则查看[帮助中心—讨论板块](https://www.luogu.com.cn/blog/luogu/luogu-help)。
-
 
 ## 如何使用剪贴板？ {#UseCilpboard}
 
