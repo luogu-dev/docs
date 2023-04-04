@@ -21,6 +21,14 @@ const config = {
             pages: {},
             docs: {
                 sidebarPath: require.resolve('./sidebars.js'),
+                async sidebarItemsGenerator(context) {
+                    const { item, defaultSidebarItemsGenerator } = context;
+                    const finalItems = await defaultSidebarItemsGenerator(context);
+                    if(item.dirName === 'manual/class') {
+                        finalItems.splice(1, 0, { type: 'ref', id: 'manual/luogu/team/premium' });
+                    }
+                    return finalItems;
+                },
                 routeBasePath: '/',
                 remarkPlugins: [require('remark-math')],
                 rehypePlugins: [require('rehype-katex')]
@@ -72,7 +80,10 @@ const config = {
         },
         footer: {
             style: 'dark',
-            copyright: `Copyright © ${new Date().getFullYear()} 上海洛谷网络科技有限公司. Built with Docusaurus.`,
+            copyright: `
+                Copyright © ${new Date().getFullYear()} 上海洛谷网络科技有限公司. Built with Docusaurus.<br />
+                <small><a href="http://beian.miit.gov.cn" target="_blank">沪ICP备18008322号</a></small>
+            `,
             links: [{
                 title: '洛谷',
                 items: [{
