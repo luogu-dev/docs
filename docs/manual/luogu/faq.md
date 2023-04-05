@@ -34,12 +34,13 @@ typora-copy-images-to: ./_image
 
 所以这时候建议使用标签选择器（点击【筛选算法/来源/时间】）来直接指定来源【CSP S 提高级】和时间【2019】。  
 
-![指定标签](_image/Filteringproblem3.png)这样搜索结果就只有有这两个标签的题目，并且按照题号顺序排好了。
+![指定标签](_image/Filteringproblem3.png)
+
+这样搜索结果就只有有这两个标签的题目，并且按照题号顺序排好了。
 
 ![使用标签的搜索结果](_image/Filteringproblem4.png)
 
 除此之外，您还可以使用算法来筛选题目，来找到只包含该算法的题目。再配合上难度筛选，就可以方便的找到适合自己的题目了。
-
 
 ## 为什么有的题不能提交题解？ {#why-cannot-submit-solution}
 
