@@ -19,6 +19,12 @@ sidebar_position: 2
 - 反馈入门与面试题库题目问题请至[该反馈贴](https://www.luogu.com.cn/discuss/show?postid=325040)。
 - 其他问题可私聊相关
 
+## 如何查找题目？ {#problem-search}
+
+洛谷的题目列表页面除了直接使用关键字搜索题目以外，还可以使用难度和标签来更细致地筛选题目。
+
+详见[查找题目](./problem/search.md)
+
 ## 为什么有的题不能提交题解？ {#why-cannot-submit-solution}
 
 当这个题题解数量过多，管理员认为没有必要再有更多题解的时候，会自动关闭本题的题解提交入口，故会闪出“不能提交该题题解”。
@@ -29,21 +35,7 @@ sidebar_position: 2
 
 ## 如何完成题目？ {#problem-submit}
 
-![图片](_image/submit-1.jpeg)
-
-进入题目页面后，点击左上角“提交答案”；
-
-![图片](_image/submit-2.jpeg)
-
-调出“在线 IDE”；
-
-![图片](_image/submit-3.jpeg)
-
-对照着题目，在IDE（本地的编辑器亦可）中编写程序；
-
-![图片](_image/submit-4.jpeg)
-
-将完成的代码输入在文本框中，点击“提交评测”。查看[帮助中心—题目](./problem/index.md)。
+详见[提交题目](./problem/submit.md)
 
 ## 如何创建题目？ {#problem-create}
 

@@ -1,4 +1,4 @@
-# Special Judge
+# Special Judge 功能说明
 
 当一个题目可以接受多种正确答案，即有多组解的时候，题目就必须被 Special Judge。
 
