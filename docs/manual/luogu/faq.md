@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-typora-copy-images-to: ./_image
 ---
 
 # 常见问题集合
@@ -24,23 +23,7 @@ typora-copy-images-to: ./_image
 
 洛谷的题目列表页面除了直接使用关键字搜索题目以外，还可以使用难度和标签来更细致的筛选题目。
 
-比如，我们想搜索 CSP 提高组 2019 的题目，如果将此作为关键字直接填入搜索框并查找的话，会出现以下结果。  
-
-![直接搜索关键字](_image/Filteringproblem1.png)
-
-我们最想要的题目并没有出现在最前面，而且一些不相关的题目也混入其中。
-
-![image-20230405114742008](_image/Filteringproblem2.png)
-
-所以这时候建议使用标签选择器（点击【筛选算法/来源/时间】）来直接指定来源【CSP S 提高级】和时间【2019】。  
-
-![指定标签](_image/Filteringproblem3.png)
-
-这样搜索结果就只有有这两个标签的题目，并且按照题号顺序排好了。
-
-![使用标签的搜索结果](_image/Filteringproblem4.png)
-
-除此之外，您还可以使用算法来筛选题目，来找到只包含该算法的题目。再配合上难度筛选，就可以方便的找到适合自己的题目了。
+详见[查找题目](/manual/luogu/problem/Filtering-problem)
 
 ## 为什么有的题不能提交题解？ {#why-cannot-submit-solution}
 
@@ -52,21 +35,7 @@ typora-copy-images-to: ./_image
 
 ## 如何完成题目？ {#problem-submit}
 
-![图片](_image/submit-1.jpeg)
-
-进入题目页面后，点击左上角“提交答案”；
-
-![图片](_image/submit-2.jpeg)
-
-调出“在线 IDE”；
-
-![图片](_image/submit-3.jpeg)
-
-对照着题目，在IDE（本地的编辑器亦可）中编写程序；
-
-![图片](_image/submit-4.jpeg)
-
-将完成的代码输入在文本框中，点击“提交评测”。查看[帮助中心—题目](./problem/index.md)。
+详见[提交题目](/manual/luogu/problem/problem-submit)
 
 ## 如何创建题目？ {#problem-create}
 
