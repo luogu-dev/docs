@@ -94,7 +94,7 @@ const config = {
                     href: 'https://class.luogu.com.cn',
                 }, {
                     label: '洛谷有题',
-                    href: 'https://open.luogu.com.cn',
+                    href: 'https://ti.luogu.com.cn',
                 }, {
                     label: '更新日志',
                     to: '/release-note',
