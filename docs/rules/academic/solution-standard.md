@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+sidebar_label: 主题库题解规范
+---
 # 洛谷主题库题解规范（2023 试行版）
 
 #### 前言
