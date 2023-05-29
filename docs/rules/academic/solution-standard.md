@@ -17,14 +17,6 @@ sidebar_label: 主题库题解规范
 
 ## 图文说明
 
-![题解内容要求](_image/sol1.jpg)  
-
-![Markdown 使用规范](_image/sol2.jpg)  
-
-![空格和符号](_image/sol3.jpg)  
-
-![正确使用 LaTex](_image/sol4.jpg)
-
 ## 基本规范
 
 - 请正确使用**全角中文**标点符号。特别地，句末要有**句号**。
@@ -72,8 +64,6 @@ sidebar_label: 主题库题解规范
 - 应使用 `[]()` 引用链接，如 [题解审核及反馈要求](https://www.luogu.com.cn/discuss/174934)（`[题解审核及反馈要求](https://www.luogu.com.cn/discuss/174934)`）。
 
 - 应使用 `![]()` 引用图片，如 `![](https://cdn.luogu.com.cn/upload/pic/22071.png)`。
-
-![引用图片示例](_image/example.jpeg)
 
 ## 数学公式
 
@@ -156,4 +146,3 @@ $$\begin{bmatrix} f_{i + 1} \\ f_i \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 
 ## 参考链接
 
 - [题解审核及反馈要求](https://www.luogu.com.cn/discuss/174934)
-- [如何用 Markdown&LaTeX 写一篇排版整齐的题解？](./guide/solution.md)
