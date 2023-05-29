@@ -2,6 +2,7 @@
 sidebar_position: 3
 sidebar_label: 主题库题解规范
 ---
+
 # 洛谷主题库题解规范（2023 试行版）
 
 ## 前言
@@ -16,10 +17,13 @@ sidebar_label: 主题库题解规范
 
 ## 图文说明
 
-![题解内容要求](./_image/sol1.jpg)  
-![Markdown 使用规范](./_image/sol2.jpg)  
-![空格和符号](./_image/sol3.jpg)  
-![正确使用 LaTex](./_image/sol4.jpg)
+![题解内容要求](_image/sol1.jpg)  
+
+![Markdown 使用规范](_image/sol2.jpg)  
+
+![空格和符号](_image/sol3.jpg)  
+
+![正确使用 LaTex](_image/sol4.jpg)
 
 ## 基本规范
 
@@ -41,7 +45,7 @@ sidebar_label: 主题库题解规范
 - 应使用 `#, ##, ###, ####` 符号表示标题行。标题应对文章结构进行引导；不应滥用标题行表示强调与无意义内容。
 - 应使用 `-, +, *` 来表示无序列表，用 `1.` 来表示有序列表。以下是一个例子：
 
-```plain
+```markdown
 - QAQ
 - QwQ
 - QvQ
@@ -51,7 +55,7 @@ sidebar_label: 主题库题解规范
 - QwQ
 - QvQ
 
-```plain
+```markdown
 1. QAQ
 2. QwQ
 3. QvQ
@@ -69,7 +73,7 @@ sidebar_label: 主题库题解规范
 
 - 应使用 `![]()` 引用图片，如 `![](https://cdn.luogu.com.cn/upload/pic/22071.png)`。
 
-![引用图片示例](./_image/example.jpeg)
+![引用图片示例](_image/example.jpeg)
 
 ## 数学公式
 
@@ -77,7 +81,7 @@ sidebar_label: 主题库题解规范
 - 数学公式中的文本应使用 `\text`，字符串应使用 `\texttt`。如 $a \text{ is prime}$（`$a \text{ is prime}$`），$S = \texttt{aabcd}$（`$S = \texttt{aabcd}$`）。
 - 公式独立成行时应使用行间公式。以下是一个行间公式的例子：
 
-```plain
+```latex
 $$a + b = c$$
 ```
 
@@ -91,7 +95,7 @@ $$a + b = c$$
   - 不应出现 $a.b$ 等结构体式的写法，如有需要可以使用上下标表示。
   - 位运算应使用 $\operatorname{and}, \operatorname{or}, \operatorname{xor}$（`$\operatorname{and}, \operatorname{or}, \operatorname{xor}$`）。特别地，对于状态压缩 DP 等一类常用位运算实现集合运算的代码，建议在题解中用**集合语言**直接描述。以下是一个例子：
 
-```plain
+```latex
 $$dp_{S \cup \{u\}} \gets dp_{S}+w_u$$
 ```
 
@@ -112,19 +116,19 @@ $$dp_{S \cup \{u\}} \gets dp_{S}+w_u$$
 - 波浪线应使用 $\sim$（`$\sim$`）。
 - 连等式应使用 `\aligned` 环境，分段函数应使用 `\cases` 环境，矩阵应使用 `\bmatrix` 环境。以下是一些例子：
 
-```plain
+```latex
 $$\begin{aligned} \sum _ {i = 1} ^ n \sum _ {j = 1} ^ n \gcd(i, j) &= \sum _ {i = 1} ^ n \sum _ {j = 1} ^ n \sum _ {d \mid \gcd(i, j)} \varphi(d) \\ &= \sum _ {d = 1} ^ n \varphi(d) \sum _ {i = 1} ^ n \sum _ {j = 1} ^ n [d \mid \gcd(i, j)] \\ &= \sum _ {d = 1} ^ n \varphi(d) \sum _ {i = 1} ^ n \sum _ {j = 1} ^ n [d \mid i][d \mid j] \\ &= \sum _ {d = 1} ^ n \varphi(d) \left\lfloor \frac{n}{d} \right\rfloor ^ 2 \end{aligned}$$
 ```
 
 $$\begin{aligned} \sum _ {i = 1} ^ n \sum _ {j = 1} ^ n \gcd(i, j) &= \sum _ {i = 1} ^ n \sum _ {j = 1} ^ n \sum _ {d \mid \gcd(i, j)} \varphi(d) \\ &= \sum _ {d = 1} ^ n \varphi(d) \sum _ {i = 1} ^ n \sum _ {j = 1} ^ n [d \mid \gcd(i, j)] \\ &= \sum _ {d = 1} ^ n \varphi(d) \sum _ {i = 1} ^ n \sum _ {j = 1} ^ n [d \mid i][d \mid j] \\ &= \sum _ {d = 1} ^ n \varphi(d) \left\lfloor \frac{n}{d} \right\rfloor ^ 2 \end{aligned}$$
 
-```plain
+```latex
 $$\lvert 2x - 1 \rvert = \begin{cases} 2x - 1 & x > \frac{1}{2} \\ 0 & x = \frac{1}{2} \\ 1 - 2x & x < \frac{1}{2} \end{cases}$$
 ```
 
 $$\lvert 2x - 1 \rvert = \begin{cases} 2x - 1 & x > \frac{1}{2} \\ 0 & x = \frac{1}{2} \\ 1 - 2x & x < \frac{1}{2} \end{cases}$$
 
-```plain
+```latex
 $$\begin{bmatrix} f_{i + 1} \\ f_i \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix} \times \begin{bmatrix} f_i \\ f_{i - 1} \end{bmatrix}$$
 ```
 
@@ -151,7 +155,5 @@ $$\begin{bmatrix} f_{i + 1} \\ f_i \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 
 
 ## 参考链接
 
-- [题解审核及反馈要求
-](https://www.luogu.com.cn/discuss/174934)
-- [如何用 Markdown&LaTeX 写一篇排版整齐的题解？
-](./guide/solution.md)
+- [题解审核及反馈要求](https://www.luogu.com.cn/discuss/174934)
+- [如何用 Markdown&LaTeX 写一篇排版整齐的题解？](./guide/solution.md)
