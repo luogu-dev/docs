@@ -154,4 +154,4 @@ $$\begin{bmatrix} f_{i + 1} \\ f_i \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 
 - [题解审核及反馈要求
 ](https://www.luogu.com.cn/discuss/174934)
 - [如何用 Markdown&LaTeX 写一篇排版整齐的题解？
-](./guide/solution)
+](./guide/solution.md)
