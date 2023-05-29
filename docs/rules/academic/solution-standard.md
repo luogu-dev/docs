@@ -12,10 +12,10 @@
 
 #### 图文说明
 
-![](https://ipic.luogu.com.cn/docs/sol1.jpg)  
-![](https://ipic.luogu.com.cn/docs/sol2.jpg)  
-![](https://ipic.luogu.com.cn/docs/sol3.jpg)  
-![](https://ipic.luogu.com.cn/docs/sol4.jpg)
+![](./_image/sol1.jpg)  
+![](./_image/sol2.jpg)  
+![](./_image/sol3.jpg)  
+![](./_image/sol4.jpg)
 
 
 #### 基本规范
@@ -65,7 +65,7 @@
 
 - 应使用 `![]()` 引用图片，如 `![](https://cdn.luogu.com.cn/upload/pic/22071.png)`。
 
-![](https://cdn.luogu.com.cn/upload/pic/22071.png)
+![](./_image/example.jpeg)
 
 #### 数学公式
 
@@ -150,4 +150,4 @@ $$\begin{bmatrix} f_{i + 1} \\ f_i \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 
 - [题解审核及反馈要求
 ](https://www.luogu.com.cn/discuss/174934)
 - [如何用 Markdown&LaTeX 写一篇排版整齐的题解？
-](https://www.luogu.com.cn/blog/StudyingFather/blog-written-guide)
+](./guide/solution)
