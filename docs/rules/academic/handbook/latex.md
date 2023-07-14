@@ -25,7 +25,7 @@ $$ H_n = \sum_{i = 1}^{n} \frac{1}{i} $$
 显示为
 
 $$
-H*n = \sum*{i = 1}^{n} \frac{1}{i}
+H_n = \sum_{i = 1}^{n} \frac{1}{i}
 $$
 
 再例如：
