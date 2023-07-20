@@ -41,7 +41,9 @@ A：已购买的课程包会在右侧显示【相关资源】，内有课程团�
 ![作业列表](_image/team_homework.jpg)
 
 进入作业页面后，点击【题目列表】查看题目，点击【排行榜】查看作业完成情况，如果您的用户名没出现在榜单内就是没有提交记录。
+
 ![题目列表](_image/homework-1.jpg)
+
 ![排行榜](_image/homework-2.jpg)
 
-具体交题帮助请查看：[提交题目](../luogu/problem/submit)
+具体交题帮助请查看：[提交题目](../luogu/problem/submit)。
