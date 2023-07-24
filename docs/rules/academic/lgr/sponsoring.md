@@ -1,5 +1,6 @@
 ---
 sidebar_label: 赞助机制 
+sidebar_position: 80
 ---
 
 # 月赛赞助机制

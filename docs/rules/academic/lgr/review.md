@@ -1,8 +1,9 @@
 ---
-sidebar_label: 审核要求（细则）（出题组必读）
+sidebar_label: 审核要求【存档】
+sidebar_position: 100
 ---
 
-# 月赛审核要求（细则）
+# 月赛审核要求（细则）【存档】
 
 :::danger 链接需修正
 
