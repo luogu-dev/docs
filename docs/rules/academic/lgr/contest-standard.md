@@ -141,4 +141,4 @@ sidebar_position: 10
 - [洛谷主题库题目规范](../problem-standard.md)
 - [洛谷公开比赛规范及要求](../contest-standard.md)
 - [洛谷月赛工资发放细则](./payroll.md)
-- [传统题数据格式要求](/manual/luogu/problem/testdata-format
+- [传统题数据格式要求](/manual/luogu/problem/testdata-format)
