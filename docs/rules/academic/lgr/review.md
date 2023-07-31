@@ -210,7 +210,7 @@ int main(int, char *argv[]) {
 1. [【有偿】洛谷月赛征题令](https://www.luogu.com.cn/blog/kkksc03/luogu-call-for-contest-2)，`https://www.luogu.com.cn/blog/kkksc03/luogu-call-for-contest-2`。
 2. [题目管理志愿者轮换制度](https://www.luogu.com.cn/discuss/186291)，`https://www.luogu.com.cn/discuss/186291`。
 3. [洛谷主题库题目规范](../problem-standard.md)。
-4. [洛谷公开比赛规范及要求](../contest-standard.md)。
+4. [洛谷公开比赛规范及要求](../opencontest-standard.md)。
 5. [洛谷月赛工资发放细则](./payroll.md)。
 6. [MikeMirzayanov/testlib](https://github.com/MikeMirzayanov/testlib)，`https://github.com/MikeMirzayanov/testlib`。
 7. [Testlib 简介](https://oi-wiki.org/tools/testlib/)，`https://oi-wiki.org/tools/testlib/`。

@@ -8,7 +8,7 @@ sidebar_position: 114514
 
 对于非盈利的组织机构进行的非商业比赛，可以酌情减少或者免除合作的费用。
 
-对于一般的学生出题人举办的公开赛，不适用于本文，请根据[《公开比赛规范及要求》](../../rules/academic/contest-standard.md)中的要求提交比赛和审核。  
+对于一般的学生出题人举办的公开赛，不适用于本文，请根据[《公开比赛规范及要求》](../../rules/academic/opencontest-standard.md)中的要求提交比赛和审核。  
 
 ![](_image/commercial-contest.png)    
 
