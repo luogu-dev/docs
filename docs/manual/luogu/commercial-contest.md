@@ -66,4 +66,4 @@ sidebar_position: 114514
 
 ## 联系我们
 
-如有这方面的需求，欢迎通过我们的邮箱 [mailto:k@luogu.org](k@luogu.org) 联系我们，之后会有专人负责对接。
+如有这方面的需求，欢迎通过我们的邮箱 <mailto:k@luogu.org> 联系我们，之后会有专人负责对接。
