@@ -205,17 +205,17 @@ int main(int, char *argv[]) {
 
 那么也就是造好所有数据后，记下输入输出文件名，批量使用 dos2unix 把它们改好即可。
 
-## 参考资料 / 外部链接：
+## 参考资料 / 外部链接
 
 1. [【有偿】洛谷月赛征题令](https://www.luogu.com.cn/blog/kkksc03/luogu-call-for-contest-2)，`https://www.luogu.com.cn/blog/kkksc03/luogu-call-for-contest-2`。
 2. [题目管理志愿者轮换制度](https://www.luogu.com.cn/discuss/186291)，`https://www.luogu.com.cn/discuss/186291`。
 3. [洛谷主题库题目规范](../problem-standard.md)。
-4. [洛谷公开比赛规范及要求](../contest-standard.md)。
+4. [洛谷公开比赛规范及要求](../opencontest-standard.md)。
 5. [洛谷月赛工资发放细则](./payroll.md)。
 6. [MikeMirzayanov/testlib](https://github.com/MikeMirzayanov/testlib)，`https://github.com/MikeMirzayanov/testlib`。
 7. [Testlib 简介](https://oi-wiki.org/tools/testlib/)，`https://oi-wiki.org/tools/testlib/`。
 
-## 更新日志：
+## 更新日志
 
 - 2021-08-05：初版。
 - 2021-08-20：添加 Windows 环境下造数据避免换行符 `\r\n` 的具体方法。添加对时间限制的下限为 500 ms 的限制。
