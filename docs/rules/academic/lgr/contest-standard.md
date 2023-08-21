@@ -131,7 +131,7 @@ sidebar_position: 10
 
 **筹办和举办** 流程，参考 **洛谷大/小月赛流程** 中的对应部分。
 
-## 参考连接
+## 参考链接
 
 - [洛谷主题库题目规范](../problem-standard.md)
 - [洛谷公开比赛规范及要求](../opencontest-standard.md)
