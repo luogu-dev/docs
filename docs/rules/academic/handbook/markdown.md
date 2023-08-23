@@ -204,7 +204,7 @@ Markdown 支持有序列表和无序列表，无序列表使用星号、加号�
 
 ## 图片
 
-Markdown 使用一种和链接很相似的语法来标记图片。在洛谷内可以使用[图床](https://www.luogu.com.cn/image)上传图片，具体使用说明可查看[操作说明](/manual/luogu/faq#image-upload)
+Markdown 使用一种和链接很相似的语法来标记图片。在互联网上发表含有图片的内容时，需要将该图片上传至可公开访问的存储空间内（也就是俗称的图床），在洛谷内可以使用[图床](https://www.luogu.com.cn/image)上传图片后复制图片引用地址来使用该图片，具体使用说明可查看[操作说明](/manual/luogu/faq#image-upload)
 
 行内式的图片语法如下：
 
