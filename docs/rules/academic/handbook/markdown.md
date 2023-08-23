@@ -204,7 +204,7 @@ Markdown 支持有序列表和无序列表，无序列表使用星号、加号�
 
 ## 图片
 
-Markdown 使用一种和链接很相似的语法来标记图片。在洛谷内可以使用[图床](https://www.luogu.com.cn/image)上传图片，具体使用说明可查看[新手指南](https://www.luogu.com.cn/discuss/241461#:~:text=%E7%BB%99%E5%85%B6%E4%BB%96%E4%BA%BA%E3%80%82-,%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E5%9B%BE%E5%BA%8A%EF%BC%9F,-%E4%B8%8A%E4%BC%A0%E6%88%90%E5%8A%9F)最后一部分
+Markdown 使用一种和链接很相似的语法来标记图片。在互联网上发表含有图片的内容时，需要将该图片上传至可公开访问的存储空间内（也就是俗称的图床），在洛谷内可以使用[图床](https://www.luogu.com.cn/image)上传图片后复制图片引用地址来使用该图片，具体使用说明可查看[操作说明](/manual/luogu/faq#image-upload)
 
 行内式的图片语法如下：
 
@@ -223,20 +223,6 @@ Markdown 使用一种和链接很相似的语法来标记图片。在洛谷内�
 将会显示图片：
 
 ![logo](https://cdn.class.luogu.com.cn/fe/logo-full.png?27925f707b34b1472e135b1a2dd848e5)
-
-特别地，洛谷 Markdown 提供插入 **bilibili 视频**链接的功能（见[剪贴板](https://www.luogu.com.cn/paste/l9faoe0v)）：
-
-语法为：`![](bilibili:av号)`（省略 `av` 前缀）或 `![](bilibili:av+av号)` 或 `![](bilibili:BV+BV号)` 等：
-
-**例如：**（去掉 `B` 和 `V` 之间的空格）
-
-```markdown
-![](bilibili:B V1J54y147Cu)
-```
-
-将会显示视频：
-
-![哔哩哔哩动画](bilibili:BV1J54y147Cu)
 
 ## 自动链接
 
