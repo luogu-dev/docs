@@ -8,7 +8,7 @@
 
 用户的等级分会显示在用户页面中；在“练习”模块中可以看到用户的等级分认定的历史。
 
-全站等级分的排名（前 1000 名）：<[https://www.luogu.com.cn/ranking/elo](https://www.luogu.com.cn/ranking/elo)> 。
+全站等级分的排名（前 1000 名）：<https://www.luogu.com.cn/ranking/elo> 。
 
 ## 2. 洛谷中的比赛等级分系统
 
