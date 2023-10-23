@@ -37,21 +37,23 @@ tags:
 
 ### 4.在选课列表中找到自己要了解的课程，点击图片进入该课程 {#step-4}
 
-![image-选课列表](https://ipic.luogu.com.cn/zsuo4.png)  
+![选课列表](https://ipic.luogu.com.cn/zsuo4.png)  
 
 ### 5.阅读课程详情以及常见问题。（极其重要！） {#step-5}
 
-![image-课程详情](https://ipic.luogu.com.cn/j0nct.png)  
+![课程详情](https://ipic.luogu.com.cn/j0nct.png)  
 
 ### 6.确认要购买之后，点击上方的加入购物车 {#step-6}
 
-![image-加入购物车](https://ipic.luogu.com.cn/tzazn.png)  
-![image-已加入购物车](https://ipic.luogu.com.cn/09x7z.png)
+![加入购物车](https://ipic.luogu.com.cn/tzazn.png)  
+
+![已加入购物车](https://ipic.luogu.com.cn/09x7z.png)
+
 返回选课界面继续选课，重复4-6步骤进行操作。
 
 ### 7.选定全部要购买的课程之后，点击头像旁边的购物车进行结算 {#step-7}
 
-![image-头像旁边的购物车](https://ipic.luogu.com.cn/14h9u.png)
+![头像旁边的购物车](https://ipic.luogu.com.cn/14h9u.png)
 
 ### 8.结算界面中可以看到所选课程，如果有点错的可以去除 {#step-8}
 
@@ -59,9 +61,10 @@ tags:
 
 ### 9.选择报名类型 {#step-9}
 
-若是给他人报名需要按照格式输入报名的用户名称和用户编码
+若是给他人报名需要按照格式输入报名的用户名称和用户编号。
 
 ![选择报名类型](https://cdn.luogu.com.cn/upload/pic/46295.png)
+
 ![输入报名的用户名称和用户编码](https://cdn.luogu.com.cn/upload/pic/46294.png)
 
 ### 10.选填其他留言，没有的话可以留空 {#step-10}
@@ -86,20 +89,23 @@ tags:
 
 ### 14.对历史订单付款 {#step-14}
 
-如果【暂时还不想付款，或者因为各种原因付款失败】，可以点击头像进入个人中心，在历史订单中查看订单并对未付款订单付款
+如果【暂时还不想付款，或者因为各种原因付款失败】，可以点击头像进入个人中心，在历史订单中查看订单并对未付款订单付款。
 
  **如果订单没有错误，您不需要重新提交订单，只需进行支付即可。**
 
 ![找到历史订单](https://ipic.luogu.com.cn/axbt1.png)
+
 ![进行支付](https://ipic.luogu.com.cn/vgqlc.png)
 
 ### 15.申请开票 {#step-15}
 
-如需开发票请付款完成后，点击历史订单内的对应订单的【查看详情/开票】，然后在订单详情内点击【登记发票信息】，在弹出的界面内填写
+如需开发票请付款完成后，点击历史订单内的对应订单的【查看详情/开票】，然后在订单详情内点击【登记发票信息】，在弹出的界面内填写。
 
-![image-【查看详情/开票】](https://ipic.luogu.com.cn/badjp.png)
-![image-【登记发票信息】](https://ipic.luogu.com.cn/a7duv.png)
-![image-填写开票信息](https://ipic.luogu.com.cn/5od25.png)
+![查看详情/开票](https://ipic.luogu.com.cn/badjp.png)
+
+![登记发票信息](https://ipic.luogu.com.cn/a7duv.png)
+
+![填写开票信息](https://ipic.luogu.com.cn/5od25.png)
 
 ## 对公转账 {#transfer}
 
@@ -110,4 +116,4 @@ tags:
 > 户名：上海洛谷网络科技有限公司  
 > 联行号: `3233 3100 0001`（注意这个不是账号，一般仅于开户行列表中找不到网商银行时使用）
 
-如果您对网校报名还有任何疑问，可以[联系客服](https://class.luogu.com.cn/service)
+如果您对网校报名还有任何疑问，可以[联系客服](https://class.luogu.com.cn/service)。
