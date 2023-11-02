@@ -133,7 +133,15 @@
 
 请团队主付款成功后进入【团队设置-订阅管理】找到对应的付款记录，点击【查看详情/开票】，进入页面后按照提示申请发票。
 
-![](_image/pt-open-invoice.png)
+![开票入口](_image/pt-open-invoice.png)
+
+![登记发票信息](https://ipic.luogu.com.cn/a7duv.png)
+
+![填写开票信息](https://ipic.luogu.com.cn/5od25.png)
+
+发票开具完毕后会自动向用户所填写的手机与电子邮箱发送，并且提供存档下载，在重新进入支付详情页即可看到开票信息处已变成“已开票 ，点击下载”。
+
+![已开票](https://ipic.luogu.com.cn/li8eqr.png)
 
 ## 七、订阅说明
 
