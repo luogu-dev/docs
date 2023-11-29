@@ -3,7 +3,9 @@ sidebar_position: 1
 ---
 # 在线评测
 
-洛谷评测系统搭建于 Linux 上，采用分布式集群保证评测效率，采用沙盒技术保证评测安全。目前，评测系统支持的提交语言可以参考[洛谷开放平台-评测能力-语言支持](https://docs.lgapi.cn/open/judge/langs)。
+洛谷评测系统搭建于 Linux 上，采用分布式集群保证评测效率，采用沙盒技术保证评测安全。目前，评测系统支持的提交语言可以参考[洛谷开放平台-评测能力-语言支持](https://docs.lgapi.cn/open/judge/langs)。  
+
+各语言的标准输入输出方法请参考[P1001 A+B Problem](https://www.luogu.com.cn/problem/P1001#:~:text=%E7%BB%9D%E8%B5%9E%E7%83%AD%E5%8D%96%E4%B8%AD%EF%BC%81%E3%80%91%3E%3E%3E-,%E6%9C%AC%E9%A2%98%E5%90%84%E7%A7%8D%E8%AF%AD%E8%A8%80%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%8C%83%E4%BE%8B%EF%BC%9A,-C)
 
 有"O2 优化"标签的题目在评测时均会自动开启 O2 优化，题目上传者或者管理员可根据需要自行开启。  
 

@@ -10,6 +10,8 @@ sidebar_position: 4
 
 当用户没有登录，或者没有报名该题目所在的正在进行中的比赛，将无法提交题目。评测系统使用控制台标准输入输出，即提交的程序无需进行文件操作。评测忽略行末空格与文尾回车。
 
+各语言的标准输入输出方法请参考[P1001 A+B Problem](https://www.luogu.com.cn/problem/P1001#:~:text=%E7%BB%9D%E8%B5%9E%E7%83%AD%E5%8D%96%E4%B8%AD%EF%BC%81%E3%80%91%3E%3E%3E-,%E6%9C%AC%E9%A2%98%E5%90%84%E7%A7%8D%E8%AF%AD%E8%A8%80%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%8C%83%E4%BE%8B%EF%BC%9A,-C)
+
 详见：[提交题目](./submit.md)
 
 ## 个人题库与上传
