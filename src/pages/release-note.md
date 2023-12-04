@@ -4,7 +4,7 @@
 
 ### 11 月
 
-- 评测机：整体更新，具体各语言支持情况请查看[在线评测-语言支持](../../docs/manual/luogu/problem/judging.md#languages)
+- 评测机：整体更新，具体各语言支持情况请查看[在线评测-语言支持](/manual/luogu/problem/judging#languages)
 - 比赛等级分排名：上线全站总榜
 
 ### 10 月
