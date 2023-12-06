@@ -5,7 +5,7 @@ sidebar_position: 1
 
 洛谷评测系统运行于 Linux 上，虽与主流竞赛相同，但无法保证 Linux 内核版本一致。洛谷评测系统采用分布式集群保证评测效率，采用基于 Linux 内核 cgroup 模块的沙盒技术保证评测安全。
 
-洛谷评测系统支持的语言请参考下面的[语言支持](#languages)部分。各语言的标准输入输出方法请参考 [P1001 A+B Problem](https://www.luogu.com.cn/problem/P1001#:~:text=%E6%9C%AC%E9%A2%98%E5%90%84%E7%A7%8D%E8%AF%AD%E8%A8%80%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%8C%83%E4%BE%8B%EF%BC%9A)。
+洛谷评测系统支持的语言请参考下面的[语言支持](#languages)部分。
 
 :::info 注意
 
@@ -46,6 +46,10 @@ sidebar_position: 1
 洛谷评测系统的语言环境使用 Nix 准备，Nix 的配置、使用的 nixpkgs 版本、使用的编译器版本公开在 [luogu-dev/judge-env](https://github.com/luogu-dev/judge-env)。
 
 评测环境中定义环境变量 `ONLINE_JUDGE=luogu`，可根据此判断是否在评测环境。
+
+### 输入输出格式
+
+各语言的标准输入输出方法请参考 [P1001 A+B Problem](https://www.luogu.com.cn/problem/P1001#:~:text=%E6%9C%AC%E9%A2%98%E5%90%84%E7%A7%8D%E8%AF%AD%E8%A8%80%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%8C%83%E4%BE%8B%EF%BC%9A)。
 
 ### C/C++ 家族
 
