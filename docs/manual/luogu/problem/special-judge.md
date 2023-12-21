@@ -8,7 +8,9 @@ Special Judge 程序使用输入数据和一些其他信息来判答你程序的
 
 下载地址：
 
-<https://github.com/MikeMirzayanov/testlib/archive/0.9.12.zip>
+<https://github.com/MikeMirzayanov/testlib/releases/download/0.9.41/testlib-0.9.41.zip>
+
+Testlib 库 0.9.41 版 引入了一些重大变更，具体见：<https://github.com/MikeMirzayanov/testlib/releases/tag/0.9.41>
 
 Checker的编译参数为：g++ -fno-asm -std=c++14 -O2 ，即已经开启 C++14 以及 O2 优化。
 
