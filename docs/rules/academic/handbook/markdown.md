@@ -354,7 +354,7 @@ _   底线
 
 ## 插入 Bilibili 视频
 
-见 <https://www.luogu.com.cn/paste/l9faoe0v>。
+见 <https://www.luogu.com.cn/paste/okqcziz9>。
 
 ## LaTeX 公式支持
 
