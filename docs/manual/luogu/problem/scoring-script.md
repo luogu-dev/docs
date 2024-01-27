@@ -99,10 +99,10 @@ fi
 
 同时，你的脚本还应该定义如下四个变量：
 
-- `@total\_score` 表示该 Subtask/题目的最终得分。
-- `@final\_status` 表示该 Subtask/题目的最终状态。
-- `@final\_time` 表示该 Subtask/题目的用时。
-- `@final\_memory` 表示该 Subtask/题目的内存用量。
+- `@total_score` 表示该 Subtask/题目的最终得分。
+- `@final_status` 表示该 Subtask/题目的最终状态。
+- `@final_time` 表示该 Subtask/题目的用时。
+- `@final_memory` 表示该 Subtask/题目的内存用量。
 
 如下脚本定义了一个 Subtask 的计分脚本，其中测试点#3、#4、#5 属于该 Subtask，策略是如#3、#4 或#4、#5 正确则得 30 分，否则不得分，内存、时间按照#4 计算。
 
@@ -120,4 +120,4 @@ else
 fi
 ```
 
-请注意`@statusX` 和`@final\_status` 只能设置为如上常量表中对应的内容，如设置为常量表中没有的值会导致 `UKE`。
+请注意`@statusX` 和`@final_status` 只能设置为如上常量表中对应的内容，如设置为常量表中没有的值会导致 `UKE`。
