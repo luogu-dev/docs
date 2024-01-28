@@ -12,7 +12,7 @@ Special Judge 程序使用输入数据和一些其他信息来判答你程序的
 
 Testlib 库 0.9.41 版 引入了一些重大变更，具体见：<https://github.com/MikeMirzayanov/testlib/releases/tag/0.9.41>
 
-Checker的编译参数为：`g++ -fno-asm -std=c++14 -O2` ，即已经开启 C++14 以及 O2 优化。
+Checker 的编译参数为：`g++ -fno-asm -std=c++14 -O2`，即已经开启 C++14 以及 O2 优化。
 
 ## 使用方法
 
