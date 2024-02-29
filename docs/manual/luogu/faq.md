@@ -17,7 +17,7 @@ sidebar_position: 2
 - 对于网站功能上的问题可通过[工单版](https://www.luogu.com.cn/discuss/lists?forumname=service)提交，提交工单前请先阅读[工单板块规则](https://www.luogu.com.cn/discuss/show?postid=9779)。
 - 反馈主题库题目问题请至[该反馈贴](https://www.luogu.com.cn/discuss/show?postid=566566)。
 - 反馈入门与面试题库题目问题请至[该反馈贴](https://www.luogu.com.cn/discuss/show?postid=325040)。
-- 其他问题可私聊相关
+- 其他问题可私聊相关管理员，[查看管理员名单](https://www.luogu.com.cn/discuss/327478)。
 
 ## 如何查找题目？ {#problem-search}
 
