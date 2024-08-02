@@ -45,7 +45,7 @@ sidebar_label: 个人专栏文章功能
 
 文章需审核后才能在全站范围内（不分境内外）公开展示。
 
-### 申请全站推荐
+### 申请全站推荐 {#submit-artcle}
 
 ![申请题解](_image/submit-artcle.png)
 
