@@ -106,7 +106,7 @@ $$dp_{S \cup \{u\}} \gets dp_{S}+w_u$$
 - 时间复杂度的大 $O$ 记号中不应带有常数，如有值域、字符集大小等常量，应使用字母进行表示。
 - 应正确使用运算符，如 $+, -, \pm, \times, \cdot, \div, \le, \ge, \mid$（`$+, -, \pm, \times, \cdot, \div, \le, \ge, \mid$`）。
 - 特定的、约定俗成的函数名称应该使用正体，如 $\gcd, \max, \min, \log, \det$（`$\gcd, \max, \min, \log, \det$`）。特别地，对于一些未定义的函数，应使用 `\operatorname`，如 $\operatorname{lcm}$（`\operatorname{lcm}`）。
-- 应正确使用大型运算符，如 $\sum, \prod, \bigcup, \bigcap$（`$\sum, \prod, \bigcup, \bigcap$`）。请注意，大型运算符的优先级较低，例如 $\sum _ {i = 1} ^ n a_i \bmod 998244353$ 表示先将 $a_i$ 对 $998244353$ 取模后再求和；若想表示求和后对 $998244353$ 取模，请使用 $\left(\sum _ {i = 1} ^ n a_i \right) \bmod 998244353$。
+- 应正确使用大型运算符，如 $\sum, \prod, \bigcup, \bigcap$（`$\sum, \prod, \bigcup, \bigcap$`）。建议在可能引起误解的地方加上括号。
 - 应正确使用取模符号。
   - 取模运算应使用 `\bmod`，如 $a \bmod b = c$（`$a \bmod b = c$`）。
   - 同余符号应使用 `\equiv` 与 `\pmod`，如 $a \equiv c \pmod b$（`$a \equiv c \pmod b$`）。
