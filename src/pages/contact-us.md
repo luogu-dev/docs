@@ -55,3 +55,4 @@ hide_table_of_contents: true
 账号申诉、检讨发送邮箱：shensu283@luogu.com.cn
 
 - 账号问题（含申请注销）与申诉
+- 发信时应并注明用户名、UID
