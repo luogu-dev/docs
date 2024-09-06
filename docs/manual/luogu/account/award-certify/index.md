@@ -82,7 +82,7 @@
 
 请按照下面的模板发送邮件（直接写在正文内，不要放在附件）：
 
-```
+```md
 真实姓名：
 用户名：
 UID（洛谷用户编号）：
@@ -100,9 +100,9 @@ UID（洛谷用户编号）：
 
 格式示例：
 
-![邮件示例](_image/award-email-example.jpg)
+![邮件示例](../_image/award-email-example.jpg)
 
-![身份证水印](_image/id-sign.jpg)
+![身份证水印](../_image/id-sign.jpg)
 
 ## 认证后有什么用
 
