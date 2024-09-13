@@ -79,7 +79,7 @@ Copyright (C) 2023 Free Software Foundation, Inc.
 
 :::caution 优化开关提示
 
-为了比赛等情况下的公平，在 C/C++ 代码的编译中，如果出现了通过 `pragma` 和 `attribute` 打开优化开关的行为是会导致编译失败的，详见[公告贴](https://www.luogu.com.cn/discuss/show/259685)。为了达成这一效果，我们对 GCC 进行了[一点小修改](https://github.com/luogu-dev/judge-env/blob/master/gcc/13_disable-pragma-and-attribute-for-optimize.patch)。
+为了比赛等情况下的公平，在 C/C++ 代码的编译中，如果出现了通过 `pragma` 和 `attribute` 打开优化开关的行为是会导致编译失败的，详见[公告帖](https://www.luogu.com.cn/discuss/show/259685)。为了达成这一效果，我们对 GCC 进行了[一点小修改](https://github.com/luogu-dev/judge-env/blob/master/gcc/13_disable-pragma-and-attribute-for-optimize.patch)。
 
 :::
 
