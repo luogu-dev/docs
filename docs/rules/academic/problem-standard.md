@@ -123,7 +123,3 @@ sidebar_label: 主题库题目规范
 
 - 排版必须遵守本规范中的[**基本规范**](#base)。
 - 由于即将开始题面多语言化，现在提交的翻译必须遵守[临时翻译规范](https://www.luogu.com.cn/discuss/910780)中的规定。
-
-## 原帖存档
-
-- <https://www.luogu.com.cn/paste/mw1jp93g>
