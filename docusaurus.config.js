@@ -129,7 +129,20 @@ const config = {
             theme: require('prism-react-renderer/themes/github'),
             darkTheme: require('prism-react-renderer/themes/dracula')
         }
-    }
+    },
+    themes: [
+        [
+          require.resolve("@easyops-cn/docusaurus-search-local"),
+          /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+          ({
+            hashed: true,
+            language: ["en", "zh"],
+            indexDocs: true,
+            docsRouteBasePath: ["/rules", "/manual", "/ula"],
+            indexBlog: false,
+          }),
+        ],
+      ],
 };
 
 module.exports = config;
