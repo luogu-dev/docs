@@ -1,5 +1,6 @@
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import type { PluginOptions as LocalSearchPluginOptions } from '@easyops-cn/docusaurus-search-local';
 import { themes as PrismThemes } from 'prism-react-renderer';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
@@ -49,6 +50,17 @@ export default {
             }
         } satisfies Preset.Options]
     ],
+
+    themes: [
+        ['@easyops-cn/docusaurus-search-local', {
+            indexDocs: true,
+            indexBlog: false,
+            docsRouteBasePath: ["/rules", "/manual", "/ula"],
+            language: ["en", "zh"],
+            hashed: true
+        } satisfies LocalSearchPluginOptions]
+    ],
+
     stylesheets: [{
         href: 'https://cdn.luogu.com.cn/assets/katex:0.16.7/katex.min.css',
         type: 'text/css',
