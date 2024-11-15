@@ -14,25 +14,25 @@ hide_table_of_contents: true
 
 ### 洛谷网
 
-<https://www.luogu.com.cn>
+[https://www.luogu.com.cn](https://www.luogu.com.cn)
 
 洛谷创建于 2013 年 6 月 15 日，至今已有数十万用户，致力于为编程爱好者提供清爽、快捷的编程体验。它不仅仅是一个在线测题系统，更拥有强大的社区、在线学习功能。同时，许多教程内容都是由五湖四海的用户提供的，保证了内容的广泛性。无论是初学 OI 的蒟蒻，还是久经沙场的神犇，均可从洛谷获益，也可以帮助他人，共同进步。
 
 ### 洛谷网校
 
-<https://class.luogu.com.cn>
+[https://class.luogu.com.cn](https://class.luogu.com.cn)
 
 洛谷网校是由洛谷团队自主研发的在线教育系统，提供算法竞赛与计算机科学基础的课程。目前已经多次成功举办信息学竞赛在线课程，超过一万人次报名参加，给弱省弱校选手提供了一个低成本学习的机会。课程数量还在逐步增加。
 
 ### 洛谷有题
 
-<https://ti.luogu.com.cn>
+[https://ti.luogu.com.cn](https://ti.luogu.com.cn)
 
 有题是计算机科学程序设计的笔试练习与模拟的平台，可以浏览逐题解析，也可以模拟自测，目前已有信息学竞赛初试题、浙江信息选考题，其他题目陆续增加。
 
 ### 洛谷开放平台
 
-<https://docs.lgapi.cn/open>
+[https://docs.lgapi.cn/open](https://docs.lgapi.cn/open)
 
 洛谷开发平台提供洛谷公开题库的远程提交评测服务，具体介绍相见文档。目前正在限量邀请测试中。
 

@@ -78,9 +78,9 @@ sidebar_position: 80
 ## 合作案例
 
 - 挖土机杯 CSP-J 组模拟赛（2022 年 9-10 月）  
-<https://www.luogu.com.cn/contest/84285>  
-<https://www.luogu.com.cn/contest/87102>
+[https://www.luogu.com.cn/contest/84285](https://www.luogu.com.cn/contest/84285)  
+[https://www.luogu.com.cn/contest/87102](https://www.luogu.com.cn/contest/87102)
 - 梦熊信奥联盟 1 月普及组月赛（2023 年 1 月）  
-<https://www.luogu.com.cn/contest/97108>
+[https://www.luogu.com.cn/contest/97108](https://www.luogu.com.cn/contest/97108)
 - 常菁数 2 月普及组月赛（2023 年 2 月）  
-<https://www.luogu.com.cn/contest/100045>
+[https://www.luogu.com.cn/contest/100045](https://www.luogu.com.cn/contest/100045)

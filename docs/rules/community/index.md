@@ -13,7 +13,7 @@ sidebar_position: 1
 
 - [洛谷用户协议](../../ula/luogu.md)
 - [洛谷讨论区规范](discuss.md)
-- [洛谷题解规则](../academic/solution-standard.mdx)
+- [洛谷题解规则](../academic/solution-standard.md)
 - [洛谷公开比赛规范及要求](../academic/opencontest-standard.md)
 - [公开题单规则](https://www.luogu.com.cn/discuss/203644)
 - [图床使用规则](image-hosting.md)
@@ -96,7 +96,7 @@ sidebar_position: 1
 3. 提交题解审核的专栏功能中，含有抄袭他人的内容；
 4. 其他违反洛谷学术诚信的行为。
 
-:::info 详细说明
+:::info[详细说明]
 
 其中，对前一条中第一项违规行为，棕名时将处以**实质性棕名**处罚。其余违规行为，棕名时将处以**警告性棕名**处罚。
 
