@@ -99,7 +99,7 @@ int main(int argc, char* argv[]) {
 
 `int readInt(int L, int R)`,
 
-同上，但是限定范围（包括 L，R）`
+同上，但是限定范围（包括 L，R）
 
 `double readReal()`
 

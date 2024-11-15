@@ -14,7 +14,7 @@ sidebar_position: 2
 
 ![图片](_image/submit-3.jpeg)
 
-对照着题目，在IDE（本地的编辑器亦可）中编写程序；
+对照着题目，在 IDE（本地的编辑器亦可）中编写程序；
 
 ![图片](_image/submit-4.jpeg)
 
