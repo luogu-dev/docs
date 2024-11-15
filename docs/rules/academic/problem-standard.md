@@ -126,4 +126,4 @@ sidebar_label: 主题库题目规范
 
 ## 原帖存档
 
-- <https://www.luogu.com.cn/paste/mw1jp93g>
+- [https://www.luogu.com.cn/paste/mw1jp93g](https://www.luogu.com.cn/paste/mw1jp93g)

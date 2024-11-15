@@ -49,7 +49,7 @@
 - 应当注明所有题目的贡献名单，至少包括**出题人和验题人**。
   - 所有公开赛题目默认加入主题库，题目贡献者为出题人。**如果出题人不愿意将题目加入主题库，请提前私信管理。**
   - 每道题目都需要至少一位验题人，**出题人和所有验题人都需要提交独立完成的 AC 代码**。
-- 应当给出**隐藏在洛谷博客中的题解**，题解需遵守[题解审核及反馈要求](./solution-standard.mdx)。
+- 应当给出**隐藏在洛谷博客中的题解**，题解需遵守[题解审核及反馈要求](./solution-standard.md)。
 
 ## 基本要求
 
@@ -101,8 +101,8 @@
 
 ### 惩罚公告
 
-见 <https://www.luogu.com.cn/discuss/174936>
+见 [https://www.luogu.com.cn/discuss/174936](https://www.luogu.com.cn/discuss/174936)
 
 ## 原帖存档
 
-<https://www.luogu.com.cn/paste/birjyc4p>
+[https://www.luogu.com.cn/paste/birjyc4p](https://www.luogu.com.cn/paste/birjyc4p)

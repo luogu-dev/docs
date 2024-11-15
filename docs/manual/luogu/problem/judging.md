@@ -7,7 +7,7 @@ sidebar_position: 1
 
 洛谷评测系统支持的语言请参考下面的[语言支持](#languages)部分。
 
-:::info 注意
+:::info[注意]
 
 除 C/C++/Pascal 外的语言，由于常数时间差距，不保证正确算法的执行所用时间和内存能够通过评测而不超出限制。洛谷不为此类语言提供多余的时间和内存限制。
 
@@ -71,7 +71,7 @@ gcc (GCC) 13.2.0
 Copyright (C) 2023 Free Software Foundation, Inc.
 ```
 
-:::caution 优化开关提示
+:::caution[优化开关提示]
 
 为了比赛等情况下的公平，在 C/C++ 代码的编译中，如果出现了通过 `pragma` 和 `attribute` 打开优化开关的行为是会导致编译失败的，详见[公告帖](https://www.luogu.com.cn/discuss/show/259685)。为了达成这一效果，我们对 GCC 进行了[一点小修改](https://github.com/luogu-dev/judge-env/blob/master/gcc/13_disable-pragma-and-attribute-for-optimize.patch)。
 
@@ -139,7 +139,7 @@ javac
 java -DONLINE_JUDGE
 ```
 
-:::info 注意
+:::info[注意]
 
 Java 源代码将保存为 `Main.java` 文件，因此被评测的代码应该有类似如下的格式，即类名为 `Main`：
 

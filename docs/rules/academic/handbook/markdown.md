@@ -272,12 +272,12 @@ Markdown 使用一种和链接很相似的语法来标记图片。在互联网�
 Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来，Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样，例如：
 
 ```markdown
-<https://www.luogu.com.cn/>
+[https://www.luogu.com.cn/](https://www.luogu.com.cn/)
 ```
 
 显示效果为：
 
-<https://www.luogu.com.cn/>
+[https://www.luogu.com.cn/](https://www.luogu.com.cn/)
 
 ## 分隔线
 
@@ -330,7 +330,7 @@ _   底线
 
 ## 插入 Bilibili 视频
 
-见 <https://www.luogu.com.cn/paste/okqcziz9>。
+见 [https://www.luogu.com.cn/paste/okqcziz9](https://www.luogu.com.cn/paste/okqcziz9)。
 
 ## LaTeX 公式支持
 

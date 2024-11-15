@@ -4,7 +4,7 @@ sidebar_position: 114514
 
 # 举办线上商业性算法比赛
 
-对于各类需要举办线上算法竞赛的企业院校，洛谷 <https://www.luogu.com.cn> 提供完善的竞赛平台，可提供线上公开或者非公开的算法竞赛的协助和便利，同时可以进行合理的商业宣传。
+对于各类需要举办线上算法竞赛的企业院校，洛谷 [https://www.luogu.com.cn](https://www.luogu.com.cn) 提供完善的竞赛平台，可提供线上公开或者非公开的算法竞赛的协助和便利，同时可以进行合理的商业宣传。
 
 对于非盈利的组织机构进行的非商业比赛，可以酌情减少或者免除合作的费用。
 
@@ -58,12 +58,12 @@ sidebar_position: 114514
 
 ![传智杯案例](_image/cc-chuanzhibei.png)  
 
-比赛官网：<http://dasai.ityxb.com/>
+比赛官网：[http://dasai.ityxb.com/](http://dasai.ityxb.com/)
 
-洛谷线上初赛：<https://www.luogu.com.cn/contest/28762>
+洛谷线上初赛：[https://www.luogu.com.cn/contest/28762](https://www.luogu.com.cn/contest/28762)
 
-洛谷线上复赛：<https://www.luogu.com.cn/contest/29004>
+洛谷线上复赛：[https://www.luogu.com.cn/contest/29004](https://www.luogu.com.cn/contest/29004)
 
 ## 联系我们
 
-如有这方面的需求，欢迎通过我们的邮箱 <mailto:k@luogu.org> 联系我们，之后会有专人负责对接。
+如有这方面的需求，欢迎通过我们的邮箱 [k@luogu.org](mailto:k@luogu.org) 联系我们，之后会有专人负责对接。

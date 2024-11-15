@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 欢迎来到洛谷帮助中心。
 
-此网站为洛谷网（<https://www.luogu.com.cn>）、洛谷网校（<https://class.luogu.com.cn>）的帮助中心。
+此网站为洛谷网（[https://www.luogu.com.cn](https://www.luogu.com.cn)）、洛谷网校（[https://class.luogu.com.cn](https://class.luogu.com.cn)）的帮助中心。
 
 本帮助中心分为以下几个板块：
 

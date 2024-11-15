@@ -8,9 +8,9 @@ Special Judge 程序使用输入数据和一些其他信息来判答你程序的
 
 下载地址：
 
-<https://github.com/MikeMirzayanov/testlib/releases/download/0.9.41/testlib-0.9.41.zip>
+[https://github.com/MikeMirzayanov/testlib/releases/download/0.9.41/testlib-0.9.41.zip](https://github.com/MikeMirzayanov/testlib/releases/download/0.9.41/testlib-0.9.41.zip)
 
-Testlib 库 0.9.41 版 引入了一些重大变更，具体见：<https://github.com/MikeMirzayanov/testlib/releases/tag/0.9.41>
+Testlib 库 0.9.41 版 引入了一些重大变更，具体见：[https://github.com/MikeMirzayanov/testlib/releases/tag/0.9.41](https://github.com/MikeMirzayanov/testlib/releases/tag/0.9.41)
 
 Checker 的编译参数为：`g++ -fno-asm -std=c++14 -O2`，即已经开启 C++14 以及 O2 优化。
 
@@ -147,7 +147,7 @@ int main(int argc, char* argv[]) {
 
 ## 测试
 
-使用编译器将该文件编译。在命令行中输入:
+使用编译器将该文件编译。在命令行中输入：
 
 ```
 ./checker in.txt out.txt ans.txt (Linux)
@@ -162,7 +162,7 @@ checker.exe in.txt out.txt ans.txt (Windows)
 
 直接将 checker.cpp（必须这个名字）塞入测试数据的压缩包内然后上传就行了。
 
-:::caution 重要
+:::caution[重要]
 
 必须加上“Special Judge”标签。
 

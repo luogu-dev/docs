@@ -5,7 +5,7 @@
 $\LaTeX$ 是一种基于 $\TeX$ 的排版系统，能够很方便的生成数学公式。
 
 洛谷的大多数地方使用 $\KaTeX$ 进行渲染，可以参照文档：  
-<https://katex.org/docs/supported.html>。
+[https://katex.org/docs/supported.html](https://katex.org/docs/supported.html)。
 
 :::
 

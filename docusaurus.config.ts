@@ -1,7 +1,10 @@
-// @ts-check
+import type { Config } from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+import { themes as PrismThemes } from 'prism-react-renderer';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
-// /** @type {import('@docusaurus/types').Config} */
-const config = {
+export default {
     title: '洛谷帮助中心',
     favicon: 'img/favicon.ico',
     url: 'https://help.luogu.com.cn',
@@ -15,12 +18,20 @@ const config = {
         locales: ['zh-Hans']
     },
 
+    markdown: {
+        mdx1Compat: {
+            comments: false,
+            admonitions: false,
+            headingIds: true /* until they provide a new syntax */
+        }
+    },
+
     presets: [
         ['@docusaurus/preset-classic', {
             blog: false,
             pages: {},
             docs: {
-                sidebarPath: require.resolve('./sidebars.js'),
+                sidebarPath: './sidebars.ts',
                 async sidebarItemsGenerator(context) {
                     const { item, defaultSidebarItemsGenerator } = context;
                     const finalItems = await defaultSidebarItemsGenerator(context);
@@ -30,13 +41,13 @@ const config = {
                     return finalItems;
                 },
                 routeBasePath: '/',
-                remarkPlugins: [require('remark-math')],
-                rehypePlugins: [require('rehype-katex')]
+                remarkPlugins: [remarkMath],
+                rehypePlugins: [rehypeKatex]
             },
             theme: {
-                customCss: require.resolve('./src/style.css')
+                customCss: './src/style.css'
             }
-        }]
+        } satisfies Preset.Options]
     ],
     stylesheets: [{
         href: 'https://cdn.luogu.com.cn/assets/katex:0.16.7/katex.min.css',
@@ -126,10 +137,8 @@ const config = {
             }]
         },
         prism: {
-            theme: require('prism-react-renderer/themes/github'),
-            darkTheme: require('prism-react-renderer/themes/dracula')
+            theme: PrismThemes.github,
+            darkTheme: PrismThemes.dracula
         }
-    }
-};
-
-module.exports = config;
+    } satisfies Preset.ThemeConfig
+} satisfies Config;
