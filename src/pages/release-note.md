@@ -7,8 +7,8 @@
 - 新版前端：我们又整了一个新前端：跟进了 Vue 的大版本更新，此前已在文章阅读页上线，目前文章功能所有页面均已迁移至该版本。
 - 全局导航：新版前端的页面使用了全新设计的导航 UI，将原本的左侧常驻侧边栏和个人设置卡片更新为左侧的全局导航栏与右侧个人导航栏。以往比较难找到的页面都能直接显示出来了。
 - Markdown 编辑器：洛谷管理员[离散小波变换°](https://www.luogu.com.cn/user/68344) 基于 CodeMirror 6、remark 和 Vue 3 实现了新的 Markdown 编辑器，并已在洛谷新版前端中使用。
-【项目地址：<https://github.com/DWaveletT/casket-star>】
-- 官方合集：上线洛谷专栏官方合集功能，并开放 NOI2024 游记合集的投稿。具体见：[此通知贴](https://www.luogu.com.cn/discuss/862782)
+【项目地址：[https://github.com/DWaveletT/casket-star](https://github.com/DWaveletT/casket-star)】
+- 官方合集：上线洛谷专栏官方合集功能，并开放 NOI2024 游记合集的投稿。具体见：[此通知帖](https://www.luogu.com.cn/discuss/862782)
 - 计算下云：洛谷已在线下机房部署了物理计算节点，并将在未来几个月内逐步将部分服务（Web、评测等）迁移下云。尤其是 Web 服务，将不再受阿里云超售引起的无法解决的卡顿问题的影响。
 
 ### 3 月
@@ -61,13 +61,13 @@
 ### 3 月
 
 **帮助中心**  
-基于 Docusaurus 构建洛谷帮助中心(<https://help.luogu.com.cn>)，涵盖洛谷主站、网校等产品的帮助文档以及洛谷社区以及学术规范文档。
+基于 Docusaurus 构建洛谷帮助中心([https://help.luogu.com.cn](https://help.luogu.com.cn))，涵盖洛谷主站、网校等产品的帮助文档以及洛谷社区以及学术规范文档。
 
 **后端**  
 针对大量并发连接的场景进行了针对性优化，内部部分模块执行效率得到提高。
 
 **洛谷开放平台**  
-API v1 开始测试，具体详见<https://docs.lgapi.cn/open>  
+API v1 开始测试，具体详见[https://docs.lgapi.cn/open](https://docs.lgapi.cn/open)  
 目前正在限量邀请测试中。
 
 ## 2022 年

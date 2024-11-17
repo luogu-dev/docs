@@ -13,13 +13,13 @@ tags:
 3. 如果您觉得订单页面显示的组合优惠金额不对请先付款后再联系客服处理，以提高效率。
 4. 如果订单**付款失败**请看[【第 14 步】](#step-14)重新付款。
 5. **开发票**请看[【第 15 步】](#step-15)
-6. 报名成功后请重新进入网校主页，点击左侧【学习】，就可以进入学习中心（<https://class.luogu.com.cn/learn>）。选择【我的课程】就能看到所有已报名的课程。
+6. 报名成功后请重新进入网校主页，点击左侧【学习】，就可以进入学习中心（[https://class.luogu.com.cn/learn](https://class.luogu.com.cn/learn)）。选择【我的课程】就能看到所有已报名的课程。
 
 ## 报名步骤
 
 ### 1.进入洛谷网校 {#step-1}
 
-<https://class.luogu.com.cn>
+[https://class.luogu.com.cn](https://class.luogu.com.cn)
 
 ### 2.点击右上角的头像进行登陆操作 {#step-2}
 
@@ -83,7 +83,7 @@ tags:
 
 ### 13.付款成功后就可以去听课了 {#step-13}
 
-<https://class.luogu.com.cn/learn>
+[https://class.luogu.com.cn/learn](https://class.luogu.com.cn/learn)
 
 如果需要开发票请跳至[【第 15 步】](#step-15)。
 

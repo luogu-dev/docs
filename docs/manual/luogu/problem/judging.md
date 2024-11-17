@@ -7,7 +7,7 @@ sidebar_position: 1
 
 洛谷评测系统支持的语言请参考下面的[语言支持](#languages)部分。
 
-:::info 注意
+:::info[注意]
 
 除 C/C++/Pascal 外的语言，由于常数时间差距，不保证正确算法的执行所用时间和内存能够通过评测而不超出限制。洛谷不为此类语言提供多余的时间和内存限制。
 
@@ -29,13 +29,7 @@ sidebar_position: 1
 - OLE：Output Limit Exceeded，输出超过限制。
 - UKE：Unknown Error，出现未知错误。
 
-## 常见“我在本地/xxOJ AC了、洛谷却不过”的原因
-
-- Linux 中换行符是 `\n` 而 Windows 中是 `\r\n`（多一个字符），有些数据在 Windows 中生成，而在洛谷评测机 Linux 环境下评测。这种情况在字符串输入中非常常见。
-- 评测系统运行在 Linux 下，可能由于使用了 Linux 的保留字而出现 CE，但在 Windows 下正常。
-- Linux 对内存的访问控制更为严格，因此在 Windows 上可能正常运行的无效指针或数组下标访问越界，在评测系统上无法运行。
-- 严重的内存泄露的问题很可能会引起系统的保护模块杀死你的进程。因此，凡是使用 `malloc`（或 `calloc`、`realloc`、`new`)分配而得的内存空间，请使用 `free`（或 `delete`）完全释放。
-- 数据可能真的有问题。但是，如果已有不止一个人通过了这道题，那最好不要怀疑是数据的锅。
+为什么在本地/其他网站 AC 了，洛谷上却没过？请[点击查阅常见问题](../faq.md#why-unac)。
 
 ## Special Judge
 
@@ -77,9 +71,9 @@ gcc (GCC) 13.2.0
 Copyright (C) 2023 Free Software Foundation, Inc.
 ```
 
-:::caution 优化开关提示
+:::caution[优化开关提示]
 
-为了比赛等情况下的公平，在 C/C++ 代码的编译中，如果出现了通过 `pragma` 和 `attribute` 打开优化开关的行为是会导致编译失败的，详见[公告贴](https://www.luogu.com.cn/discuss/show/259685)。为了达成这一效果，我们对 GCC 进行了[一点小修改](https://github.com/luogu-dev/judge-env/blob/master/gcc/13_disable-pragma-and-attribute-for-optimize.patch)。
+为了比赛等情况下的公平，在 C/C++ 代码的编译中，如果出现了通过 `pragma` 和 `attribute` 打开优化开关的行为是会导致编译失败的，详见[公告帖](https://www.luogu.com.cn/discuss/show/259685)。为了达成这一效果，我们对 GCC 进行了[一点小修改](https://github.com/luogu-dev/judge-env/blob/master/gcc/13_disable-pragma-and-attribute-for-optimize.patch)。
 
 :::
 
@@ -145,7 +139,7 @@ javac
 java -DONLINE_JUDGE
 ```
 
-:::info 注意
+:::info[注意]
 
 Java 源代码将保存为 `Main.java` 文件，因此被评测的代码应该有类似如下的格式，即类名为 `Main`：
 

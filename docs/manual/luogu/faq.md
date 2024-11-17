@@ -15,8 +15,8 @@ sidebar_position: 2
 在反馈问题请先通过查阅文档以及搜索，在确认无人反馈过/没有得到答案的前提下在通过相应的渠道反馈问题。
 
 - 对于网站功能上的问题可通过[工单版](https://www.luogu.com.cn/discuss/lists?forumname=service)提交，提交工单前请先阅读[工单板块规则](https://www.luogu.com.cn/discuss/show?postid=9779)。
-- 反馈主题库题目问题请至[该反馈贴](https://www.luogu.com.cn/discuss/show?postid=566566)。
-- 反馈入门与面试题库题目问题请至[该反馈贴](https://www.luogu.com.cn/discuss/show?postid=325040)。
+- 反馈主题库题目问题请至[该反馈帖](https://www.luogu.com.cn/discuss/show?postid=566566)。
+- 反馈入门与面试题库题目问题请至[该反馈帖](https://www.luogu.com.cn/discuss/show?postid=325040)。
 - 其他问题可私聊相关管理员，[查看管理员名单](https://www.luogu.com.cn/discuss/327478)。
 
 ## 如何查找题目？ {#problem-search}
@@ -36,6 +36,14 @@ sidebar_position: 2
 ## 如何完成题目？ {#problem-submit}
 
 详见[提交题目](./problem/submit.md)
+
+## 为什么我在本地/其他网站 AC 了，洛谷上却没过？ {#why-unac}
+
+- Linux 中换行符是 `\n` 而 Windows 中是 `\r\n`（多一个字符），有些数据在 Windows 中生成，而在洛谷评测机 Linux 环境下评测。这种情况在字符串输入中非常常见。
+- 评测系统运行在 Linux 下，可能由于使用了 Linux 的保留字而出现 CE，但在 Windows 下正常。
+- Linux 对内存的访问控制更为严格，因此在 Windows 上可能正常运行的无效指针或数组下标访问越界，在评测系统上无法运行。
+- 严重的内存泄露的问题很可能会引起系统的保护模块杀死你的进程。因此，凡是使用 `malloc`（或 `calloc`、`realloc`、`new`)分配而得的内存空间，请使用 `free`（或 `delete`）完全释放。
+- 数据可能真的有问题。但是，如果已有不止一个人通过了这道题，那最好不要怀疑是数据的锅。
 
 ## 如何创建题目？ {#problem-create}
 
