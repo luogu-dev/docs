@@ -14,16 +14,16 @@ sidebar_position: 2
 
 在反馈问题请先通过查阅文档以及搜索，在确认无人反馈过/没有得到答案的前提下在通过相应的渠道反馈问题。
 
-- 对于网站功能上的问题可通过[工单版](https://www.luogu.com.cn/discuss/lists?forumname=service)提交，提交工单前请先阅读[工单板块规则](https://www.luogu.com.cn/discuss/show?postid=9779)。
-- 反馈主题库题目问题请至[该反馈帖](https://www.luogu.com.cn/discuss/show?postid=566566)。
-- 反馈入门与面试题库题目问题请至[该反馈帖](https://www.luogu.com.cn/discuss/show?postid=325040)。
+- 对于网站功能上的问题可通过 [工单版](https://www.luogu.com.cn/discuss/lists?forumname=service) 提交，提交工单前请先阅读 [工单板块规则](https://www.luogu.com.cn/discuss/show?postid=9779)。
+- 反馈主题库题目问题请至 [该反馈帖](https://www.luogu.com.cn/discuss/show?postid=566566)。
+- 反馈入门与面试题库题目问题请至 [该反馈帖](https://www.luogu.com.cn/discuss/show?postid=325040)。
 - 其他问题可私聊相关管理员，[查看管理员名单](https://www.luogu.com.cn/discuss/327478)。
 
 ## 如何查找题目？ {#problem-search}
 
 洛谷的题目列表页面除了直接使用关键字搜索题目以外，还可以使用难度和标签来更细致地筛选题目。
 
-详见[查找题目](./problem/search.md)
+详见 [查找题目](./problem/search.md).
 
 ## 为什么有的题不能提交题解？ {#why-cannot-submit-solution}
 
@@ -35,7 +35,7 @@ sidebar_position: 2
 
 ## 如何完成题目？ {#problem-submit}
 
-详见[提交题目](./problem/submit.md)
+详见 提交题目](./problem/submit.md)。
 
 ## 为什么我在本地/其他网站 AC 了，洛谷上却没过？ {#why-unac}
 
@@ -49,21 +49,21 @@ sidebar_position: 2
 
 ![点击创建题目](_image/create-problem.jpg)
 
-通过“个人中心—题库”，创建比赛、题单同理。查看[帮助中心—题目](./problem/index.md)。
+通过“个人中心—题库”，创建比赛、题单同理。查看 [帮助中心—题目](./problem/index.md)。
 
 ## 如何创建团队？ {#team-create}
 
 ![点击创建团队](_image/create-team.jpg)
 
-通过“个人中心—我的”，创建团队，普通用户可以创建 3 个团队。查看[帮助中心—团队](./team/index.md)。
+通过“个人中心—我的”，创建团队，普通用户可以创建 3 个团队。查看 [帮助中心—团队](./team/index.md)。
 
 ## 如何加入一个团队/邀请团队成员 {#team-member-invite}
 
-新成员：  
+新成员：
 
 请通过团队内成员分享的团队链接加入团队。请注意，洛谷个人用户可加入的团队是有上限的，超出了则会被限制加入其他团队。你可以通过撤销入团申请与退出一些团队解决。
 
-邀请方：  
+邀请方：
 
 请进入你的团队主页，在团队主页点击团队编号后面的蓝色【复制地址】的文字，会将该页面的地址复制到剪贴板中。然后将该地址发送给需要邀请的新成员。
 
@@ -75,7 +75,7 @@ sidebar_position: 2
 
 ![图片](_image/discuss.jpeg)
 
-在左侧点击“讨论”进入讨论区域，选择相应的板块进行发帖，具体规则查看[帮助中心—讨论](./discuss.md)。
+在左侧点击“讨论”进入讨论区域，选择相应的板块进行发帖，具体规则查看 [帮助中心—讨论](./discuss.md)。
 
 ## 如何使用剪贴板？ {#pastebin}
 

@@ -26,4 +26,4 @@ sidebar_position: 5
 
 ## 贡献题单
 
-以及允许用户/团队公开自己整理的题单，具体规则参见[公开题单规则](https://www.luogu.com.cn/discuss/show?postid=203644)
+以及允许用户/团队公开自己整理的题单，具体规则参见 [公开题单规则](https://www.luogu.com.cn/discuss/show?postid=203644)。
