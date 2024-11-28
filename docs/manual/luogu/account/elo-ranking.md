@@ -12,7 +12,7 @@
 
 ## 2. 洛谷中的比赛等级分系统
 
-洛谷采用了类似 AtCoder 的等级分计算方式，可参见 [https://www.luogu.com.cn/blog/ak-ioi/cf-at-rating](https://www.luogu.com.cn/blog/ak-ioi/cf-at-rating) 。
+洛谷采用了类似 AtCoder 的等级分计算方式，可参见 [https://www.luogu.com.cn/article/jbekb3o8](https://www.luogu.com.cn/article/jbekb3o8) 。
 
 比赛等级分的计算涉及两个主要因素：预期胜率和实际比赛结果。预期胜率是基于选手的当前等级分差异来计算的。如果一个选手击败另一个的选手，那么前者的等级分将会上升，而后者的等级分则会下降。当一个选手参加比赛场次较少时，等级分可能无法体现选手的真实水平。当选手参加 5 次比赛以后，将会逐渐收敛到选手的真实水平。
 
