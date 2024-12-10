@@ -13,33 +13,18 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - name: checkout
-            uses: actions/checkout@v3
+            uses: actions/checkout@v4
 
-          - name: install node.js
-            uses: actions/setup-node@v3
-            with:
-                node-version: 18
-
-          - uses: pnpm/action-setup@v2
+          - uses: pnpm/action-setup@v4
             name: install pnpm
-            id: pnpm-install
             with:
-                version: 8
                 run_install: false
 
-          - name: get pnpm store
-            id: pnpm-cache
-            shell: bash
-            run: |
-                echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
-
-          - name: set up pnpm cache
-            uses: actions/cache@v3
+          - name: install node.js
+            uses: actions/setup-node@v4
             with:
-                path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-                key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-                restore-keys: |
-                    ${{ runner.os }}-pnpm-store-
+                node-version: 20
+                cache: 'pnpm'
 
           - name: install dependencies
             run: pnpm install
@@ -48,7 +33,7 @@ jobs:
             run: pnpm run build
 
           - name: upload artifact
-            uses: actions/upload-artifact@v3
+            uses: actions/upload-artifact@v4
             with:
                 name: help-site
                 path: build
