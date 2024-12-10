@@ -63,7 +63,7 @@
 
 ### 人工认证前，请先确认有符合要求的奖项
 
- 1. 请先前往 [CCF 官方获奖名单查询](https://www.noi.cn/hjmd/mdcx/) ，确认是否属于 CCF 公布的奖项。
+ 1. 请先前往 [CCF 官方获奖名单查询](https://www.noi.cn/hjmd/mdcx/)，确认是否属于 CCF 公布的奖项。
  2. 请确认 [OIerDB](https://oier.baoshuo.dev/) 已收录该奖项。
  3. 洛谷已公告收录该比赛的奖项。
 
