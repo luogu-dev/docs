@@ -124,6 +124,10 @@ sidebar_label: 主题库题目规范
 - 排版必须遵守本规范中的[**基本规范**](#base)。
 - 由于即将开始题面多语言化，现在提交的翻译必须遵守[临时翻译规范](https://www.luogu.com.cn/discuss/910780)中的规定。
 
+## 投题须知
+
+洛谷原则上不接受个人零散投题，如果你想让洛谷收录你出的题目必须通过公开赛的形式申请，公开赛顺利结束后收录至主题库。
+
 ## 原帖存档
 
 - [https://www.luogu.com.cn/paste/mw1jp93g](https://www.luogu.com.cn/paste/mw1jp93g)
