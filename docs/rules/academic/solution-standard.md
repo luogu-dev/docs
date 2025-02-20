@@ -147,6 +147,7 @@ $$\begin{bmatrix} f_{i + 1} \\ f_i \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 
 - **不应在代码中加入防抄袭内容。**
 
 ## 提交与审核
+
 - 请在文章编辑页点击【提交题解】按钮，具体见[个人文章功能-申请提交为题解](../../../manual/luogu/article#submit-solution)。
 - 提交审核时应确保题解符合以上规范。
 - 提交审核后，一般情况下，题解将于七天内被审核。如果超过七天仍未被审核，可以私信管理提醒，**七天内禁止催审**。
@@ -159,3 +160,4 @@ $$\begin{bmatrix} f_{i + 1} \\ f_i \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 
 - [个人专栏文章功能说明](../../../manual/luogu/article)
 - [如何用 Markdown & LaTeX 写一篇排版整齐的题解？](./guide/solution.md)
 - [题解审核及反馈要求（原讨论帖）](https://www.luogu.com.cn/discuss/174934)
+  
