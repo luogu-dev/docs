@@ -119,8 +119,8 @@ export default {
                     label: '洛谷有题',
                     href: 'https://ti.luogu.com.cn',
                 }, {
-                    label: '更新日志',
-                    to: '/release-note',
+                    label: '洛谷开放平台',
+                    href: 'https://docs.lgapi.cn/open',
                 }]
             }, {
                 title: '用户协议',
@@ -136,7 +136,10 @@ export default {
                 }]
             }, {
                 title: '更多',
-                items: [{
+                items: [ {
+                    label: '主站更新日志',
+                    to: '/release-note',
+                }, {
                     label: '关于我们',
                     to: '/about-us',
                 }, {
