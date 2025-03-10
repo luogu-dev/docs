@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+sidebar_label: 公开赛规范
+---
+
 # 公开比赛规范及要求
 
 :::tip
