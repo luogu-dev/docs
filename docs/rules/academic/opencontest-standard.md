@@ -106,7 +106,7 @@ sidebar_label: 公开赛规范
 
 ### 惩罚公告
 
-见 [https://www.luogu.com.cn/discuss/174936](https://www.luogu.com.cn/discuss/174936)
+见 [https://www.luogu.com.cn/discuss/174936](https://www.luogu.com.cn/discuss/174936)。
 
 ## 原帖存档
 
