@@ -13,13 +13,13 @@ sidebar_position: 7
 - 学术版：你可以在这里提出其他学术问题。
 - 小黑屋：用来公开严重损害洛谷的行为。
 
-除此之外，每一道题目都有一个专属板块，可以从题目详情页面进入，也可以在讨论区主页右侧输入题号进入。各个团队也有私有的讨论区
+除此之外，每一道题目都有一个专属板块，可以从题目详情页面进入，也可以在讨论区主页右侧输入题号进入。各个团队也有私有的讨论区。
 
 ## 发帖
 
 :::caution
 
-发帖前建议先阅读[讨论区规范](https://www.luogu.com.cn/discuss/152590)、[提问的艺术](https://studyingfather.blog.luogu.org/how-to-ask-questions-the-smart-way-luogu-edition)  
+发帖前建议先阅读[讨论区规范](https://www.luogu.com.cn/discuss/152590)、[提问的艺术](https://studyingfather.blog.luogu.org/how-to-ask-questions-the-smart-way-luogu-edition) 。 
 多次违规发帖将被禁言乃至封禁账户。
 
 :::
