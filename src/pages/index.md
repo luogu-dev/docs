@@ -19,4 +19,6 @@ hide_table_of_contents: true
 如果本文档无法解决您遇到的问题请[联系我们](/contact-us)，
 如果想了解上海洛谷网络科技有限公司，您可以阅读[关于洛谷](/about-us)。
 
+如果你想通过 API 接口向洛谷平台批量提交评测请求，请前往[洛谷开放平台](https://docs.lgapi.cn/open/)。
+
 本帮助中心基于 [Docusaurus](https://docusaurus.io/)，项目托管于 [GitHub](https://github.com/luogu-dev/docs)，欢迎用户提出反馈建议。

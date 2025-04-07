@@ -160,4 +160,3 @@ $$\begin{bmatrix} f_{i + 1} \\ f_i \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 
 - [个人专栏文章功能说明](../../../manual/luogu/article)
 - [如何用 Markdown & LaTeX 写一篇排版整齐的题解？](./guide/solution.md)
 - [题解审核及反馈要求（原讨论帖）](https://www.luogu.com.cn/discuss/174934)
-  
