@@ -14,7 +14,7 @@ sidebar_position: 2
 
 在反馈问题请先通过查阅文档以及搜索，在确认无人反馈过/没有得到答案的前提下在通过相应的渠道反馈问题。
 
-- 需要反馈问题请至[工单系统](https://www.luogu.com.cn/ticket)提交，提交工单前请先阅读[工单系统规则（待公布）]()。
+- 需要反馈问题请至[工单系统](https://www.luogu.com.cn/ticket)提交，提交工单前请先阅读[工单系统规则（待公布）](#feedback)。
 
 ## 如何查找题目？ {#problem-search}
 
