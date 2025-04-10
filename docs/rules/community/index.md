@@ -15,7 +15,7 @@ sidebar_position: 1
 - [洛谷讨论区规范](discuss.md)
 - [洛谷题解规则](../academic/solution-standard.md)
 - [洛谷公开比赛规范及要求](../academic/opencontest-standard.md)
-- [公开题单规则](https://www.luogu.com.cn/discuss/203644)
+- [精选题单规则](../academic/problemset-standard.md)
 - [图床使用规则](image-hosting.md)
 - [洛谷主题库题目规范](../academic/problem-standard.md)
 - [洛谷公开比赛参赛规则](contest-participation.md)
@@ -195,7 +195,3 @@ sidebar_position: 1
 ### 网校学员正式集训课程期间快速解除处罚
 
 对于**洛谷网校**的正式集训课程（现有阶段仅包括初赛课、秋令营、各种计划与训练营），且**回放有效期尚未结束**的用户，可以不经过反省期，可直接申请使用“复活币”解除处罚。
-
----
-
-[旧版社区规则存档](https://www.luogu.com.cn/paste/68w7jaxs)
