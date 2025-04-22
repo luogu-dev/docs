@@ -32,7 +32,7 @@ sidebar_position: 114514
 ![首页帖子置顶](_image/cc-top-post.png)
 - 洛谷部分页面右下方广告位
 ![右下方广告位](_image/cc-ad-block.png)
-- 洛谷科技微信公众号（约1万关注者）
+- 洛谷科技微信公众号（约 1 万关注者）
 ![洛谷科技微信公众号](_image/cc-wechat-post.png)
 
 向注册用户发送短信（需要没有关闭推送的用户）

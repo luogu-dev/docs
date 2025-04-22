@@ -1,0 +1,36 @@
+
+name: autofix.ci  # needed to securely identify the workflow
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "*"
+permissions:
+  contents: read
+
+jobs:
+  autofix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        name: install pnpm
+        with:
+            run_install: false
+
+      - name: install node.js
+        uses: actions/setup-node@v4
+        with:
+            node-version: 20
+            cache: 'pnpm'
+
+      - name: install dependencies
+        run: pnpm install
+
+      - name: "Linting: autocorrect"
+        continue-on-error: true
+        run: pnpm autocorrect --fix
+
+      - uses: autofix-ci/action@551dded8c6cc8a1054039c8bc0b8b48c51dfc6ef

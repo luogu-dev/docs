@@ -91,7 +91,7 @@ $$a + b = c$$
   - 赋值语句 `a = b;` 可以写作 $a \gets b$（`$a \gets b$`）或 $b \to a$（`$b \to a$`）。
   - 判定语句应使用 $=, \ne, <, \le, >, \ge$（`$=, \ne, <, \le, >, \ge$`）与艾佛森括号（$[P]$ 当 $P$ 为真时取值为 $1$，$P$ 为假时取值为 $0$）进行描述。
   - 整除应使用 $\lfloor \frac{a}{b} \rfloor, \lfloor a / b \rfloor, \lfloor a \div b \rfloor$（`$\lfloor \frac{a}{b} \rfloor, \lfloor a / b \rfloor, \lfloor a \div b \rfloor$`），不应使用 $\frac{a}{b}$ 或 $a/b$ 直接表示整除。
-  - 取模应使用 $a \bmod b$（`$a \bmod b$`） 或 $a \equiv b \pmod p$（`$a \equiv b \pmod p$`）。
+  - 取模应使用 $a \bmod b$（`$a \bmod b$`）或 $a \equiv b \pmod p$（`$a \equiv b \pmod p$`）。
   - 不应出现 $a.b$ 等结构体式的写法，如有需要可以使用上下标表示。
   - 位运算应使用 $\operatorname{and}, \operatorname{or}, \operatorname{xor}$（`$\operatorname{and}, \operatorname{or}, \operatorname{xor}$`）。特别地，对于状态压缩 DP 等一类常用位运算实现集合运算的代码，建议在题解中用**集合语言**直接描述。以下是一个例子：
 

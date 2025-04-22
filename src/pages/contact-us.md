@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 :::tip
 
-多数问题请在【[反馈、申请、工单专版](https://www.luogu.com.cn/discuss/lists?forumname=service)】进行反馈。相关管理员将在5分钟到2周内给予回复，也有可能不会回复。因为我们的管理员均为志愿者，直接联系管理员不一定能最快的解决问题。
+多数问题请在【[反馈、申请、工单专版](https://www.luogu.com.cn/discuss/lists?forumname=service)】进行反馈。相关管理员将在 5 分钟到 2 周内给予回复，也有可能不会回复。因为我们的管理员均为志愿者，直接联系管理员不一定能最快的解决问题。
 
 :::
 
