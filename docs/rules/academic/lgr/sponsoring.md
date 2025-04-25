@@ -84,3 +84,19 @@ sidebar_position: 80
 [https://www.luogu.com.cn/contest/97108](https://www.luogu.com.cn/contest/97108)
 - 常菁数 2 月普及组月赛（2023 年 2 月）  
 [https://www.luogu.com.cn/contest/100045](https://www.luogu.com.cn/contest/100045)
+- 小猴编程 4 月月赛 I & GMOI Round 2（2023 年 4 月）
+[https://www.luogu.com.cn/contest/104457](https://www.luogu.com.cn/contest/104457)
+- 梦熊联盟 8 月月赛 Ⅳ & Cfz Round 1 & 飞熊杯 #1（2023 年 8 月）
+[https://www.luogu.com.cn/contest/101259](https://www.luogu.com.cn/contest/101259)
+- 复旦勰码 12 月月赛 I & RiOI Round 3（2023 年 12 月）
+[https://www.luogu.com.cn/contest/147239](https://www.luogu.com.cn/contest/147239)  
+[https://www.luogu.com.cn/contest/147237](https://www.luogu.com.cn/contest/147237)
+- 深圳科创学院基础赛 #7 &「RHOI」Round 2（2024 年 1 月）
+[https://www.luogu.com.cn/contest/146495](https://www.luogu.com.cn/contest/146495)
+- 复旦勰码 3 月月赛 II & ZHYOI Round 4（2024 年 3 月）
+[https://www.luogu.com.cn/contest/134169](https://www.luogu.com.cn/contest/134169)  
+[https://www.luogu.com.cn/contest/134170](https://www.luogu.com.cn/contest/134170)
+- 核桃编程 6 月月赛 I & JRKSJ Round 8（2024 年 6 月）
+[https://www.luogu.com.cn/contest/116186](https://www.luogu.com.cn/contest/116186)
+
+以上不是完整的列表。
