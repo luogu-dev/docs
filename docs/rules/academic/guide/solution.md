@@ -147,17 +147,17 @@ int main()
 {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    cout.tie(0);//优化cin,cout,险些TLE。
+    cout.tie(0);//优化 cin,cout，险些 TLE。
     /* 同前。 */
     int a[100005],n;
     cin>>n; // 输入礼物数。
     /* 题目输入格式里已经把输入的每个数字的含义写的很清楚了。 */
-    for(int i=1;i<=n;i++)//代表n个礼物。
+    for(int i=1;i<=n;i++)//代表 n 个礼物。
     /* 还能是几个礼物？ */
     {
         cin>>a[i];//输入坐标。
         /* 同前。 */
-        a[i]=min(a[i]-1,1000000-a[i]);//取最小值min。
+        a[i]=min(a[i]-1,1000000-a[i]);//取最小值 min。
         /* 是当读者完全不知道 min 函数吗？ */
     }
     sort(a+1,a+1+n);//排序后取最大值。

@@ -20,6 +20,9 @@ importers:
       '@mdx-js/react':
         specifier: ^3.1.0
         version: 3.1.0(@types/react@18.3.12)(react@18.3.1)
+      autocorrect-node:
+        specifier: ^2.13.3
+        version: 2.13.3
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -947,14 +950,14 @@ packages:
       react: ^16.14.0 || ^17 || ^18
       react-dom: ^16.14.0 || 17 || ^18
 
-  '@emnapi/core@1.3.1':
-    resolution: {integrity: sha512-pVGjBIt1Y6gg3EJN8jTcfpP/+uuRksIo055oE/OBkDNcjZqVbfkWCksG1Jp4yZnj3iKWyWX8fdG/j6UDYPbFog==}
+  '@emnapi/core@1.4.3':
+    resolution: {integrity: sha512-4m62DuCE07lw01soJwPiBGC0nAww0Q+RY70VZ+n49yDIO13yyinhbWCeNnaob0lakDtWQzSdtNWzJeOJt2ma+g==}
 
-  '@emnapi/runtime@1.3.1':
-    resolution: {integrity: sha512-kEBmG8KyqtxJZv+ygbEim+KCGtIq1fC22Ms3S4ziXmYKm8uyoLX0MHONVKwp+9opg390VaKRNt4a7A9NwmpNhw==}
+  '@emnapi/runtime@1.4.3':
+    resolution: {integrity: sha512-pBPWdu6MLKROBX05wSNKcNb++m5Er+KQ9QkB+WVM+pW2Kx9hoSrVTnu3BdkI5eBLZoKu/J6mW/B6i6bJB2ytXQ==}
 
-  '@emnapi/wasi-threads@1.0.1':
-    resolution: {integrity: sha512-iIBu7mwkq4UQGeMEM8bLwNK962nXdhodeScX4slfQnRhEMMzvYivHhutCIk8uojvmASXXPC2WNEjwxFWk72Oqw==}
+  '@emnapi/wasi-threads@1.0.2':
+    resolution: {integrity: sha512-5n3nTJblwRi8LlXkJ9eBzu+kZR8Yxcc7ubakyQTFzPMtIhFpUBRbsnc2Dv88IZDIbCDlBiWrknhB4Lsz7mg6BA==}
 
   '@hapi/hoek@9.3.0':
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}
@@ -1003,8 +1006,8 @@ packages:
       '@types/react': '>=16'
       react: '>=16'
 
-  '@napi-rs/wasm-runtime@0.2.5':
-    resolution: {integrity: sha512-kwUxR7J9WLutBbulqg1dfOrMTwhMdXLdcGUhcbCcGwnPLt3gz19uHVdwH1syKVDbE022ZS2vZxOWflFLS0YTjw==}
+  '@napi-rs/wasm-runtime@0.2.9':
+    resolution: {integrity: sha512-OKRBiajrrxB9ATokgEQoG87Z25c67pCpYcCwmXYX8PBftC9pBfN18gnm/fh1wurSLEKIAt+QRFLFCQISrb66Jg==}
 
   '@node-rs/jieba-android-arm-eabi@1.10.4':
     resolution: {integrity: sha512-MhyvW5N3Fwcp385d0rxbCWH42kqDBatQTyP8XbnYbju2+0BO/eTeCCLYj7Agws4pwxn2LtdldXRSKavT7WdzNA==}
@@ -1559,6 +1562,41 @@ packages:
   at-least-node@1.0.0:
     resolution: {integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==}
     engines: {node: '>= 4.0.0'}
+
+  autocorrect-node-darwin-arm64@2.13.3:
+    resolution: {integrity: sha512-oLlBdhOPP5Pw4FmRdqipwyFg7dS+7kIp7qKbBnsTzEpPS2xLjcFHThOq/GfFHbW4gDlMfVH5fBT24FmK21SDwA==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+
+  autocorrect-node-darwin-x64@2.13.3:
+    resolution: {integrity: sha512-FF8LzKVOwetp6g1qBvlaepYAoSAA7y6ElBHzME7zvjucrvsDwZGVubRCmeTqefWXFsjnZcG8TWkJn1SG1zdx4g==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+
+  autocorrect-node-linux-x64-gnu@2.13.3:
+    resolution: {integrity: sha512-hvH/5xT1Jbkj1veGWpDkBG+4wa1hER4RkKlVWdafJqJQSRDUCqXsY1WYuQWj9It862CGnuX0e5/DCWnE9kzVmQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+
+  autocorrect-node-linux-x64-musl@2.13.3:
+    resolution: {integrity: sha512-9WCbUrzd5yX6aH/bpK9/tB+cpt9f+T7dh1QbN0QYz8N0eUMJi6XBbVJwCrcpu9DBXplf9vQWkVAhGBms9/bs6g==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+
+  autocorrect-node-win32-x64-msvc@2.13.3:
+    resolution: {integrity: sha512-TfKbyLW6L+z0kYxu5Nj5TrtvcTSnOb+0wckUykRahZprytwWDk4EIgPbcJXakXUoPgQ8Ejj6/HXsFBf0jDByBA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+
+  autocorrect-node@2.13.3:
+    resolution: {integrity: sha512-4DUb5QqwFL4y4Jx2Gf5+ffc6EjQr2dfZScpbRyBRTW03vDe7zTU5v4nskCAAJvIpKQyW14lQKNQkk9X0rrMw5Q==}
+    engines: {node: '>= 10'}
+    hasBin: true
 
   autoprefixer@10.4.20:
     resolution: {integrity: sha512-XY25y5xSv/wEoqzDyXXME4AFfkZI0P23z6Fs3YgymDnKJkCGOnkL0iTxCa85UTqaSgfcqyf3UA6+c7wUvx/16g==}
@@ -6503,18 +6541,18 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@emnapi/core@1.3.1':
+  '@emnapi/core@1.4.3':
     dependencies:
-      '@emnapi/wasi-threads': 1.0.1
+      '@emnapi/wasi-threads': 1.0.2
       tslib: 2.8.1
     optional: true
 
-  '@emnapi/runtime@1.3.1':
+  '@emnapi/runtime@1.4.3':
     dependencies:
       tslib: 2.8.1
     optional: true
 
-  '@emnapi/wasi-threads@1.0.1':
+  '@emnapi/wasi-threads@1.0.2':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -6598,10 +6636,10 @@ snapshots:
       '@types/react': 18.3.12
       react: 18.3.1
 
-  '@napi-rs/wasm-runtime@0.2.5':
+  '@napi-rs/wasm-runtime@0.2.9':
     dependencies:
-      '@emnapi/core': 1.3.1
-      '@emnapi/runtime': 1.3.1
+      '@emnapi/core': 1.4.3
+      '@emnapi/runtime': 1.4.3
       '@tybys/wasm-util': 0.9.0
     optional: true
 
@@ -6637,7 +6675,7 @@ snapshots:
 
   '@node-rs/jieba-wasm32-wasi@1.10.4':
     dependencies:
-      '@napi-rs/wasm-runtime': 0.2.5
+      '@napi-rs/wasm-runtime': 0.2.9
     optional: true
 
   '@node-rs/jieba-win32-arm64-msvc@1.10.4':
@@ -7212,6 +7250,29 @@ snapshots:
   astring@1.9.0: {}
 
   at-least-node@1.0.0: {}
+
+  autocorrect-node-darwin-arm64@2.13.3:
+    optional: true
+
+  autocorrect-node-darwin-x64@2.13.3:
+    optional: true
+
+  autocorrect-node-linux-x64-gnu@2.13.3:
+    optional: true
+
+  autocorrect-node-linux-x64-musl@2.13.3:
+    optional: true
+
+  autocorrect-node-win32-x64-msvc@2.13.3:
+    optional: true
+
+  autocorrect-node@2.13.3:
+    optionalDependencies:
+      autocorrect-node-darwin-arm64: 2.13.3
+      autocorrect-node-darwin-x64: 2.13.3
+      autocorrect-node-linux-x64-gnu: 2.13.3
+      autocorrect-node-linux-x64-musl: 2.13.3
+      autocorrect-node-win32-x64-msvc: 2.13.3
 
   autoprefixer@10.4.20(postcss@8.4.49):
     dependencies:

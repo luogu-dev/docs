@@ -131,7 +131,7 @@ Markdown 建立代码块的方法：将 \`\`\` 置于这段代码的首行和末
 
 **例如：**
 
-![C++代码示例](../_image/CppCode.png)
+![C++ 代码示例](../_image/CppCode.png)
 
 ```cpp
 #include<iostream>
