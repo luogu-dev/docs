@@ -12,8 +12,6 @@ sidebar_position: 4
 
 各语言的标准输入输出方法请参考 [P1001 A+B Problem](https://www.luogu.com.cn/problem/P1001#:~:text=%E6%9C%AC%E9%A2%98%E5%90%84%E7%A7%8D%E8%AF%AD%E8%A8%80%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%8C%83%E4%BE%8B%EF%BC%9A)。
 
-详见：[提交题目](./submit.md)
-
 ## 在线评测
 
 洛谷评测系统运行于 Linux 上，语言环境使用 Nix 准备。编译时对目前所有支持 O2 优化的语言将默认开启 O2 优化。
