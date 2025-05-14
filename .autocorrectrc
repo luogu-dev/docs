@@ -2,8 +2,12 @@
 rules:
   # Default rules: https://github.com/huacnlee/autocorrect/raw/main/autocorrect/.autocorrectrc.default
   spellcheck: 2
-# Enable or disable in special context
+  # Enable or disable in special context
   space-dash: 0
+  # Add space between brackets (), [] when near the CJK.
+  space-bracket: 0
+  # Add space between ``, when near the CJK.
+  space-backticks: 0
 context:
   # Enable or disable to format codeblock in Markdown or AsciiDoc etc.
   codeblock: 1
@@ -18,6 +22,7 @@ textRules:
   "需要使用Dijkstra的堆优化算法": 0
   "桂平路481号": 0
   "15号楼6B3室": 0
+  "上海洛谷网络科技有限公司.": 0
 fileTypes:
   # Config the files associations, you config is higher priority than default.
   # "rb": ruby
