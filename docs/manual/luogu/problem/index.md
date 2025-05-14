@@ -42,7 +42,7 @@ sidebar_position: 4
 
 ## Special Judge 使用说明
 
-当一个题目可以接受多种正确答案,即有多组解的时候,题目就必须被 Special Judge。
+当一个题目可以接受多种正确答案，即有多组解的时候，题目就必须被 Special Judge。
 Special Judge 程序使用输入数据和一些其他信息来判答你程序的输出，并将判答结果返回。  
 
 详见：[Special Judge 使用说明](./special-judge.md)
