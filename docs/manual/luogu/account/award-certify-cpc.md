@@ -19,6 +19,7 @@ sidebar_label: 奖项认证（ICPC/CCPC）
 - 第 46 届 ICPC 亚洲区域赛澳门站
 - 第 46 届 ICPC EC Final 西安
 - 第 45 届 ICPC EC Final 西安
+- 第 44 届 ICPC EC Final 西安
 - 第 44 届 ICPC 亚洲区域赛徐州站
 - **2018 年（第 43 届）前的 ICPC 奖项**
 
