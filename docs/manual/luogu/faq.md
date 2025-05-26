@@ -14,16 +14,21 @@ sidebar_position: 2
 
 在反馈问题请先通过查阅文档以及搜索，在确认无人反馈过/没有得到答案的前提下在通过相应的渠道反馈问题。
 
-- 对于网站功能上的问题可通过[工单版](https://www.luogu.com.cn/discuss/lists?forumname=service)提交，提交工单前请先阅读[工单板块规则](https://www.luogu.com.cn/discuss/show?postid=9779)。
-- 反馈主题库题目问题请至[该反馈帖](https://www.luogu.com.cn/discuss/show?postid=566566)。
-- 反馈入门与面试题库题目问题请至[该反馈帖](https://www.luogu.com.cn/discuss/show?postid=325040)。
-- 其他问题可私聊相关管理员，[查看管理员名单](https://www.luogu.com.cn/discuss/327478)。
+- 需要反馈问题请至[工单系统](https://www.luogu.com.cn/ticket)提交，提交工单前请先阅读[工单系统规则（待公布）](#feedback)。
 
 ## 如何查找题目？ {#problem-search}
 
 洛谷的题目列表页面除了直接使用关键字搜索题目以外，还可以使用难度和标签来更细致地筛选题目。
 
 详见[查找题目](./problem/search.md)
+
+## 如何在线调试代码？测样例？ {#ide}
+
+在题目详情页面，点击“进入 IDE 模式”，即可进入在线调试页面。此页面可以左右分屏编写代码和查看题面。
+
+点击题面内各组样例边上的运行按钮即可自动输入样例运行程序比较输出结果与样例输出。
+
+程序代码调试完成后可直接点击右上角的【提交】按钮，直接提交进行正式评测。
 
 ## 为什么有的题不能提交题解？ {#why-cannot-submit-solution}
 
@@ -32,10 +37,6 @@ sidebar_position: 2
 如果真的觉得自己的题解非常好，或者之前的题解大多有疏漏，那么可以私信找到管理员提出申请。如果确认为特别具有价值的优质题解，可以特许进入题解区。
 
 若低质量题解多次私信申请，会被视为骚扰管理的行为，可能会被予以禁用私信的处罚。私信管理的时候，请附带上题目编号和题解链接。
-
-## 如何完成题目？ {#problem-submit}
-
-详见[提交题目](./problem/submit.md)
 
 ## 为什么我在本地/其他网站 AC 了，洛谷上却没过？ {#why-unac}
 
