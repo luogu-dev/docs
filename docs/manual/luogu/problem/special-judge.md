@@ -117,7 +117,7 @@ int main(int argc, char* argv[]) {
 
 `string readLine()`
 
-碰撞一行 string，到换行或者 eof 为止
+读入一行 string，到换行或者 eof 为止
 
 `void readEoln()`
 
