@@ -20,7 +20,7 @@ sidebar_position: 4
 
 ## 个人题库与上传
 
-进入个人主页-题库-我创建的题目，点击新建题目，填写需要的内容（可以不都填）之后保存题面。可以使用 Markdown 美化，详见[Markdown 格式手册](../../../rules/academic/handbook/markdown.md)。再上传数据包即可。
+进入个人主页-题库-我创建的题目，点击新建题目，填写需要的内容（可以不全填）之后保存题面。可以使用 Markdown 美化，详见 [Markdown 格式手册](../../../rules/academic/handbook/markdown.md)。再上传数据包即可。普通用户可创建私有题目数量的上限为 50 题。
 
 ## 上传压缩包的要求
 
