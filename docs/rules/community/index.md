@@ -15,7 +15,7 @@ sidebar_position: 1
 - [洛谷讨论区规范](discuss.md)
 - [洛谷题解规则](../academic/solution-standard.md)
 - [洛谷公开比赛规范及要求](../academic/opencontest-standard.md)
-- [精选题单规则](../academic/problemset-standard.md)
+- [精选题单规则](../academic/training-promotion-standard.md)
 - [图床使用规则](image-hosting.md)
 - [洛谷主题库题目规范](../academic/problem-standard.md)
 - [洛谷公开比赛参赛规则](contest-participation.md)

@@ -111,4 +111,4 @@ sidebar_label: 工单系统
   - 备注（1000 字符内）
 - 处理权限：题库管理、题库志愿者
 
-用户只能提交自己有权限编辑的题单。请根据[《精选题单规范》](../../rules/academic/problemset-standard.md)的要求提交题单。
+用户只能提交自己有权限编辑的题单。请根据[《精选题单规范》](../../rules/academic/training-promotion-standard.md)的要求提交题单。
