@@ -137,6 +137,14 @@ Markdown 建立代码块的方法：将 \`\`\` 置于这段代码的首行和末
 #include<iostream>
 ```
 
+使用 `lines=` 可以标记选定行。
+
+<img width="268" height="260" alt="image" src="https://github.com/user-attachments/assets/60dc1e02-f526-49ea-ba4f-e99f9e8c0991" />
+
+这个示例标记了 6-7 行，显示的效果如下：
+
+<img width="950" height="265" alt="image" src="https://github.com/user-attachments/assets/38fc4665-5f6d-4dd4-baf5-7e5e8457e2e6" />
+
 ### 小段代码
 
 需要引用代码时，如果引用的语句只有一段，不分行，可以用 \` 将语句包起来。
@@ -327,6 +335,132 @@ _   底线
 .   英文句点
 !   惊叹号
 ```
+
+## 表格
+
+使用 `|` 划分单元格，并使用 `:` 与三个及以上的 `-` 在第二行用于调整对齐。
+
+```md
+| 我是左对齐 | 我是居中对齐 | 我是右侧对齐 |
+|:---|:---:|---:|
+| 内容 | 内容 | 内容 |
+```
+
+显示效果为
+
+| 我是左对齐 | 我是居中对齐 | 我是右侧对齐 |
+|:---|:---:|---:|
+| 内容 | 内容 | 内容 |
+
+### 合并单元格
+
+使用 `^`、`<` 标记这个单元格将与上、左合并。
+
+```
+|测试点|$n$       |$m$       |特殊性质|
+|:-:|:--------:|:--------:|:--:|
+|1  |$\le 10$  |$\le 10$  |无   |
+|2  |^         |^         |无   |
+|3 |<         |^         |无   |
+|4  |$\le 3\times 10^5$|^         |无   |
+|5  |^         |^         |无   |
+|6  |^         |$\le 3\times 10^5$|无   |
+|7  |^         |^         |无   |
+|8  |^         |^         |无   |
+|9  |^         |^         |无   |
+|10 |^         |^         |无   |
+```
+
+显示效果为：
+
+<img width="404" height="428" alt="image" src="https://github.com/user-attachments/assets/47645156-c91e-43df-a076-236a2d275b40" />
+
+## 排版
+
+支持居中（`center`）与靠右（`right`），使用 `:::` 包裹。
+
+```md
+:::align{center}
+
+
+![](https://cdn.luogu.com.cn/upload/usericon/1.png)
+
+
+## 我是居中
+
+:::
+:::align{right}
+
+
+### 我是右居中
+
+:::
+```
+
+显示效果为：
+
+<img width="751" height="231" alt="image" src="https://github.com/user-attachments/assets/550ed2ce-6e07-4e73-b477-de25c03bf29e" />
+
+## CF 风格 epigraph
+
+使用 `:::` 包裹。
+
+```md
+:::epigraph[——otto]
+大家好啊，我是说的道理，今天来点大家想看的东西。
+:::
+```
+
+显示效果为：
+
+<img width="747" height="90" alt="image" src="https://github.com/user-attachments/assets/bafd4a31-c0a0-460b-b45f-9e4790232b00" />
+
+## 折叠块
+
+支持 `info`、`warning`、`success` 三种，使用多个 `:` 包裹。
+
+嵌套语法：最深的一层是三个 `:`，每往外一层就增加一个 `:`。
+
+```md
+::::info[`info` 样式的折叠块（这里是标题）]
+内容
+::::
+
+::::warning[`warning` 样式的折叠块（这里是标题）]
+内容
+::::
+
+::::success[`success` 样式的折叠块（这里是标题）]
+内容
+::::
+
+##### 一些特殊样式（嵌套、$\KaTeX$）
+
+::::::warning[我是警告]
+
+:::::warning[不要]
+
+::::warning[滥用]
+
+:::warning[嵌套]
+不然会被 chen_zhe 封号！！！！！
+:::
+::::
+:::::
+::::::
+
+::::success[$$\displaystyle\sum_{i = 1}^n \sum_{j = 1}^n \gcd(i, j)$$]
+数学公式也是可以出现在标题上的。
+::::
+```
+
+<img width="950" height="662" alt="image" src="https://github.com/user-attachments/assets/738018eb-dfb9-42a4-9c0c-1e436c07ac82" />
+
+:::danger 敬告用户
+
+请勿滥用嵌套折叠块，否则您可能面临管理员的封禁！
+
+:::
 
 ## 插入 Bilibili 视频
 
