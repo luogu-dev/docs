@@ -240,7 +240,7 @@ Markdown 支持有序列表和无序列表，无序列表使用星号、加号�
 在方块括号后面紧接着圆括号并插入网址链接即可，如果还想要加上链接的 title 文字，只要在网址后面，用双引号把 title 文字包起来即可，例如：
 
 ```md
-[行内式链接标题](http://www.luogu.org/)
+[行内式链接标题](http://www.luogu.org/ "可选标题")
 ```
 
 显示效果：这是 [行内式链接标题](http://www.luogu.org/ "可选标题") 内联方式。
@@ -272,12 +272,12 @@ Markdown 使用一种和链接很相似的语法来标记图片。在互联网�
 Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来，Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样，例如：
 
 ```markdown
-[https://www.luogu.com.cn/](https://www.luogu.com.cn/)
+<https://www.luogu.com.cn/>
 ```
 
 显示效果为：
 
-[https://www.luogu.com.cn/](https://www.luogu.com.cn/)
+<https://www.luogu.com.cn/>
 
 ## 分隔线
 
