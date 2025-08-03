@@ -54,6 +54,7 @@ C/C++ 家族提供多个 C/C++ 语言标准的 GCC 编译环境，这些标准�
 - C++14 (ISO/IEC 14882:2014)
 - C++17 (ISO/IEC 14882:2017)
 - C++20 (ISO/IEC 14882:2020)
+- C++23 (ISO/IEC 14882:2024)
 
 他们都有相同的编译开关：
 
@@ -67,8 +68,8 @@ g++ -x c++ -std=$version -fPIC -DONLINE_JUDGE -Wall -fno-asm -lm -march=native
 
 ```
 # gcc --version
-gcc (GCC) 13.2.0
-Copyright (C) 2023 Free Software Foundation, Inc.
+gcc (GCC) 15.1.0
+Copyright (C) 2025 Free Software Foundation, Inc.
 ```
 
 :::caution[优化开关提示]
@@ -100,7 +101,7 @@ fpc -dONLINE_JUDGE -vnw
 # fpc -i
 Free Pascal Compiler version 3.2.2
 
-Compiler date      : 2023/10/16
+Compiler date      : 2025/07/05
 Compiler CPU target: x86_64
 ```
 
@@ -112,16 +113,16 @@ Python 家族目前仅提供 Python 3（CPython）、PyPy 3 两种选项。Pytho
 
 ```
 # python3 -VV
-Python 3.11.5 (main, Aug 24 2023, 12:23:19) [GCC 12.3.0]
+Python 3.13.5 (main, Jun 11 2025, 15:36:57) [GCC 14.3.0]
 
 # python3 -c 'print(__import__("numpy").__version__)'
-1.25.2
+2.3.1
 ```
 
 ```
 # pypy3 -VV
-Python 3.9.17 (3f3f2298ddc56db44bbdb4551ce992d8e9401646, Oct 16 2023, 15:22:08)
-[PyPy 7.3.12 with GCC 12.3.0]
+Python 3.10.14 (39dc8d3c85a7, Jun 24 2025, 03:33:34)
+[PyPy 7.3.17 with GCC 14.2.1 20250322]
 ```
 
 Python 2 已于 2020 年结束了它的生命周期，因此洛谷也不再提供 Python 2 和 PyPy 2 支持。
@@ -157,32 +158,32 @@ public class Main {
 
 ```
 # java -version
-openjdk version "1.8.0_362"
-OpenJDK Runtime Environment (build 1.8.0_362-ga)
-OpenJDK 64-Bit Server VM (build 25.362-bga, mixed mode)
+openjdk version "1.8.0_442"
+OpenJDK Runtime Environment (build 1.8.0_442-06)
+OpenJDK 64-Bit Server VM (build 25.442-b06, mixed mode)
 ```
 
 ```
 # java -version
-openjdk version "21" 2023-09-19
-OpenJDK Runtime Environment (build 21+35-nixos)
-OpenJDK 64-Bit Server VM (build 21+35-nixos, mixed mode, sharing)
+openjdk version "21.0.7" 2025-04-15
+OpenJDK Runtime Environment (build 21.0.7+6-nixos)
+OpenJDK 64-Bit Server VM (build 21.0.7+6-nixos, mixed mode, sharing)
 ```
 
 ### Rust
 
-Rust 非主流竞赛语言，仅提供评测环境更新时的 nightly channel 的 rustc。其编译开关为：
+其编译开关为：
 
 ```shell
 # O2 开关为 -C opt-level=2
-rustc --edition 2021 -W warnings
+rustc --edition 2024 -W warnings
 ```
 
 当前版本信息为：
 
 ```
 # rustc -V
-rustc 1.76.0-nightly (2c1b65ee1 2023-11-11)
+rustc 1.88.0 (6b00bc388 2025-06-23)
 ```
 
 ### Go
@@ -191,7 +192,7 @@ rustc 1.76.0-nightly (2c1b65ee1 2023-11-11)
 
 ```
 # go version
-go version go1.21.3 linux/amd64
+go version go1.24.4 linux/amd64
 ```
 
 ### C#
@@ -207,9 +208,9 @@ mono
 
 ```
 # mono --version
-Mono JIT compiler version 6.12.0.182 (tarball Mon Oct 16 00:06:46 UTC 2023)
-Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com
-        TLS:           __thread
+Mono JIT compiler version 6.14.1 (tarball Tue Apr 29 17:43:02 UTC 2025)
+Copyright (C) Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com
+        TLS:
         SIGSEGV:       altstack
         Notifications: epoll
         Architecture:  amd64
@@ -234,46 +235,46 @@ ghc -DONLINE_JUDGE -Wall
 
 ```
 # ghc --version
-The Glorious Glasgow Haskell Compilation System, version 9.4.7
+The Glorious Glasgow Haskell Compilation System, version 9.8.4
 
 # ghc --show-packages | grep -E 'id: (.+)'
-id: Cabal-3.8.1.0
-id: Cabal-syntax-3.8.1.0
-id: array-0.5.4.0
 id: base
-id: binary-0.8.9.1
-id: bytestring-0.11.5.2
-id: containers-0.6.7
-id: deepseq-1.4.8.0
-id: directory-1.3.7.1
-id: exceptions-0.10.5
-id: filepath-1.4.2.2
-id: ghc
-id: ghc-bignum
-id: ghc-boot-9.4.7
-id: ghc-boot-th-9.4.7
-id: ghc-compact-0.1.0.0
-id: ghc-heap-9.4.7
-id: ghc-prim
-id: ghci-9.4.7
-id: haskeline-0.8.2
-id: hpc-0.6.1.0
-id: integer-gmp-1.1
-id: libiserv-9.4.7
-id: mtl-2.2.2
-id: parsec-3.1.16.1
-id: pretty-1.1.3.6
-id: process-1.6.17.0
-id: rts
-id: stm-2.5.1.0
+id: stm-2.5.3.1-bf39
+id: ghci-9.8.4-13f2
+id: haskeline-0.8.2.1-4be1
+id: ghc-compact-0.1.0.0-db7e
+id: filepath-1.4.301.0-abf5
+id: text-2.1.1-332f
 id: system-cxx-std-lib-1.0
+id: parsec-3.1.17.0-9df1
+id: containers-0.6.8-bda1
+id: mtl-2.3.1-4301
+id: unix-2.8.6.0-a07b
+id: ghc-boot-9.8.4-5858
+id: process-1.6.25.0-a883
+id: exceptions-0.10.7-9038
+id: semaphore-compat-1.0.0-4217
+id: array-0.5.8.0-25c5
+id: terminfo-0.4.1.6-97ac
+id: hpc-0.7.0.0-4276
+id: pretty-1.1.3.6-0329
+id: xhtml-3000.2.2.1-8f3e
+id: deepseq-1.5.1.0-013a
+id: directory-1.3.8.5-3f1c
+id: time-1.12.2-85bf
+id: Cabal-syntax-3.10.3.0-aa2e
+id: ghc-heap-9.8.4-7357
+id: binary-0.8.9.1-6bc0
+id: transformers-0.6.1.0-4025
+id: Cabal-3.10.3.0-2169
+id: bytestring-0.12.1.0-7d6c
+id: integer-gmp-1.1-2f6a
+id: ghc-boot-th-9.8.4-fe63
+id: ghc-9.8.4-4b7d
+id: ghc-prim
+id: rts
 id: template-haskell
-id: terminfo-0.4.1.5
-id: text-2.0.2
-id: time-1.12.2
-id: transformers-0.5.6.2
-id: unix-2.7.3
-id: xhtml-3000.2.2.1
+id: ghc-bignum
 ```
 
 ### OCaml
@@ -289,7 +290,7 @@ ocamlopt
 
 ```
 # ocamlopt -version
-4.14.1
+5.3.0
 ```
 
 ### Lua
@@ -307,7 +308,7 @@ Lua 5.2.4  Copyright (C) 1994-2015 Lua.org, PUC-Rio
 
 ```
 # julia -version
-julia version 1.9.3
+julia version 1.11.6
 ```
 
 ### Kotlin
@@ -325,7 +326,7 @@ java -DONLINE_JUDGE
 
 ```
 # kotlinc-jvm -version
-info: kotlinc-jvm 1.9.20 (JRE 21+35-nixos)
+info: kotlinc-jvm 2.2.0 (JRE 21.0.7+6-nixos)
 ```
 
 ### Scala
@@ -341,7 +342,7 @@ java -DONLINE_JUDGE
 
 ```
 # scalac -version
-Scala compiler version 2.13.12 -- Copyright 2002-2023, LAMP/EPFL and Lightbend, Inc.
+Scala compiler version 3.3.6 -- Copyright 2002-2025, LAMP/EPFL
 ```
 
 ### PHP
@@ -350,10 +351,10 @@ Scala compiler version 2.13.12 -- Copyright 2002-2023, LAMP/EPFL and Lightbend, 
 
 ```
 # php --version
-PHP 8.2.12 (cli) (built: Oct 24 2023 19:22:16) (NTS)
+PHP 8.4.10 (cli) (built: Jul  2 2025 02:22:42) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.2.12, Copyright (c) Zend Technologies
-    with Zend OPcache v8.2.12, Copyright (c), by Zend Technologies
+Zend Engine v4.4.10, Copyright (c) Zend Technologies
+    with Zend OPcache v8.4.10, Copyright (c), by Zend Technologies
 ```
 
 ### Perl
@@ -362,8 +363,8 @@ Zend Engine v4.2.12, Copyright (c) Zend Technologies
 
 ```
 # perl --version
-This is perl 5, version 38, subversion 0 (v5.38.0) built for x86_64-linux-thread-multi
-Copyright 1987-2023, Larry Wall
+This is perl 5, version 40, subversion 0 (v5.40.0) built for x86_64-linux-thread-multi
+Copyright 1987-2024, Larry Wall
 ```
 
 ### Ruby
@@ -372,7 +373,7 @@ Copyright 1987-2023, Larry Wall
 
 ```
 # ruby --version
-ruby 3.1.4p223 (2023-03-30 revision 957bb7cb81) [x86_64-linux]
+ruby 3.3.8 (2025-04-09 revision b200bad6cd) [x86_64-linux]
 ```
 
 ### Node.js
@@ -381,5 +382,5 @@ ruby 3.1.4p223 (2023-03-30 revision 957bb7cb81) [x86_64-linux]
 
 ```
 # node --version
-v20.9.0
+v22.17.0
 ```
