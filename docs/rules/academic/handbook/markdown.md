@@ -137,8 +137,20 @@ __双下划线加粗__
 Markdown 建立代码块的方法：将 \`\`\` 置于这段代码的首行和末行，独立成一行。第一行的 \`\`\` 后面可以加上语言名称，例如 cpp、java、c、pascal 等（不要写成 c++）。**请注意，对于未指定语言的程序代码会被 fallback 到 C++，其他无法识别的语言名称（如 plain）会作为普通文本渲染**。
 
 **例如：**
+`````
+```
+// 未指定语言，fallback 到 C++
+#include<bits/stdc++.h>
+using namespace std;
 
-![](./_image/code-unspecified-language.png)
+int main(){
+  int a, b;
+  cin >> a >> b;
+  cout << a + b << endl;
+  return 0;
+}
+```
+`````
 
 **显示的效果如下：**
 
