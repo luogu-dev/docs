@@ -134,27 +134,53 @@ __双下划线加粗__
 
 ### 大段代码
 
-Markdown 建立代码块的方法：将 \`\`\` 置于这段代码的首行和末行，独立成一行。第一行的 \`\`\` 后面可以加上语言名称，例如 cpp、java、c、pascal 等（不要写成 c++）。
+Markdown 建立代码块的方法：将 \`\`\` 置于这段代码的首行和末行，独立成一行。第一行的 \`\`\` 后面可以加上语言名称，例如 cpp、java、c、pascal 等（不要写成 c++）。**请注意，对于未指定语言的程序代码会被 fallback 到 C++，其他无法识别的语言名称（如 plain）会作为普通文本渲染**。
 
 **例如：**
 
-![C++代码示例](../_image/CppCode.png)
+![](./_image/code-unspecified-language.png)
 
-```cpp
-#include<iostream>
-```
+**显示的效果如下：**
 
-### 指定范围高亮【新特性】
+![未指定语言的代码](./_image/unspecified-language.png)
 
-在代码块中首行使用 `lines=<start>-<end>` 参数来指定高亮范围。例如：
 
+#### 显示行号【新特性】
+
+如果要显示代码行号，在代码块的第一行加上 `line-numbers` 参数即可。
+
+如下代码：
 ```markdown
-```cpp lines=5-6
+```cpp line-numbers
 ```
 
-![代码高亮示例](./_image/code-highlight.png "5~6 行高亮")
+**显示的效果如下：**
 
-这样代码块的第 5~6 行会被高亮显示。
+![代码行号示例](./_image/code-linenumbers.png)
+
+#### 指定范围高亮【新特性】
+
+在代码块中首行使用 `lines=<start>-<end>` 参数来指定高亮范围。
+
+如下代码：
+```markdown
+```cpp lines=6-9
+```
+
+**显示的效果如下：**
+
+![指定范围高亮示例](./_image/code-highlight.png)
+
+##### 行号显示与指定范围高亮的结合使用示例
+
+如下代码：
+```markdown
+```cpp line-numbers lines=5-6
+```
+
+![行号显示与指定范围高亮结合示例](./_image/code-linenumbers-highlight.png "5~6 行高亮")
+
+这样代码块就会显示行号，并且第 5~6 行会被高亮显示。
 
 ### 小段代码
 
