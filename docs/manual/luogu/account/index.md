@@ -9,7 +9,7 @@ sidebar_position: 3
 ## 账号常见问题 {#common-questions}
 
 - 注册：[注册](https://www.luogu.com.cn/auth/register)时你需要提供一个合法邮箱或手机号。对于使用临时邮箱/手机号注册的账号，洛谷有权在不提前通知用户的情况下永久封禁该账号。
-- 修改密码/安全邮箱/安全手机，设置两步验证：请前往[用户设置-安全设置](https://www.luogu.com.cn/user/setting/security)点击对应按钮进行修改。
+- 修改密码/安全邮箱/安全手机，设置两步验证，实人认证：请前往[用户设置-安全设置](https://www.luogu.com.cn/user/setting/security)点击对应按钮进行修改。（绑定手机号或完成实人认证即可完成实名认证）
 - 使用微信/GitHub 账号登录：若要使用微信或 GitHub 账号登录，需要先在[用户设置-个人信息](https://www.luogu.com.cn/user/setting)中绑定微信或 GitHub 账号。
 - 忘记密码/解绑两步验证码：当你忘记密码时，请在登录界面点击“忘记密码”，输入注册时使用的邮箱或手机号，即可重设密码并解绑两步验证码。如果你忘记了邮箱或手机号或者现有邮箱或手机号不再使用，可以向[管理员申诉](/contact-us#email)。
 - 申诉：当你的账户有异常行为或者被认为存在安全问题时，洛谷会对账号进行冻结。冻结的账号可以解封。你可以[进行申诉](/contact-us#email)。
