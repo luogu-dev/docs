@@ -75,7 +75,7 @@ OI 系列比赛积分计算参考 [CCF 评价标准](https://www.noi.cn/xw/2019-
 
 认证后您的奖项以及洛谷认证等级将会默认在个人中心对所有人展示。您可在设置中隐藏不希望展示的奖项或评级。
 
-当新奖项导入后，若未能自动自动更新，您可尝试重新认证。
+当新奖项导入后（以[当前可认证的比赛](https://www.luogu.com.cn/offline-prize/supported-events#contest-CspJunior)为准），若未能自动自动更新，您可尝试重新认证。
 
 ### 认证方式 2: 人工认证 {#manual-certify}
 
@@ -88,7 +88,7 @@ OI 系列比赛积分计算参考 [CCF 评价标准](https://www.noi.cn/xw/2019-
  1. 请先完成 [实人认证](#id-verify)，通过后才能认证奖项。如果确实无法通过实人认证，也可将报错信息复制或截图后发邮件反馈。
  2. 前往 [CCF 官方获奖名单查询](https://www.noi.cn/hjmd/mdcx/)，确认是否属于 CCF 公布的奖项。
  3. 前往 [OIerDB](https://oier.baoshuo.dev/) 确认已收录该奖项。
- 4. 奖项收录并非完全实时，如果是近期刚刚公布名单的比赛，请关注[当前可认证的比赛](https://www.luogu.com.cn/offline-prize/supported-events#contest-CspJunior)。
+ 4. 确认该比赛以收录至 [当前可认证的比赛](https://www.luogu.com.cn/offline-prize/supported-events#contest-CspJunior)。（OIerDB 收录后 3-5 个工作日完成奖项导入，该进程不接受催促。）
 
 **找不到奖项或奖项遗漏**
 
