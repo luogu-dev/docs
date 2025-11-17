@@ -88,7 +88,7 @@ OI 系列比赛积分计算参考 [CCF 评价标准](https://www.noi.cn/xw/2019-
  1. 请先完成 [实人认证](#id-verify)，通过后才能认证奖项。如果确实无法通过实人认证，也可将报错信息复制或截图后发邮件反馈。
  2. 前往 [CCF 官方获奖名单查询](https://www.noi.cn/hjmd/mdcx/)，确认是否属于 CCF 公布的奖项。
  3. 前往 [OIerDB](https://oier.baoshuo.dev/) 确认已收录该奖项。
- 4. 奖项收录并非完全实时，如果是近期刚刚公布名单的比赛，请关注管理员发布的公告。
+ 4. 奖项收录并非完全实时，如果是近期刚刚公布名单的比赛，请关注[当前可认证的比赛](https://www.luogu.com.cn/offline-prize/supported-events#contest-CspJunior)。
 
 **找不到奖项或奖项遗漏**
 
