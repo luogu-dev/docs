@@ -2,6 +2,10 @@
 hide_table_of_contents: true
 ---
 
+<head>
+    <title>洛谷帮助中心</title>
+</head>
+
 # 洛谷帮助中心
 
 欢迎来到洛谷帮助中心。
