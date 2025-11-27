@@ -87,8 +87,8 @@ OI 系列比赛积分计算参考 [CCF 评价标准](https://www.noi.cn/xw/2019-
 
  1. 请先完成 [实人认证](#id-verify)，通过后才能认证奖项。如果确实无法通过实人认证，也可将报错信息复制或截图后发邮件反馈。
  2. 前往 [CCF 官方获奖名单查询](https://www.noi.cn/hjmd/mdcx/)，确认是否属于 CCF 公布的奖项。
- 3. 前往 [OIerDB](https://oier.baoshuo.dev/) 确认已收录该奖项。
- 4. 确认该比赛以收录至 [当前可认证的比赛](https://www.luogu.com.cn/offline-prize/supported-events#contest-CspJunior)。（预计 OIerDB 收录后 3-5 个工作日完成奖项导入，该进程不接受催促。）
+ 3. 前往 [OIerDB](https://oier.baoshuo.dev/) 确认已收录该奖项，如未收录或信息出错请及时[反馈至 OIerDB 项目](https://github.com/OIerDb-ng/OIerDb-data-generator/issues/new/choose)。
+ 4. 确认该比赛以收录至 [当前可认证的比赛](https://www.luogu.com.cn/offline-prize/supported-events#contest-CspJunior)。（待 OIerDB 数据基本稳定后进行数据导入及自动关联奖项）
 
 **找不到奖项或奖项遗漏**
 
@@ -123,7 +123,7 @@ UID（洛谷用户编号）：
 
 **无法通过实人认证的情况，请提供：**
 
-- 本人身份证件：身份证（含港澳台居民居住证）个人信息页、港澳台居民来往大陆通行证、护照个人信息页。
+- 本人身份证件：身份证（含港澳台居民居住证）个人信息页、户口本个人信息页、港澳台居民来往大陆通行证、护照个人信息页。
 - 本人手持该证件的照片。
 - 以上两张照片都需要（强烈建议参考下方示例加上水印）。
 - 对于证件上的名称是外文的，请同时确认获奖记录与获奖记录上的名字是否一致。如不一致请提供相应的证明材料。
