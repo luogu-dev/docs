@@ -56,7 +56,7 @@ C/C++ 家族提供多个 C/C++ 语言标准的 GCC 编译环境，这些标准�
 - C++20 (ISO/IEC 14882:2020)
 - C++23 (ISO/IEC 14882:2024)
 
-他们都有相同的编译开关：
+它们都有相同的编译开关：
 
 ```shell
 # O2 优化开关为 -O2
@@ -109,7 +109,7 @@ Compiler CPU target: x86_64
 
 Python 家族目前仅提供 Python 3（CPython）、PyPy 3 两种选项。Python 3 同时提供 NumPy 库，PyPy 3 无此支持。
 
-他们当前版本信息如下：
+它们当前版本信息如下：
 
 ```
 # python3 -VV
