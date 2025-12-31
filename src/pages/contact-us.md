@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 多数问题请在【[工单系统](https://www.luogu.com.cn/ticket)】进行反馈。相关管理员根据具体工单内容通常会在 2 周内给予回复，特殊类型的工单可能需要等待更久的时间。请不要直接联系管理员。
 
-使用工单系统时请遵守工单系统的[使用规则](../rules/community/ticket.md)。
+使用工单系统时请遵守工单系统的[使用规则](/rules/community/ticket)。
 
 涉及个人账号相关的问题，请直接联系[账号申诉邮箱](#email)。
 
