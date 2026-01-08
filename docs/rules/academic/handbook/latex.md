@@ -254,22 +254,22 @@ $$
 
 对于英文的字体，LaTeX 给出了三个层级，其中 KaTeX 支持的有：
 
-1. 族（family）：有罗马（roman）、无衬线（sans-serif）、打字机（teletype）三族，改变字体的基本外观。
-2. 形状（shape）：有直立（upright）、意大利（italic）两种形状。
-3. 重量（weight）：有中等（medium）、粗体（boldface）两种重量。
+1. 字体家族（family）：有罗马（roman）、无衬线（sans-serif）、打字机（teletype）三种，改变字体的基本外观。
+2. 字形（shape）：有直立（upright）、斜体（italic）两种字形。
+3. 字重（weight）：有中等（medium）、粗体（boldface）两种字重。
 
 在某些时候，KaTeX 允许这些层级叠加使用：
 
-|        |           |                 直立中等                 |                意大利中等                |                 直立粗体                 |                意大利粗体                |
+|        |           |                 直立中等                 |                斜体中等                |                 直立粗体                 |                斜体粗体                |
 | :----: | :-------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |        |           |            `\textup{\textmd`             |            `\textit{\textmd`             |            `\textup{\textbf`             |            `\textit{\textbf`             |
 |  罗马  | `\textrm` | $\textup{\textmd{\textrm{Butterfly96}}}$ | $\textit{\textmd{\textrm{Butterfly96}}}$ | $\textup{\textbf{\textrm{Butterfly96}}}$ | $\textit{\textbf{\textrm{Butterfly96}}}$ |
 | 无衬线 | `\textsf` | $\textup{\textmd{\textsf{Butterfly96}}}$ | $\textit{\textmd{\textsf{Butterfly96}}}$ | $\textup{\textbf{\textsf{Butterfly96}}}$ |                  不可用                  |
 | 打字机 | `\texttt` | $\textup{\textmd{\texttt{Butterfly96}}}$ | $\textit{\textmd{\texttt{Butterfly96}}}$ |                  不可用                  |                  不可用                  |
 
-在文本模式下（即 `\text` 内部），默认情况下，族使用罗马、形状使用直立、重量使用中等。
+在文本模式下（即 `\text` 内部），默认情况下，字体家族使用罗马、字形使用直立、字重使用中等。
 
-在数学模式下（即 KaTeX 的默认），默认情况下，族使用罗马、形状使用意大利、重量使用中等。
+在数学模式下（即 KaTeX 的默认），默认情况下，字体家族使用罗马、字形使用斜体、字重使用中等。
 
 特别地，在数学模式下，提供了 `\mathbb`、`\mathcal`、`\mathscr` 和 `\mathfrak` 以供特殊数学字体使用：
 
@@ -282,14 +282,14 @@ $$
 
 对于中文，我们有：
 
-|       |           |                 直立中等                  |                意大利中等                 |                 直立粗体                  |                意大利粗体                 |
+|       |           |                 直立中等                  |                斜体中等                 |                 直立粗体                  |                斜体粗体                 |
 | :---: | :-------: | :---------------------------------------: | :---------------------------------------: | :---------------------------------------: | :---------------------------------------: |
 |       |           |             `\textup{\textmd`             |             `\textit{\textmd`             |             `\textup{\textbf`             |             `\textit{\textbf`             |
 | 默认  |    无     |     $\textup{\textmd{你好，世界！}}$      |     $\textit{\textmd{你好，世界！}}$      |     $\textup{\textbf{你好，世界！}}$      |     $\textit{\textbf{你好，世界！}}$      |
 | 罗马  | `\textrm` | $\textup{\textmd{\textrm{你好，世界！}}}$ | $\textit{\textmd{\textrm{你好，世界！}}}$ | $\textup{\textbf{\textrm{你好，世界！}}}$ | $\textit{\textbf{\textrm{你好，世界！}}}$ |
 
-对于中文，族设置为无衬线或打字机时，要么不可用，要么与设置为罗马时无区别。  
-可以看出，族默认时是宋体，族为罗马时是黑体。
+对于中文，字体设置为无衬线或打字机时，要么不可用，要么与设置为罗马时无区别。  
+可以看出，字体默认时是宋体，字体为罗马时是黑体。
 
 ### 字号
 
