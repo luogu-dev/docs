@@ -18,7 +18,7 @@ sidebar_position: 1
 
 - [洛谷账号功能说明](./account/index.md)
 - [个人设置功能说明](./account/setting.md)
-- [奖项认证功能说明](./account/award-certify.md)
+- [奖项认证功能说明](./account/award-certify)
 - [比赛等级分功能说明](./account/elo-ranking.md)
 - [咕值功能说明](./account/guzhi.md)
 - [账号注销须知](./account/deletion.md)
