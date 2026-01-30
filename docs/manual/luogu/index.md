@@ -16,14 +16,19 @@ sidebar_position: 1
 
 洛谷账号的注册、实名认证、动态等级（咕值）以及安全设置等功能。
 
-详见[洛谷账号功能说明](./account/index.md)帮助。
+- [洛谷账号功能说明](./account/index.md)
+- [个人设置功能说明](./account/setting.md)
+- [奖项认证功能说明](./account/award-certify.md)
+- [比赛等级分功能说明](./account/elo-ranking.md)
+- [咕值功能说明](./account/guzhi.md)
+- [账号注销须知](./account/deletion.md)
 
 ## 题库与题目
 
 洛谷拥有丰富的题库，包含 15000 道公有题目，支持多种搜索和筛选方式。题目系统是洛谷的核心，支持多种编程语言和评测方式。
 
-- [查找题目功能说明](./problem/search.md)
 - [题目功能说明](./problem/index.md)
+- [查找题目功能说明](./problem/search.md)
 - [在线评测功能说明](./problem/judging.md)
 
 ## 题单
@@ -62,11 +67,7 @@ sidebar_position: 1
 
 具体详见[工单系统说明](./ticket.md)。
 
-## 个人设置
 
-用户可以在个人设置中调整个人信息、安全设置、通知偏好等。
-
-详见[个人设置功能说明](./account/setting.md)。
 
 ## 辅助工具
 
