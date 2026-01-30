@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+sidebar_label: 网校课程报名方法
 tags:
   - 网校 
 ---

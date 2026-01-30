@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+sidebar_label: 网校常见问题
+---
+
 # 洛谷网校常见问题集合
 
 :::tip

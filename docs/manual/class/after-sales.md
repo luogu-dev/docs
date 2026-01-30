@@ -1,5 +1,6 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
+sidebar_label: 网校售后政策
 tags:
   - 网校 
 ---
