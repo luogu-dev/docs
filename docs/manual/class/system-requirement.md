@@ -1,5 +1,6 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
+sidebar_label: 网校技术要求
 tags:
   - 网校 
 ---

@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+sidebar_label: 网校常见问题
+---
+
 # 洛谷网校常见问题集合
 
 :::tip
@@ -8,13 +13,15 @@
 
 ## Q：如何注册洛谷网校账号？ {#register}
 
-A：洛谷网校使用**洛谷账号**，若未注册洛谷账号，请按照图中方式注册。
+A：洛谷网校使用**洛谷账号体系**，洛谷网校的登录状态跟随洛谷主站，若未注册洛谷账号，请按照以下步骤注册：
 
-![进入主站后，点击注册按钮](_image/register-1.jpg)
+1. 在洛谷主页（[https://www.luogu.com.cn](https://www.luogu.com.cn)）点击右上角注册按钮，进入注册页面([https://www.luogu.com.cn/auth/register](https://www.luogu.com.cn/auth/register))。
+2. 按照页面提示填写信息。
+3. 点击【注册】按钮完成注册。
+4. 注册完成后，点击【登录】按钮登录在洛谷主站登录洛谷账号。
+5. 前往洛谷网校（[https://class.luogu.com.cn](https://class.luogu.com.cn)），点击右上角登录按钮，会自动登录到您的洛谷账号。
 
-![填写个人信息后注册](_image/register-2.jpeg)
-
-![登录洛谷账号](_image/register-3.jpeg)
+![注册页面](_image/register.jpg)
 
 ## Q：赠品物流信息在哪里查询？{#logistics-info}
 
@@ -28,7 +35,7 @@ A：
 - 【家长】在对应课程（进入方式可参考下一条）的【目录&通知】扫描微信家长群的二维码加入课程通知群。
 - 【学员】在对应课程的【相关资源】点击【QQ 课程答疑群】按钮，搜索群号填写加群验证信息申请入群，和同学们打打招呼。
 
-![相关资源](_image/team_btn.jpg)
+![相关资源](https://ipic.luogu.com.cn/yugu25s/group1.png)
 
 **注：不是所有课程都有微信家长群和课程 QQ 群，请以课程页面为准。**
 
@@ -55,7 +62,7 @@ A：洛谷网校的课时上课入口在相应课程包目录内，点击【去�
 
 A：已购买的课程包会在右侧显示【相关资源】，内有课程团队的跳转按钮，点击即可跳转到课程团队内。
 
-![相关资源](_image/team_btn.jpg)
+![相关资源](https://ipic.luogu.com.cn/yugu25s/group1.png)
 
 跳转到课程团队后先点击【作业】切换至作业列表，再点击对应作业的标题进入作业页面。
 

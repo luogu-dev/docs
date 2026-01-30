@@ -23,17 +23,7 @@ sidebar_label: 工单系统
 
 管理员大概分为大管理、题目管理志愿者、专栏审核志愿者、月赛审核员。不同类型的管理员根据其权限可以处理不同类型的工单。
 
-具体管理员名单参考以下内容。
-
-**题目管理志愿者（负责题目、专栏、比赛）与月赛审核员：**
-
-详见[题目管理志愿者轮换制度](https://www.luogu.com.cn/discuss/show/186291)。
-
-详见[洛谷月赛审核员名单](https://www.luogu.com.cn/paste/ognf1rs4)。
-
-**专栏审核志愿者（负责题解、专栏）：**
-
-详见[题解审核志愿者制度](https://www.luogu.com.cn/discuss/600159)。
+具体名单见：[管理名单](https://www.luogu.com.cn/judgement/admins)
 
 ## 一般流程
 

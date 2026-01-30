@@ -37,7 +37,7 @@ export default {
                     const { item, defaultSidebarItemsGenerator } = context;
                     const finalItems = await defaultSidebarItemsGenerator(context);
                     if(item.dirName === 'manual/class') {
-                        finalItems.splice(1, 0, { type: 'ref', id: 'manual/luogu/team/premium' });
+                        finalItems.push({ type: 'ref', id: 'manual/luogu/team/premium' });
                     }
                     return finalItems;
                 },

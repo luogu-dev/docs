@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-sidebar_label: 开票政策
+sidebar_position: 4
+sidebar_label: 洛谷开票政策
 ---
 # 洛谷开票政策
 
