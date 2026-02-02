@@ -456,7 +456,7 @@ _   底线
 
 ## 更像 Tuack 的表格【新特性】
 
-使用 ```:::cute-table{tuack}``` 来创建更像 Tuack 的表格。可以结合上文的表格合并语法使用。
+使用 ```::cute-table{tuack}``` 来创建更像 Tuack 的表格。可以结合上文的表格合并语法使用。
 
 ```markdown
 ::cute-table{tuack}
