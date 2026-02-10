@@ -12,7 +12,7 @@ hide_table_of_contents: true
 
 此网站为洛谷网（[https://www.luogu.com.cn](https://www.luogu.com.cn)）、洛谷网校（[https://class.luogu.com.cn](https://class.luogu.com.cn)）的帮助中心。
 
-对于洛谷新用户，请先阅读[洛谷新用户必读](https://www.luogu.com.cn/sadmin/discuss/post/241461)后再查阅帮助中心。
+对于洛谷新用户，请先阅读[洛谷新用户必读](https://www.luogu.com.cn/discuss/241461)后再查阅帮助中心。
 
 本帮助中心分为以下几个板块：
 
