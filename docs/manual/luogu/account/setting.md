@@ -21,7 +21,7 @@ sidebar_label: 个人设置
 
 认证后的用户可以在个人中心中显示自己曾经获得的奖项，用户名旁边根据奖项显示已认证标记（OI 系列的钩子和 ICPC/CCPC 系列的气球），增加社区活动的学术可信度。
 
-进行奖项认证的方法可以参照[奖项认证（OI）](./award-certify-oi.md)和[奖项认证（ICPC/CCPC）](./award-certify-cpc.md)。
+进行奖项认证的方法可以参照[奖项认证（OI）](award-certify-oi.md)和[奖项认证（ICPC/CCPC）](award-certify-cpc.md)。
 
 ## 安全设置
 
@@ -37,7 +37,7 @@ sidebar_label: 个人设置
 
 ### 实人认证
 
-实人认证后才可进行奖项认证。请务必使用自己的信息进行实人认证。具体流程请参考[实人认证](./id-Verify.md)。
+实人认证后才可进行奖项认证。请务必使用自己的信息进行实人认证。具体流程请参考[实人认证](id-verify.md)。
 
 ### 两步验证
 
