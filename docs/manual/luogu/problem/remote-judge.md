@@ -32,7 +32,7 @@
 
 Q：Codeforces 为什么不能提交测评/什么时候能修好/可不可以只爬取题目？
 
-A：截至目前，Codeforces 使用了 Cloudflare 进行**全站**防护，导致洛谷测评机无法成功爬取题目/提交测评/绑定账号，详见[此帖子](https://www.luogu.com.cn/discuss/598533)。**暂时没有没有成本合理且稳定的解决方案**。
+A：截至目前，Codeforces 使用了 Cloudflare 进行**全站**防护，导致洛谷测评机无法成功爬取题目/提交测评/绑定账号，详见[此帖子](https://www.luogu.com.cn/discuss/598533)。**暂时没有成本合理且稳定的解决方案**。
 
 Q：测评记录一直在 Judging？
 
