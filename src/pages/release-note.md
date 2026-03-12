@@ -12,7 +12,7 @@
 -  文章工单 - 撤销全站推荐/题解
 -  用户工单 - 用户申诉
 
-具体规定见：[工单系统规定](/rules/community/ticket.md)
+具体规定见：[工单系统规定](/rules/community/ticket)
 
 #### 被封禁用户页面
 
