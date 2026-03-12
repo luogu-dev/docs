@@ -16,7 +16,7 @@ sidebar_position: 80
 - 大月赛：分为两个 Div 场次，Div.2 比较简单，适合入门到提高水平的选手；Div.1 比较困难，适合提高到省选的选手；
 - 小月赛：不分 Div，题目难度广泛，从入门到省选都有。
 - 普及组月赛：OI 赛制的普及组难度比赛。
-- 语言入门月赛：ACM 赛制或者 IOI 赛制，难度较低，适合语言入门选手或者正在学习基础算法的选手。
+- 语言入门月赛：ICPC 赛制或者 IOI 赛制，难度较低，适合语言入门选手或者正在学习基础算法的选手。
 - 其他月赛：特殊月赛有特殊的场次。
 
 ## 赞助项目
@@ -42,14 +42,6 @@ sidebar_position: 80
 
 ![首页大图](https://ipic.luogu.com.cn/lgr1xx.png)
 
-### 直播讲评
-
-在题目的说明区，会写明本次比赛的赞助者并永久保留。
-
-如果赞助商愿意提供额外的讲评，或者和比赛相关的其他活动，也可以实施。
-
-直播讲评时，讲评者会向赞助商致谢。
-
 ## 赞助名与流程
 
 - 大月赛（赞助 Div.1 和 Div.2）。
@@ -63,7 +55,7 @@ sidebar_position: 80
 - 确定赞助场次，赞助费，签订合同，支付所有费用。
 - 赞助商提供宣传物料，由洛谷进行事前宣传。如果赞助商对题目有额外的需求，洛谷也会向出题组传达。
 - 比赛正式进行。
-- 讲评与小结，以及其他的收尾工作。
+- 比赛小结，以及其他的收尾工作。
 
 ## 注意事项
 
@@ -78,9 +70,25 @@ sidebar_position: 80
 ## 合作案例
 
 - 挖土机杯 CSP-J 组模拟赛（2022 年 9-10 月）  
-<https://www.luogu.com.cn/contest/84285>  
-<https://www.luogu.com.cn/contest/87102>
+[https://www.luogu.com.cn/contest/84285](https://www.luogu.com.cn/contest/84285)  
+[https://www.luogu.com.cn/contest/87102](https://www.luogu.com.cn/contest/87102)
 - 梦熊信奥联盟 1 月普及组月赛（2023 年 1 月）  
-<https://www.luogu.com.cn/contest/97108>
+[https://www.luogu.com.cn/contest/97108](https://www.luogu.com.cn/contest/97108)
 - 常菁数 2 月普及组月赛（2023 年 2 月）  
-<https://www.luogu.com.cn/contest/100045>
+[https://www.luogu.com.cn/contest/100045](https://www.luogu.com.cn/contest/100045)
+- 小猴编程 4 月月赛 I & GMOI Round 2（2023 年 4 月）
+[https://www.luogu.com.cn/contest/104457](https://www.luogu.com.cn/contest/104457)
+- 梦熊联盟 8 月月赛 Ⅳ & Cfz Round 1 & 飞熊杯 #1（2023 年 8 月）
+[https://www.luogu.com.cn/contest/101259](https://www.luogu.com.cn/contest/101259)
+- 复旦勰码 12 月月赛 I & RiOI Round 3（2023 年 12 月）
+[https://www.luogu.com.cn/contest/147239](https://www.luogu.com.cn/contest/147239)  
+[https://www.luogu.com.cn/contest/147237](https://www.luogu.com.cn/contest/147237)
+- 深圳科创学院基础赛 #7 &「RHOI」Round 2（2024 年 1 月）
+[https://www.luogu.com.cn/contest/146495](https://www.luogu.com.cn/contest/146495)
+- 复旦勰码 3 月月赛 II & ZHYOI Round 4（2024 年 3 月）
+[https://www.luogu.com.cn/contest/134169](https://www.luogu.com.cn/contest/134169)  
+[https://www.luogu.com.cn/contest/134170](https://www.luogu.com.cn/contest/134170)
+- 核桃编程 6 月月赛 I & JRKSJ Round 8（2024 年 6 月）
+[https://www.luogu.com.cn/contest/116186](https://www.luogu.com.cn/contest/116186)
+
+以上不是完整的列表。

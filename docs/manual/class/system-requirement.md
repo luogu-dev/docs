@@ -1,5 +1,6 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
+sidebar_label: 网校技术要求
 tags:
   - 网校 
 ---
@@ -16,9 +17,9 @@ tags:
 
 为了确保您得到最佳学习体验，我们强烈建议您使用新版 Chrome、Edge 或 Firefox 浏览器，可以在以下官方网站上下载：
 
-- <https://www.google.cn/chrome/>
-- <https://www.microsoft.com/zh-cn/edge/>
-- <https://www.firefox.com.cn/>
+- [https://www.google.cn/chrome/](https://www.google.cn/chrome/)
+- [https://www.microsoft.com/zh-cn/edge/](https://www.microsoft.com/zh-cn/edge/)
+- [https://www.firefox.com.cn/](https://www.firefox.com.cn/)
 
 :::tip
 

@@ -1,18 +1,29 @@
-// @ts-check
+import type { Config } from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+import type { PluginOptions as LocalSearchPluginOptions } from '@easyops-cn/docusaurus-search-local';
+import { themes as PrismThemes } from 'prism-react-renderer';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
-// /** @type {import('@docusaurus/types').Config} */
-const config = {
+export default {
     title: '洛谷帮助中心',
     favicon: 'img/favicon.ico',
     url: 'https://help.luogu.com.cn',
     baseUrl: '/',
 
     onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'warn',
 
     i18n: {
         defaultLocale: 'zh-Hans',
         locales: ['zh-Hans']
+    },
+
+    markdown: {
+        mdx1Compat: {
+            comments: false,
+            admonitions: false,
+            headingIds: true /* until they provide a new syntax */
+        }
     },
 
     presets: [
@@ -20,24 +31,35 @@ const config = {
             blog: false,
             pages: {},
             docs: {
-                sidebarPath: require.resolve('./sidebars.js'),
+                sidebarPath: './sidebars.ts',
                 async sidebarItemsGenerator(context) {
                     const { item, defaultSidebarItemsGenerator } = context;
                     const finalItems = await defaultSidebarItemsGenerator(context);
                     if(item.dirName === 'manual/class') {
-                        finalItems.splice(1, 0, { type: 'ref', id: 'manual/luogu/team/premium' });
+                        finalItems.push({ type: 'ref', id: 'manual/luogu/team/premium' });
                     }
                     return finalItems;
                 },
                 routeBasePath: '/',
-                remarkPlugins: [require('remark-math')],
-                rehypePlugins: [require('rehype-katex')]
+                remarkPlugins: [remarkMath],
+                rehypePlugins: [rehypeKatex]
             },
             theme: {
-                customCss: require.resolve('./src/style.css')
+                customCss: './src/style.css'
             }
-        }]
+        } satisfies Preset.Options]
     ],
+
+    themes: [
+        ['@easyops-cn/docusaurus-search-local', {
+            indexDocs: true,
+            indexBlog: false,
+            docsRouteBasePath: ["/rules", "/manual", "/ula"],
+            language: ["en", "zh"],
+            hashed: true
+        } satisfies LocalSearchPluginOptions]
+    ],
+
     stylesheets: [{
         href: 'https://cdn.luogu.com.cn/assets/katex:0.16.7/katex.min.css',
         type: 'text/css',
@@ -96,8 +118,8 @@ const config = {
                     label: '洛谷有题',
                     href: 'https://ti.luogu.com.cn',
                 }, {
-                    label: '更新日志',
-                    to: '/release-note',
+                    label: '洛谷开放平台',
+                    href: 'https://docs.lgapi.cn/open',
                 }]
             }, {
                 title: '用户协议',
@@ -113,7 +135,10 @@ const config = {
                 }]
             }, {
                 title: '更多',
-                items: [{
+                items: [ {
+                    label: '主站更新日志',
+                    to: '/release-note',
+                }, {
                     label: '关于我们',
                     to: '/about-us',
                 }, {
@@ -126,10 +151,8 @@ const config = {
             }]
         },
         prism: {
-            theme: require('prism-react-renderer/themes/github'),
-            darkTheme: require('prism-react-renderer/themes/dracula')
+            theme: PrismThemes.github,
+            darkTheme: PrismThemes.dracula
         }
-    }
-};
-
-module.exports = config;
+    } satisfies Preset.ThemeConfig
+} satisfies Config;
