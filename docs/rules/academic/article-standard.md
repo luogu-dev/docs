@@ -29,7 +29,7 @@ sidebar_label: 专栏全站推荐规范
 
 ![空格和符号](_image/sol3.jpg)  
 
-![正确使用 LaTex](_image/sol4.jpg)
+![正确使用 LaTeX](_image/sol4.jpg)
 
 ### 内容规范
 
