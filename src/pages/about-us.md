@@ -36,7 +36,7 @@ hide_table_of_contents: true
 
 [https://docs.lgapi.cn/open](https://docs.lgapi.cn/open)
 
-洛谷开发平台提供洛谷公开题库的远程提交评测服务，具体介绍相见文档。目前正在限量邀请测试中。
+洛谷开放平台提供洛谷公开题库的远程提交评测服务，具体介绍详见文档。目前正在限量邀请测试中。
 
 ## 技术栈
 
