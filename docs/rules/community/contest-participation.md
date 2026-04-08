@@ -10,6 +10,63 @@
 
 本规则所述的洛谷公开比赛，包括全部的“官方比赛”，“团队公开赛”和“个人公开赛”。
 
+## 报名规则
+
+### 个人报名
+
+个人用户可以在比赛结束前报名比赛，可在**比赛开始前 5 分钟之前**转为组队报名。  
+
+一旦报名比赛，无法取消报名。
+
+### 组队报名
+
+部分比赛允许以组队的形式报名参赛，需在**比赛开始前 5 分钟之前**完成组队。
+
+**比赛开始前 5 分钟之前**组队状态将锁定，不允许再作修改。
+
+```mermaid
+graph TD
+    classDef default fill:#f3e5f5,color:#7b1fa2,stroke:#7b1fa2,stroke-width:2px;
+    classDef locked fill:#fff3e0,color:#e65100,stroke:#e65100,stroke-width:2px;
+    classDef action fill:#bbdefb,color:#0d47a1,stroke:#0d47a1,stroke-width:2px;
+
+    Start["开始报名"]:::action --> Choice{"报名方式"}:::action
+    
+    Choice -->|个人参赛| Individual["个人报名"]:::default
+    Choice -->|组队参赛| TeamProcess["组队报名流程"]:::default
+    
+    Individual --> CheckTime1{"赛前 5 分钟内?"}:::action
+    CheckTime1 -->|否| SwitchToTeam["转为组队报名"]:::action
+    SwitchToTeam --> TeamProcess
+    
+    subgraph "组队操作 (赛前 5 分钟之前可用)"
+        TeamProcess --> Create["队长创建队伍"]:::default
+        Create --> Invite["生成邀请码"]:::default
+        Invite --> Join["队员填码加入"]:::default
+        Join --> Manage["队员自由退出 / 队长移除队员"]:::action
+        Manage -->|退出后| Individual
+    end
+    
+    Manage --> CheckTime2{"进入赛前 5 分钟?"}:::action
+    CheckTime2 -->|是| Locked["组队状态锁定 (不可修改)"]:::locked
+```
+
+组队报名流程如下：
+
+1. 由一名用户创建队伍，生成邀请码；
+2. 其他成员填写邀请码加入小队；
+3. **比赛开始前 5 分钟之前**：队员可自由退出小队转为个人参赛，小队队长可以移除队员；
+4. **比赛开始前的最后 5 分钟**：组队状态将锁定，之后都不允许再修改。
+
+组队报名的其他说明：
+
+1. 队伍人数由所参加的比赛决定，默认最多 3 人（即可加入 2 名成员）；
+2. 暂时不开放自定义小队名，统一由系统生成随机字符串；
+3. 队员退出小队后将转为个人报名状态，可重新加入小队或发起新的小队；
+4. 队长退出小队时，队长权限将由第一个加入小队的成员接替；
+5. 组队状态锁定指的是，小队成员不再变化，所有人不允许退出小队、队长也不允许移除队员。
+6. 当前开放组队的比赛均不计算等级分。
+
 ## 赛时答疑与公告
 
 选手在比赛过程中，如果对题目存在疑问，应在指定的比赛答疑帖中提出。禁止在答疑帖之外的公开场合进行提问。
