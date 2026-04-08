@@ -23,7 +23,7 @@ sidebar_label: 主题库题解规范
 
 ![空格和符号](_image/sol3.jpg)  
 
-![正确使用 LaTex](_image/sol4.jpg)
+![正确使用 LaTeX](_image/sol4.jpg)
 
 ## 基本规范
 
