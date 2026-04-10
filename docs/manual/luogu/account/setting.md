@@ -47,6 +47,33 @@ sidebar_label: 个人设置
 
 通行密钥（Passkey）是一种简单又安全的登录方式。设置通行密钥后，您可以使用生物识别或 PIN 的方式替代传统密码。相比密码登录，他的凭据通常存储在一个安全区域（TPM、硬件密钥等）里，并通过“质询—响应（Challenge-Response）”的形式完成鉴权，因此有着更高的安全性。
 
+#### 系统要求
+
+##### 系统级 Passkey（平台内置）
+
+使用设备内置的 Passkey 功能（如 Apple 钥匙串、Windows Hello）需满足以下最低系统版本要求：
+
+| 平台 | 最低版本 |
+|---|---|
+| macOS | 13 Ventura |
+| iOS / iPadOS | 16 |
+| Android | 10 |
+| Windows | 11 23H2 |
+
+> 低于上述版本的设备无法使用系统级 Passkey 登录，请使用第三方软件或两步验证码登录。
+
+##### 硬件 Passkey（安全密钥）
+
+不满足上述系统要求时，可使用符合 **FIDO2 标准**的硬件安全密钥作为替代。常见产品包括：
+
+- **YubiKey 5 系列**（USB-A / USB-C / NFC）
+- **Google Titan 安全密钥**
+- 其他通过 FIDO2 认证的安全密钥
+
+硬件安全密钥不依赖操作系统版本，通过 USB 或 NFC 直接与浏览器通信，兼容性更广。
+
+> 使用硬件安全密钥前，需在通行密钥设置中提前完成注册绑定。
+
 洛谷硬件密钥正在火热预售中, 详情请查看[Luogu Passkey 购买页](https://class.luogu.com.cn/course/passkey)。
 
 ### 权限变更记录
