@@ -26,7 +26,7 @@
 
 组队状态将在**开赛前的最后 5 分钟**锁定，不允许再作修改。
 
-![组队报名流程图](./_image/contest-registration-flow.png)
+![组队报名流程图](./_image/contest-registration-flow.jpg)
 
 组队报名流程如下：
 
