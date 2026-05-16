@@ -62,7 +62,7 @@ int main() {
 
 ### 需要使用 SPJ 的情况
 
-事实上，大部分函数式交互题目并不像上例那么简单。以 [P13612 [IOI 2018] combo 组合动作](https://www.luogu.com.cn/problem/P13612) 为例，本题需要选手实现函数 `string guess_sequence(int N)`，允许选手调用函数 `int press(string p)`，且根据函数调用次数反馈评分。这个时候需要用到 Special Judge 功能。在文件目录下需要 interactive_lib.cpp 和 checker.cpp，并且同时勾选交互题和 Special Judge 标签。
+事实上，大部分函数式交互题目并不像上例那么简单。以 [P13612 [IOI 2018] combo 组合动作](https://www.luogu.com.cn/problem/P13612) 为例，本题需要选手实现函数 `string guess_sequence(int N)`，允许选手调用函数 `int press(string p)`，且根据函数调用次数反馈评分。这个时候需要用到 Special Judge 功能。在文件目录下需要 interactive_lib.cpp 和 checker.cpp，并且同时勾选交互题和 Special Judge 标签。同时，checker.cpp 需要注册为 Interaction。
 
 在此类情况下，测试数据在 checker、interactive_lib 的流转如下：
 - 从 checker 的 inf 流读取试题原本的测试数据，再使用 stdout 输出信息。
