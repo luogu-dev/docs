@@ -6,6 +6,10 @@ sidebar_position: 3
 
 任何用户必须遵守[洛谷用户协议](../../../ula/luogu.md)和[洛谷社区规则](../../../rules/community/index.md)，方可在站内进行学习交流。违反规则的将按照相关条令进行处理。
 
+## 注册账号
+
+我们为新用户准备和完整的账号注册和设置指南，详见[注册账号](./register-roll.md)。
+
 ## 账号常见问题 {#common-questions}
 
 - 注册：[注册](https://www.luogu.com.cn/auth/register)时你需要提供一个合法邮箱或手机号。对于使用临时邮箱/手机号注册的账号，洛谷有权在不提前通知用户的情况下永久封禁该账号。
