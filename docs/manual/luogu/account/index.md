@@ -8,7 +8,7 @@ sidebar_position: 3
 
 ## 注册账号
 
-我们为新用户准备和完整的账号注册和设置指南，详见[注册账号](./register-roll.md)。
+我们为新用户准备了完整的账号注册和设置指南，详见[注册账号](./register-roll.md)。
 
 ## 账号常见问题 {#common-questions}
 
