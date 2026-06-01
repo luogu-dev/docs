@@ -177,14 +177,14 @@ sidebar_position: 1
 
 除本规则外，用户还应自觉遵守如下规则和规范：
 
-- [洛谷用户协议](https://help.luogu.com.cn/ula/luogu)
-- [洛谷讨论区规范](https://help.luogu.com.cn/rules/community/discuss)
-- [洛谷题解规则](https://help.luogu.com.cn/rules/academic/solution-standard)
-- [洛谷公开比赛规范及要求](https://help.luogu.com.cn/rules/academic/opencontest-standard)
-- [精选题单规则](https://help.luogu.com.cn/rules/academic/training-promotion-standard)
-- [图床使用规则](https://help.luogu.com.cn/rules/community/image-hosting)
-- [洛谷主题库题目规范](https://help.luogu.com.cn/rules/academic/problem-standard)
-- [洛谷公开比赛参赛规则](https://help.luogu.com.cn/rules/community/contest-participation)
+- [洛谷用户协议](../../ula/luogu.md)
+- [洛谷讨论区规范](discuss.md)
+- [洛谷题解规则](../academic/solution-standard.md)
+- [洛谷公开比赛规范及要求](../academic/opencontest-standard.md)
+- [精选题单规则](../academic/training-promotion-standard.md)
+- [图床使用规则](image-hosting.md)
+- [洛谷主题库题目规范](../academic/problem-standard.md)
+- [洛谷公开比赛参赛规则](contest-participation.md)
 
 如果专项规则对处罚规定更加明确的，以专项规则为准。
 
