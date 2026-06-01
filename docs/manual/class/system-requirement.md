@@ -19,7 +19,7 @@ tags:
 
 - [https://www.google.cn/chrome/](https://www.google.cn/chrome/)
 - [https://www.microsoft.com/zh-cn/edge/](https://www.microsoft.com/zh-cn/edge/)
-- [https://www.firefox.com.cn/](https://www.firefox.com.cn/)
+- [https://www.firefox.com/zh-CN/](https://www.firefox.com/zh-CN/)
 
 :::tip
 
