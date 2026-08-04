@@ -14,7 +14,7 @@ sidebar_position: 2
 
 在反馈问题请先通过查阅文档以及搜索，在确认无人反馈过/没有得到答案的前提下在通过相应的渠道反馈问题。
 
-- 需要反馈问题请至[工单系统](https://www.luogu.com.cn/ticket)提交，提交工单前请先阅读[工单系统规则](../../rules/community/ticket.md)。
+- 需要反馈问题请至[工单系统](https://www.luogu.com.cn/ticket)提交，提交工单前请先阅读[工单系统规则](../../rules/community/ticket/index.md)。
 
 ## 如何查找题目？ {#problem-search}
 
@@ -96,6 +96,6 @@ sidebar_position: 2
 
 ![图片](_image/imageupload-3.jpeg)
 
-上传成功的图片右下脚有两个图标，点击 1 号图标表示复制了该图片的网页链接；点击 2 号链接表示复制后可以在 Markdown 里粘贴使用的链接。
+上传成功的图片右下角有两个图标，点击 1 号图标表示复制了该图片的网页链接；点击 2 号链接表示复制后可以在 Markdown 里粘贴使用的链接。
 
 洛谷的绝大多数模块支持用此方式（按钮 2）贴图。

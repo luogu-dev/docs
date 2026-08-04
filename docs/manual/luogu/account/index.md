@@ -59,7 +59,7 @@ sidebar_position: 3
 
 - **确认方式**：请查看您的个人设置-[安全设置](https://www.luogu.com.cn/user/setting/security)-权限变更记录，检查是否有“禁言”记录。
 - **解决方法**：
-  - 短期禁言（如 7 天）：在处罚期满后，用户需主动[前往工单系统申请解除处罚](../../../rules/community/ticket.md#user-ticket)。
+  - 短期禁言（如 7 天）：在处罚期满后，用户需主动[前往工单系统申请解除处罚](../../../rules/community/ticket/index.md#user-ticket)。
   - 长期禁言（如 1 年）：在反省期（14 天）后，可查阅 [社区规则-处罚解除](../../../rules/community/index.md#penalty-revoke) 了解申诉或解封流程。
 
 ### 2. 尚未成为“受信任的用户”
