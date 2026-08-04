@@ -21,7 +21,7 @@ vector<int> solve(vector<int> &v, vector<int> &w, vector<pair<int,int>> &queries
 那么本题的交互库所需要承担的行为是：
 - 将输入数据读入进交互库；
 - 调用 `vector<int> solve(vector<int> &v, vector<int> &w, vector<pair<int,int>> &queries);` ，此时选手程序运行并且返回结果；
-- 输出结果，与答案文件进行比较；
+- 输出结果，与答案文件进行比较。
 
 换而言之，这类试题中，交互库的本质是帮助选手写完输入输出，选手只需编写核心程序。因此，它的交互库可以写作：
 
