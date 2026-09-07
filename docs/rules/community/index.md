@@ -145,7 +145,8 @@ sidebar_position: 1
 **第十九条【期满解除】**
 
 1. 棕名处罚期满后自动解除。
-2. 禁言、禁止私信、禁用图床、封禁专栏及非永久封禁账户，在处罚期满后，需用户主动通过工单系统申请解除。
+2. 禁言、禁止私信、禁用图床、封禁专栏，在处罚期满后，需用户主动通过[工单系统发表申请权限变更工单](https://www.luogu.com.cn/ticket/new?type=user.perm-req&related=)申请解除。
+3. 非永久封禁账户，在处罚期满后，需用户主动通过[工单系统发表申请申请解除封禁工单](https://www.luogu.com.cn/ticket/new?type=user.rebirth-req&related=)申请解除。
 
 **第二十条【手写书面检讨解除】**
 
