@@ -21,7 +21,7 @@ sidebar_position: 6
 
 ## 个人题库与个人比赛
 
-达到一定等级的洛谷用户拥有[创建私有题目](https://www.luogu.com.cn/problem/new?type=U)、[创建个人比赛](https://www.luogu.com.cn/contest/new)等权限。
+达到一定等级的洛谷用户拥有[创建私有题目](https://www.luogu.com.cn/problem/new?type=U)、[创建个人比赛](https://www.luogu.com.cn/contest/new?visibilityType=5)等权限。
 
 ## 举办比赛
 
