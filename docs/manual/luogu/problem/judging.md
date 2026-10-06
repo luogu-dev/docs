@@ -37,7 +37,7 @@ sidebar_position: 1
 
 ## 语言支持 {#languages}
 
-洛谷评测系统的语言环境使用 Nix 准备，Nix 的配置、使用的 nixpkgs 版本、使用的编译器版本公开在 [luogu-dev/judge-env](https://github.com/luogu-dev/judge-env)。
+洛谷评测系统的各语言的支持环境使用 Nix 描述并构建，Nix 的配置、使用的 nixpkgs 版本、使用的编译器版本公开在 [luogu-dev/judge-env](https://github.com/luogu-dev/judge-env)。
 
 评测环境中定义环境变量 `ONLINE_JUDGE=luogu`，可根据此判断是否在评测环境。
 
@@ -68,7 +68,7 @@ g++ -x c++ -std=$version -fPIC -DONLINE_JUDGE -Wall -fno-asm -lm -march=native
 
 ```
 # gcc --version
-gcc (GCC) 15.1.0
+gcc (GCC) 15.3.0
 Copyright (C) 2025 Free Software Foundation, Inc.
 ```
 
@@ -101,7 +101,7 @@ fpc -dONLINE_JUDGE -vnw
 # fpc -i
 Free Pascal Compiler version 3.2.2
 
-Compiler date      : 2025/07/05
+Compiler date      : 2026/09/23
 Compiler CPU target: x86_64
 ```
 
@@ -113,16 +113,16 @@ Python 家族目前仅提供 Python 3（CPython）、PyPy 3 两种选项。Pytho
 
 ```
 # python3 -VV
-Python 3.13.5 (main, Jun 11 2025, 15:36:57) [GCC 14.3.0]
+Python 3.14.7 (main, Aug  5 2026, 10:29:49) [GCC 16.2.0]
 
 # python3 -c 'print(__import__("numpy").__version__)'
-2.3.1
+2.5.2
 ```
 
 ```
 # pypy3 -VV
-Python 3.10.14 (39dc8d3c85a7, Jun 24 2025, 03:33:34)
-[PyPy 7.3.17 with GCC 14.2.1 20250322]
+Python 3.11.13 (413c9b7f57f5, Sep 23 2026, 15:13:27)
+[PyPy 7.3.20 with GCC 16.2.0]
 ```
 
 Python 2 已于 2020 年结束了它的生命周期，因此洛谷也不再提供 Python 2 和 PyPy 2 支持。
@@ -158,16 +158,16 @@ public class Main {
 
 ```
 # java -version
-openjdk version "1.8.0_442"
-OpenJDK Runtime Environment (build 1.8.0_442-06)
-OpenJDK 64-Bit Server VM (build 25.442-b06, mixed mode)
+openjdk version "1.8.0_504"
+OpenJDK Runtime Environment (build 1.8.0_504-01)
+OpenJDK 64-Bit Server VM (build 25.504-b01, mixed mode)
 ```
 
 ```
 # java -version
-openjdk version "21.0.7" 2025-04-15
-OpenJDK Runtime Environment (build 21.0.7+6-nixos)
-OpenJDK 64-Bit Server VM (build 21.0.7+6-nixos, mixed mode, sharing)
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-nixos)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1-nixos, mixed mode, sharing)
 ```
 
 ### Rust
@@ -183,7 +183,7 @@ rustc --edition 2024 -W warnings
 
 ```
 # rustc -V
-rustc 1.88.0 (6b00bc388 2025-06-23)
+rustc 1.99.0 (b940084d7 2026-09-28)
 ```
 
 ### Go
@@ -192,7 +192,7 @@ rustc 1.88.0 (6b00bc388 2025-06-23)
 
 ```
 # go version
-go version go1.24.4 linux/amd64
+go version go1.26.8 linux/amd64
 ```
 
 ### C#
@@ -235,46 +235,51 @@ ghc -DONLINE_JUDGE -Wall
 
 ```
 # ghc --version
-The Glorious Glasgow Haskell Compilation System, version 9.8.4
+The Glorious Glasgow Haskell Compilation System, version 9.10.3
 
-# ghc --show-packages | grep -E 'id: (.+)'
+# ghc --show-packages | grep -E 'id: (.+)' | sort
+id: array-0.5.8.0-f125
 id: base
-id: stm-2.5.3.1-bf39
-id: ghci-9.8.4-13f2
-id: haskeline-0.8.2.1-4be1
-id: ghc-compact-0.1.0.0-db7e
-id: filepath-1.4.301.0-abf5
-id: text-2.1.1-332f
-id: system-cxx-std-lib-1.0
-id: parsec-3.1.17.0-9df1
-id: containers-0.6.8-bda1
-id: mtl-2.3.1-4301
-id: unix-2.8.6.0-a07b
-id: ghc-boot-9.8.4-5858
-id: process-1.6.25.0-a883
-id: exceptions-0.10.7-9038
-id: semaphore-compat-1.0.0-4217
-id: array-0.5.8.0-25c5
-id: terminfo-0.4.1.6-97ac
-id: hpc-0.7.0.0-4276
-id: pretty-1.1.3.6-0329
-id: xhtml-3000.2.2.1-8f3e
-id: deepseq-1.5.1.0-013a
-id: directory-1.3.8.5-3f1c
-id: time-1.12.2-85bf
-id: Cabal-syntax-3.10.3.0-aa2e
-id: ghc-heap-9.8.4-7357
-id: binary-0.8.9.1-6bc0
-id: transformers-0.6.1.0-4025
-id: Cabal-3.10.3.0-2169
-id: bytestring-0.12.1.0-7d6c
-id: integer-gmp-1.1-2f6a
-id: ghc-boot-th-9.8.4-fe63
-id: ghc-9.8.4-4b7d
-id: ghc-prim
-id: rts
-id: template-haskell
+id: binary-0.8.9.3-0a8c
+id: bytestring-0.12.2.0-4e7b
+id: Cabal-3.12.1.0-f05b
+id: Cabal-syntax-3.12.1.0-2e73
+id: containers-0.7-98d5
+id: deepseq-1.5.0.0-52f8
+id: directory-1.3.8.5-e296
+id: exceptions-0.10.9-d0a4
+id: filepath-1.5.4.0-ded9
+id: ghc-9.10.3-b0b4
 id: ghc-bignum
+id: ghc-boot-9.10.3-2200
+id: ghc-boot-th-9.10.3-34da
+id: ghc-compact-0.1.0.0-ae32
+id: ghc-experimental
+id: ghc-heap-9.10.3-7f9b
+id: ghci-9.10.3-43fe
+id: ghc-internal
+id: ghc-platform-0.1.0.0-4f6d
+id: ghc-prim
+id: ghc-toolchain-0.1.0.0-7f50
+id: haskeline-0.8.2.1-328c
+id: hpc-0.7.0.2-9cef
+id: integer-gmp-1.1-4ab9
+id: mtl-2.3.1-3f76
+id: os-string-2.0.7-4576
+id: parsec-3.1.18.0-b872
+id: pretty-1.1.3.6-7131
+id: process-1.6.26.1-6639
+id: rts
+id: semaphore-compat-1.0.0-cc6c
+id: stm-2.5.3.1-6595
+id: system-cxx-std-lib-1.0
+id: template-haskell
+id: terminfo-0.4.1.7-895e
+id: text-2.1.3-e808
+id: time-1.12.2-6d34
+id: transformers-0.6.1.1-0104
+id: unix-2.8.7.0-8240
+id: xhtml-3000.2.2.1-8aef
 ```
 
 ### OCaml
@@ -290,7 +295,7 @@ ocamlopt
 
 ```
 # ocamlopt -version
-5.3.0
+5.5.0
 ```
 
 ### Lua
@@ -308,7 +313,7 @@ Lua 5.2.4  Copyright (C) 1994-2015 Lua.org, PUC-Rio
 
 ```
 # julia -version
-julia version 1.11.6
+julia version 1.13.1
 ```
 
 ### Kotlin
@@ -326,7 +331,7 @@ java -DONLINE_JUDGE
 
 ```
 # kotlinc-jvm -version
-info: kotlinc-jvm 2.2.0 (JRE 21.0.7+6-nixos)
+info: kotlinc-jvm 2.4.20 (JRE 21.0.12.1+1-nixos)
 ```
 
 ### Scala
@@ -342,7 +347,7 @@ java -DONLINE_JUDGE
 
 ```
 # scalac -version
-Scala compiler version 3.3.6 -- Copyright 2002-2025, LAMP/EPFL
+Scala compiler version 3.9.0 -- Copyright 2002-2026, LAMP/EPFL
 ```
 
 ### PHP
@@ -351,10 +356,10 @@ Scala compiler version 3.3.6 -- Copyright 2002-2025, LAMP/EPFL
 
 ```
 # php --version
-PHP 8.4.10 (cli) (built: Jul  2 2025 02:22:42) (NTS)
+PHP 8.5.11 (cli) (built: Sep 22 2026 13:32:06) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.4.10, Copyright (c) Zend Technologies
-    with Zend OPcache v8.4.10, Copyright (c), by Zend Technologies
+Zend Engine v4.5.11, Copyright (c) Zend Technologies
+    with Zend OPcache v8.5.11, Copyright (c), by Zend Technologies
 ```
 
 ### Perl
@@ -363,8 +368,8 @@ Zend Engine v4.4.10, Copyright (c) Zend Technologies
 
 ```
 # perl --version
-This is perl 5, version 40, subversion 0 (v5.40.0) built for x86_64-linux-thread-multi
-Copyright 1987-2024, Larry Wall
+This is perl 5, version 42, subversion 3 (v5.42.3) built for x86_64-linux-thread-multi
+Copyright 1987-2026, Larry Wall
 ```
 
 ### Ruby
@@ -373,7 +378,7 @@ Copyright 1987-2024, Larry Wall
 
 ```
 # ruby --version
-ruby 3.3.8 (2025-04-09 revision b200bad6cd) [x86_64-linux]
+ruby 3.4.9 (2026-03-11 revision 76cca827ab) +PRISM [x86_64-linux]
 ```
 
 ### Node.js
@@ -382,5 +387,5 @@ ruby 3.3.8 (2025-04-09 revision b200bad6cd) [x86_64-linux]
 
 ```
 # node --version
-v22.17.0
+v24.21.0
 ```
