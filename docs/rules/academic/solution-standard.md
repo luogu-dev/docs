@@ -152,7 +152,7 @@ $$\begin{bmatrix} f_{i + 1} \\ f_i \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 
 
 ## 提交与审核
 
-- 请在文章编辑页点击【提交题解】按钮，具体见[个人文章功能-申请提交为题解](../../../manual/luogu/article#submit-solution)。
+- 请在文章编辑页点击【提交题解】按钮，具体见[个人文章功能-申请提交为题解](../../manual/luogu/article.md#submit-solution)。
 - 提交审核时应确保题解符合以上规范。
 - 提交审核后，一般情况下，题解将于七天内被审核。如果超过七天仍未被审核，可以私信管理提醒，**七天内禁止催审**。
 - 若题解被打回，应按照规范与反馈进行修改。多次打回后仍未实质性修改将会封禁专栏权限。
@@ -161,7 +161,7 @@ $$\begin{bmatrix} f_{i + 1} \\ f_i \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 
 
 ## 参考链接
 
-- [个人专栏文章功能说明](../../../manual/luogu/article)
+- [个人专栏文章功能说明](../../manual/luogu/article.md)
 - [如何用 Markdown & LaTeX 写一篇排版整齐的题解？](./guide/solution.md)
 - [题解审核及反馈要求（原讨论帖）](https://www.luogu.com.cn/discuss/174934)
 - [生成式人工智能（GenAI）辅助文章写作规范](./ai-assisted-article-writing.md)

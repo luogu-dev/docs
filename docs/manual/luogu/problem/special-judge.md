@@ -4,11 +4,9 @@
 
 SPJ 程序会根据输入数据以及其他相关信息来判定选手程序的输出是否正确，并返回评测结果。
 
-洛谷采用的 SPJ 标准与 Codeforces 一致，均基于 Testlib 库。
+洛谷采用的 SPJ 标准与 Codeforces 一致，使用了 Testlib 库。目前洛谷使用的库版本为 0.9.45，下载地址为：
 
-下载地址：
-
-[https://github.com/MikeMirzayanov/testlib/releases/download/0.9.41/testlib-0.9.41.zip](https://github.com/MikeMirzayanov/testlib/releases/download/0.9.41/testlib-0.9.41.zip)
+[https://github.com/MikeMirzayanov/testlib/raw/2d20123984e9479b8a56ebe0d6a51e23ad7c35b3/testlib.h](https://github.com/MikeMirzayanov/testlib/raw/2d20123984e9479b8a56ebe0d6a51e23ad7c35b3/testlib.h)
 
 在洛谷上，SPJ 的编译参数为：`g++ -fno-asm -std=c++14 -O2`，即已经开启 C++14 以及 O2 优化。
 
